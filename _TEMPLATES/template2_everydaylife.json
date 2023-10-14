@@ -1,0 +1,29 @@
+{
+    "theme": "everydaylife",
+    "xml": "template2_everydaylife",
+    "hasCC": "Y",
+    "audioOffset": 142,
+    "avater1id": "AVATOR144",
+    "avater2id": "AVATOR134",
+    "hasCam": "N",
+    "swap": false,
+    "usesSong": "N",
+    "song":"ugc.4c8c0cd.mp3",
+    "startPos": 5,
+    "char1scene": 5,
+    "char2scene": 6,
+    "char1camscene": 7,
+    "char2camscene": 8,
+    "endPos": 9,
+    "end": 1,
+    "toffset": [
+        2,
+        1,
+        0.5,
+        2,
+        0.5
+    ],
+    "toffset_end": [
+        2
+    ]
+}

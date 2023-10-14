@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+<script src="./Wrapper Offline_files/prototype.js"></script>
+<script src="./Wrapper Offline_files/jquery-1.4.4.min.js"></script>
+<script src="./Wrapper Offline_files/jsapi"></script>
+<script src="./Wrapper Offline_files/4554059.js"></script>
+<script src="./Wrapper Offline_files/go2.js"></script>
+<script src="./Wrapper Offline_files/overlay.js"></script>
+<script src="./Wrapper Offline_files/jquery.swfobject.min.js"></script>
+<script src="./Wrapper Offline_files/jquery.blockUI.js"></script>
+<script src="./Wrapper Offline_files/cookie.js"></script>
+<script src="./Wrapper Offline_files/Gettext.js"></script>
+	<head>
+		<meta charset="UTF-8"/>
+		<link rel="icon" href="/favicon.ico" type="image/png"/>
+		<title>Video List - Wrapper: Offline</title>
+		<meta name="description" content="Wrapper: Offline's Video List"/>
+		<link rel="stylesheet" type="text/css" href="/pages/css/global.css">
+		<link rel="stylesheet" type="text/css" href="/pages/css/list.css">
+		<script src="/pages/js/jquery.js"></script>
+		<script src="/pages/js/global.js"></script>
+	</head>
+
+	<body>
+		<%~ includeFile("./includes/header", { env: it.env }) %>
+<!-- <div id="advertisement_block" style="align:center;">
+	<script type="text/javascript" src="/web/20100505194850js_/http://goanimate.com/images/swfobject.js"></script>
+	<div id="ads3"><embed type="application/x-shockwave-flash" src="http://localhost:4343/AD/home_banner-en_US.swf" width="930" height="280" style="undefined" id="ads" name="ads" bgcolor="#FFFFFF" quality="high" scale="exactfit" wmode="transparent" flashvars="isUserLogined=Y&amp;version=426&amp;initial_index=0"></div>
+	<div class="rate_ani">
+		<script type="text/javascript">
+						var so = new SWFObject("http://localhost:4343/AD/home_banner-en_US.swf", "ads", "930", "280", "8", "#FFFFFF");
+			so.addParam("scale", "exactfit"); 
+			so.addParam("wmode", "transparent");
+			so.addVariable("isUserLogined", "Y");
+			so.addVariable("version", "426");
+			so.addVariable("initial_index", "0");
+			so.write("ads3");
+		</script>
+	</div>
+</div> -->
+		<main>
+			<table class="full_screen">
+				<thead>
+					<tr>
+						<td></td>
+						<td>Video Title</td>
+						<td>Last Modified</td>
+						<td></td>
+					</tr>
+				</thead>
+				<tbody></tbody>
+				<tfoot>
+					<tr>
+						<td colspan="127"><a id="load_more" href="javascript:;">LOAD MORE...</a></td>
+					</tr>
+				</tfoot>
+			</table>
+		</main>
+
+		<%~ includeFile("./includes/footer", { env: it.env }) %>
+	</body>
+
+	<script>
+		let json;
+		const tbody = $("tbody");
+		const loadMore = $("#load_more");
+
+		let C = 0;
+		function pickMovie() {
+		let c = Math.floor(Math.random() * 10);
+		const tbl = json[c];
+		return tbl.id; 		
+		}
+		function loadRows() {
+			// load only 200 rows
+			let c = C;
+			C += 200;
+			for (; c < C; c++) {
+				// we reached the end
+				if (c > json.length - 1) {
+					loadMore.remove();
+					break;
+				}
+
+				const tbl = json[c];
+				// make the date and time less confusing to read
+				const date = tbl.date.split("T")[0];
+				const time = tbl.date.split("T")[1].substring(0, 8);
+				// escape the title
+				const title = tbl.title.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
+
+				tbody.append(
+					`<tr id="${tbl.id}">
+						<td>
+							<img src="/file/movie/thumb/${tbl.id}" alt="thumbnail"/>
+						</td>
+						<td>
+							<div>${title}</div>
+							<div>${tbl.duration}</div>
+						</td>
+						<td>
+							<span>${date}, ${time}</span>
+						</td>
+						<td>
+							<a href="javascript:;" onclick="popup('${tbl.id}')"></a>
+							<a href="/go_full?movieId=${tbl.id}"&v=2016></a>
+							<a onclick="popupe('${tbl.id}')"></a>
+							<a href="old_full?movieId=${tbl.id}"></a>
+							<a href="#" onclick="destructive('${tbl.id}', 'delete')"></a>
+						</td>
+					</tr>`.trim()
+				);
+			}
+		}
+
+		// i want more movies
+		load_more.onclick = loadRows;
+
+
+		$.get("/api/movies/list", data => {
+			json = data;
+			loadRows();
+		});
+
+		function destructive(mId, act) {
+			const yesno = confirm(`Are you sure you want to ${act} movie #${mId}?`);
+
+			if (yesno)
+				$.get(`/api/movie/${act}/${mId}`, data => {
+					if (data.status == "ok") {
+						switch (act) {
+							case "repair":
+								window.location = `/player?movieId=${mId}`;
+								break;
+							case "delete":
+								$(`#${mId}`).fadeOut(() => $(`#${mId}`).remove());
+								break;
+						}
+					} else alert("Guess you're stuck with your movie.");
+				});
+		}
+
+		function popup(id) {
+			window.open('/player?movieId=' + id, 'MsgWindow', 'width=1280,height=720,left=' + (screen.width / 2 - 640) +
+				',top=' + (screen.height / 2 - 360));
+		}
+		function popupe(id) {
+			window.open('/player?exportmode=true&movieId=' + id, 'MsgWindow', 'width=1280,height=720,left=' + (screen.width / 2 - 640) +
+				',top=' + (screen.height / 2 - 360));
+		}
+
+
+
+
+
+	const params = new URLSearchParams(window.location.search);
+	let success = params.get("themeuploaded");
+	if (success == "success")
+	{
+	alert("Your custom theme was successfully deployed!");
+	}
+	else if (success == "failed")
+	{
+	alert("Your custom theme already exists");
+	}
+	else if (success == "majorfail")
+	{
+	alert("Something went wrong deploying your theme. Try again.");
+	}
+	</script>
+</html>

@@ -1,0 +1,17 @@
+<footer>
+	<script src="/pages/js/jquery.js"></script>
+	<nav id="foot-left">
+		<a>v0.25 ALPHA</a>
+		<a href="/settings">Settings</a>
+		<a href="https://github.com/Wrapper-Offline/Wrapper-Offline/wiki">FAQ</a>
+		<a href="https://discord.gg/wrapperclassic">Discord</a>
+		<!-- <a onclick="post()">Convert Custom Assets</a> !-->
+	</nav>
+	<script>
+	function post()
+	{
+	$.post("/api/convert/customassets/");
+	}
+	</script>
+	<nav id="foot-right"></nav>
+</footer>

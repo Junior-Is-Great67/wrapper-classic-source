@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8"/>
+		<title>Not FOUND 404</title>
+		<meta name="description" content="Wrapper: Offline's Assets Server but it's a 404 error"/>
+	</head>
+	<body>
+		<main>
+			<h1>Wrapper: Classic</h1>
+			<h2 id="404-file-not-found">404: Action or File not found</h2>
+
+			<p>One time you were coding<br />
+				You thought there was a action<br />
+				When you tried it out<br />
+				it was just loading<br />
+				Realizing something<br />
+				Now you remember<br />
+				This never existed<br />
+				It was never a thing.</p>
+			<p><a href="http://localhost:4343">Click here for the video list</a></p>
+			<p><h1>Also heres david because yes.</h1></p>
+			<div>
+			<img src="/david.jpg"></img>
+		</main>
+	</body>
+</html>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list version="1.0">
+	<theme id="custom" name="Custom World" thumb="" cc_theme_id="custom" />
+	<theme id="retro" name="Cartoon Classics" thumb="ann-stand.swf" />
+	<theme id="monstermsh" name="Monsters Mayhem" />
+	<theme id="business-old" name="Business Friendly" enable="N" />
+	<theme id="startrek" name="Star Trek Quogs" enable="N" />
+	<theme id="underdog" name="Saturday Morning TV" enable="N" />
+	<theme id="willie" name="Willie Nelson" enable="N" />
+	<theme id="politic" name="Politics &amp; Celebrity" />
+	<theme id="sf" name="Street Fighter" enable="N" />
+	<theme id="stick" name="Stick Figure" enable="N"/>
+	<theme id="pizza" name="Pizza Tower" enable="N" />
+	<theme id="toonadv" name="Toon Adventure" cc_theme_id="cctoonadventure" />
+	<theme id="common" name="Common" thumb="matchboy-stand.swf" cc_theme_id="common" />
+	<points money="100000" sharing="100000" />
+</list>

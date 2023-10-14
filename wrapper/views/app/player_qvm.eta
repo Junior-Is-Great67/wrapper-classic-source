@@ -1,0 +1,27 @@
+<html>
+	<head>
+		<meta charset="UTF-8" />
+		<link rel="icon" href="/favicon.ico" type="image/png" />
+		<title>Video Player - Wrapper: Classic</title>
+		<link rel="stylesheet" type="text/css" href="/pages/css/modern-normalize.css">
+		<link rel="stylesheet" type="text/css" href="/pages/css/global.css">
+		<link rel="stylesheet" type="text/css" href="/pages/css/flash.css">
+	</head>
+			<div class="popup_inside">
+				<h2 class="popup_heading">Preview Video</h2>
+			
+					<%~ it.object(it.attrs, it.params) %>
+				</object>
+				<div class="buttons">
+					<a href="../../saveqvmvideo/">
+					<button class="preview-button save" type="button">Save Now</button>
+					</a>
+				</div>
+
+				<a class="close-button" href="/qvm?theme=bar" >×</a>
+			</div>
+	<body style="margin:0px">
+		<main>
+		</main>
+	</body>
+</html>

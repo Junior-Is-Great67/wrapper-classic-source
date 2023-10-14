@@ -1,0 +1,3 @@
+# this is a comment
+file '/Users/jaxsonhendrix/export.mp4'
+file '/Users/jaxsonhendrix/outro.mp4'

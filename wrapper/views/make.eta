@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<script src="./Wrapper Offline_files/prototype.js"></script>
+<script src="./Wrapper Offline_files/jquery-1.4.4.min.js"></script>
+<script src="./Wrapper Offline_files/jsapi"></script>
+<script src="./Wrapper Offline_files/4554059.js"></script>
+<script src="./Wrapper Offline_files/go2.js"></script>
+<script src="./Wrapper Offline_files/overlay.js"></script>
+<script src="./Wrapper Offline_files/jquery.swfobject.min.js"></script>
+<script src="./Wrapper Offline_files/jquery.blockUI.js"></script>
+<script src="./Wrapper Offline_files/cookie.js"></script>
+<script src="./Wrapper Offline_files/Gettext.js"></script>
+	<head>
+		<meta charset="UTF-8"/>
+		<link rel="icon" href="/favicon.ico" type="image/png"/>
+		<title>Video List - Wrapper: Offline</title>
+		<meta name="description" content="Wrapper: Offline's Video List"/>
+		<link rel="stylesheet" type="text/css" href="/pages/css/global.css">
+		<link rel="stylesheet" type="text/css" href="/pages/css/list.css">
+		<link rel="stylesheet" type="text/css" href="/pages/css/button.css">
+		<script src="/pages/js/jquery.js"></script>
+		<script src="/pages/js/global.js"></script>
+	</head>
+
+	<body>
+		<%~ includeFile("./includes/header", { env: it.env }) %>
+	<div id="step1">
+	<h1>
+	Step 1: Upload your character
+<a onclick="nextStep(2)" class="buttonbase buttonblue dark" style="margin:15px auto;float:none;display:block;width:220px">
+<div class="buttontitle">Upload</div>
+</a>	
+	</h1>
+	</div>
+		<%~ includeFile("./includes/footer", { env: it.env }) %>
+	<script>
+	function nextStep(step)
+	{
+	return;
+	}
+	</script>
+    </body>
+</html>

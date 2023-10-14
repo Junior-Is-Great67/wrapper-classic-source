@@ -1,0 +1,7 @@
+﻿<flash_project name="~thumbnail" version="1">
+	<project_file path="./~thumbnail.fla" filetype="fla" profile="" def_file="true"/>
+	<project_file path="./eyeLeft.as" filetype="as"/>
+	<project_file path="./eyeRight.as" filetype="as"/>
+	<project_file path="./thumbnail_fla/eyeL_8.as" filetype="as"/>
+	<project_file path="./thumbnail_fla/eyeR_3.as" filetype="as"/>
+</flash_project>

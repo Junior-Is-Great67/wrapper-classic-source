@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+<script src="./Wrapper Offline_files/prototype.js"></script>
+<script src="./Wrapper Offline_files/jquery-1.4.4.min.js"></script>
+<script src="./Wrapper Offline_files/jsapi"></script>
+<script src="./Wrapper Offline_files/4554059.js"></script>
+<script src="./Wrapper Offline_files/go2.js"></script>
+<script src="./Wrapper Offline_files/overlay.js"></script>
+<script src="./Wrapper Offline_files/jquery.swfobject.min.js"></script>
+<script src="./Wrapper Offline_files/jquery.blockUI.js"></script>
+<script src="./Wrapper Offline_files/cookie.js"></script>
+<script src="./Wrapper Offline_files/Gettext.js"></script>
+	<head>
+		<meta charset="UTF-8"/>
+		<link rel="icon" href="/favicon.ico" type="image/png"/>
+		<title>Video List - Wrapper: Offline</title>
+		<meta name="description" content="Wrapper: Offline's Video List"/>
+		<link rel="stylesheet" type="text/css" href="/pages/css/global.css">
+		<link rel="stylesheet" type="text/css" href="/pages/css/list.css">
+		<link rel="stylesheet" type="text/css" href="/pages/css/button.css">
+		<link rel="stylesheet" type="text/css" href="/pages/css/modern-normalize.css">
+		<link rel="stylesheet" type="text/css" href="/pages/css/flash.css">
+		<script src="/pages/js/jquery.js"></script>
+		<script src="/pages/js/global.js"></script>
+	</head>
+
+	<body>
+		<%~ includeFile("./includes/header", { env: it.env }) %>
+	<div id="step1">
+	<h1>
+	Step 1: Choose a character set
+<a onclick="nextStep(1)" class="buttonbase buttonblue dark" style="margin:15px auto;float:none;display:block;width:220px">
+<div id="default" class="buttontitle">Default</div>
+</a>	
+	</h1>
+	</div>
+	<div id="step2">
+	<h1>
+	Step 2: Create Dialogue	</h1>
+<style>
+.dropbtn {
+  background-color: #04AA6D;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #ddd;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: #3e8e41;}
+</style>
+</head>
+<body style="background-color:white;">
+
+<div class="dropdown">
+  <button class="dropbtn">Char 1 Voice</button>
+  <div class="dropdown-content">
+    <a href="#" onclick="setVoice('char1','/english/american/29-male-voice-joey.html')">Joey</a>
+    <a href="#" onclick="setVoice('char1','Eric')">Eric</a>
+    <a href="#" onclick="setVoice('char1','/english/british/1-male-voice-brian.html')">Brian</a>
+  </div>
+</div>
+<br>
+<div class="dropdown">
+  <button class="dropbtn">Char 2 Voice</button>
+  <div class="dropdown-content">
+    <a href="#" onclick="setVoice('char2','/english/american/29-male-voice-joey.html')">Joey</a>
+    <a href="#" onclick="setVoice('char2','Eric')">Eric</a>
+    <a href="#" onclick="setVoice('char2','/english/british/1-male-voice-brian.html')">Brian</a>
+  </div>
+</div>
+</a>
+<form id="loginform" method="post" action="/api/generate/qvm/" class="on" style="float:right;">
+<input name="dialogue1" maxlength="255" placeholder="Dialogue">
+<input name="dialogue2" maxlength="255" placeholder="Dialogue 2">
+<input type="hidden" name="theme" value="bar">
+<input type="hidden" id="voice1" name="voice1" value="joey">
+<input type="hidden" name="dialogue3" value="">
+<input type="hidden" name="dialogue4" value="">
+<input type="hidden" id="voice2" name="voice2" value="sdfaghjahgfg">
+<input type="submit" name="submit" value="Generate" onclick="showPreview()">
+</form>	
+	</div>
+	<div id="previewscreen" style="margin:0px">
+				<div class="popup_inside" style="width:640px;length:474px;">
+				<h2 class="popup_heading">Preview Video</h2>
+			
+				<img src="/static/img/loading.gif" style="width:640px;length:340px;">
+				<div class="buttons">
+					<button class="preview-button save" type="button">Save Now</button>
+				</div>
+
+				<a class="close-button" href="/qvm?theme=bar" >×</a>
+			</div>
+	</div>
+	<script>
+document.getElementById('step2').style.display='none';	
+document.getElementById('previewscreen').style.display='none';
+</script>
+		<%~ includeFile("./includes/footer", { env: it.env }) %>
+	<script>
+	function updateVoicesVariable()
+	{
+	}
+	function showPreview()
+	{
+	document.getElementById('previewscreen').style.display='block';
+	document.getElementById('step2').style.display='none';	
+	}
+	function setVoice(char, voice)
+	{
+	if (char == "char1")
+	{
+	console.log("CHAR 1!!!!");
+	document.getElementById("voice1").value = voice;
+	}
+	else
+	{
+	console.log("CHAR 2!!!!");
+	document.getElementById("voice2").value = voice;
+	}
+	}
+	function nextStep(step)
+	{
+	if (step == 1)
+	{
+	document.getElementById('step1').style.display='none';
+	document.getElementById('step2').style.display='block';	
+	}
+	else if (step == 2)
+	{
+	document.getElementById('step2').style.display='none';		
+	}
+	return;
+	}
+	</script>
+    </body>
+</html>

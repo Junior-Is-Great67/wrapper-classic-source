@@ -1,0 +1,1233 @@
+<html>
+
+<head>
+
+    <meta charset="utf-8">
+    <title>Slices of Daily Life | Wrapper: Classic</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+    <meta name="description"
+        content="With GoAnimate Quick App you can make your own video with just a few clicks and some typing on your keyboard. It's dead simple and fun!">
+
+    <meta name="google-site-verification" content="K_niiTfCVi72gwvxK00O4NjsVybMutMUnc-ZnN6HUuA">
+
+    <link href="/qvm_files/buttons.css.gz.css" rel="stylesheet" type="text/css">
+    <link href="/qvm_files/everydaylife.css.gz.css" rel="stylesheet" type="text/css">
+    <link href="/qvm_files/school_golite.css.gz.css" rel="stylesheet" type="text/css">
+    <link href="/qvm_files/voiceselectionwidget.css.gz.css" rel="stylesheet" type="text/css">
+    <link href="//web.archive.org/web/20191027000220cs_/http://fonts.googleapis.com/css?family=Droid+Sans:bold|Anton"
+        rel="stylesheet" type="text/css">
+    <!--[if lt IE 9]>
+<link href="https://d2qrjeyl4jwu9j.cloudfront.net/static/642cd772aad8e952/go/css/script2cartoon/ie.css.gz.css" rel="stylesheet" type="text/css">
+<![endif]-->
+
+    <script type="text/javascript" src="/qvm_files/jquery-1.4.4.min.js.gz.js"></script>
+    <script type="text/javascript" src="/qvm_files/jquery.blockUI.js.gz.js"></script>
+    <script type="text/javascript" src="/qvm_files/jquery.scrollTo.min.js.gz.js"></script>
+    <script type="text/javascript" src="/qvm_files/jquery.jplayer.min.js.gz.js"></script>
+    <script type="text/javascript" src="/qvm_files/jquery.tmpl.min.js.gz.js"></script>
+    <script type="text/javascript" src="/qvm_files/lite.js.gz.js"></script>
+    <script type="text/javascript" src="/qvm_files/voiceselectionwidget.js.gz.js"></script>
+    <script type="text/javascript" src="/qvm_files/Gettext.js.gz.js"></script>
+    <script type="text/javascript">
+        var srv_tz_os = -4;
+        var view_name = "school";
+        var user_cookie_name = "u_info";
+        var golite_theme = "everydaylife";
+        var publish_setting = 'private';
+        var lang_model;
+        var I18N_LANG = 'en_US';
+        var GT = new Gettext({ 'locale_data': {"messages":{"":{"Plural-Forms":" nplurals=2; plural=(n != 1);","X-Generator":" Pootle 2.0.0","MIME-Version":" 1.0","Language":" en","POT-Creation-Date":" 2012-08-17 02:11-0700","Last-Translator":" Pootle <godev@goanimate.com>","Content-Type":" text/plain; charset=UTF-8","PO-Revision-Date":" 2009-12-24 06:15+0200","Language-Team":" English <LL@li.org>","Project-Id-Version":" goserver trunk","Report-Msgid-Bugs-To":" ","Content-Transfer-Encoding":" 8bit"},"You are no longer a fan of this user":[null,""],"Check out this section from time to time as we are adding music on a regular basis.":[null,""],"Please enter a valid Security Number":[null,""],"Keep GoPlus Account":[null,""],"You can use drop-down menu on top to browse your friends' album and add their pictures to your slideshow.":[null,""],"You cannot upload more than %1 pictures at the same time.":[null,""],"Message has been deleted":[null,""],"SUCCESS!":[null,""],"Keep Business Account":[null,""],"Retrieving photos in Photo Set":[null,""],"Please confirm your identity by entering your password in the field below. Your order will be placed right after.":[null,""],"You can import .mp3 and .wav files.<br/>Each file size should be under 5Mb.":[null,""],"Please enter a valid Expiry Date":[null,""],"Import All":[null,""],"Upload limit exceeded.":[null,""],"We will have a version allowing you to add more pictures in the future.":[null,""],"Retrieving songs":[null,""],"Confirm Password":[null,""],"month":["months","",""],"Please enter your Credit Card Number":[null,""],"Are you sure to delete this image?":[null,""],"Please wait ...":[null,""],"You cannot upload more than 1 sound at the same time.":[null,""],"Retrieving photos from Flickr":[null,""],"Failed Validation.  Upload skipped.":[null,""],"Deleting Sound":[null,""],"Image file size too large. Maximum 2MB.":[null,""],"Get an updated mpeg4 version of your video":[null,""],"Security Error":[null,""],"Checking user email availability, please wait ...":[null,""],"Comment successfully posted":[null,""],"Upload complete. Saving...":[null,""],"Name your Song":[null,""],"These are your Facebook albums.  You can import all the pictures in one album at once or browse their content and upload pictures individually.":[null,""],"Simply click on the different pictures in your set to select and unselect them.  Once you are ready, import them to GoAnimate and organize them to your taste.":[null,""],"You can import <b>50 files maximum</b>.  Each file size should be under <b>5Mb</b>.<br/><br/>At the moment we support import from your own computer, Flickr and Facebook.":[null,""],"You have selected 0 media files.":[null,""],"Please select at least 1 photo.":[null,""],"Cancel All Uploads":[null,""],"Recover Animation":[null,""],"Unhandled Error:":[null,""],"Cancelled":[null,""],"The slideshow you selected currently allows you to add between %1 and %2 media files.  If you add more, these will not show.<br/><br/>We will have a version allowing you to add more pictures in the future.":[null,""],"Insufficient Balance":[null,""],"You have used up your download credits or the download request is expired.":[null,""],"Disable Auto-Renew":[null,""],"Error: Please enter a valid email address":[null,""],"Please enter a movie title":[null,""],"The slideshow you selected currently allows you to add between %1 and %2 media files.  If you add more, these will not show.":[null,""],"Your Contacts":[null,""],"Sorry, Facebook is blocked at your location.":[null,""],"You will be asked to login into your account on Facebook to retrieve the pictures you or your friends have uploaded there.":[null,""],"Please read and agree Terms of Use":[null,""],"Please select a character":[null,""],"Email address required":[null,""],"These are the media files you have used in previous slideshows.  You can reuse some or all of them in your current project.":[null,""],"Password must be longer than 3 characters":[null,""],"Unhandled Error":[null,""],"Enter a keyword to search Flickr's library of publicly shared pictures.":[null,""],"You have selected %1 media files.":[null,""],"This discount can only be used once and it appears you have already downloaded another video. Contact us if any issue: support@goanimate.com":[null,""],"Once your business account expires, you will lose all commercial rights. <strong>As a result, all videos you have uploaded to third party sites must be taken down.</strong> Embed codes and links shared on websites used to promote your business must also be removed. <strong>Any further commercial use of videos created on GoAnimate on any site is a violation of our agreement, subject to penalties under the law.</strong>":[null,""],"Enter email from supported providers":[null,""],"Please enter your display name":[null,""],"Browse the music you previously uploaded for a slideshow or for an animation.":[null,""],"Upload complete. Converting...":[null,""],"day":["days","",""],"Password and Confirm Password do not match":[null,""],"Your changes have been saved":[null,""],"Remove Friend":[null,""],"You are no longer a friend of this animator":[null,""],"second":["seconds","",""],"Please enter your credit card security number":[null,""],"You cannot import more than %1 pictures at the same time.":[null,""],"Checking user account availability, please wait ...":[null,""],"Please select the term for the business package desired":[null,""],"Please enter a valid email address":[null,""],"Congratulations! You earned the badge ":[null,""],"It appears you cancelled the payment for this transaction":[null,""],"Message is successfully submitted and will be broadcasted soon":[null,""],"Processing the request, please wait ...":[null,""],"Service is unavailable at the moment, please try again later":[null,""],"As you selected a %1's theme, you can use one of his songs to accompany your media.":[null,""],"Private pictures whether your own or other users' will not be searched.":[null,""],"Facebook Connect Completed.":[null,""],"You can select less files and try again. Your pictures were not uploaded.":[null,""],"Supported formats: .jpg, .gif, .png":[null,""],"Please enter your Street Address":[null,""],"Please enter your phone number":[null,""],"Watermark assigned to movie":[null,""],"Your phone number has been saved":[null,""],"Please enter your message":[null,""],"Animation flagged as inappropriate":[null,""],"Saving user email, please wait ...":[null,""],"Please login to enable Voice Recording":[null,""],"Downgrade Account to Basic":[null,""],"Cannot upload Zero Byte files.":[null,""],"Please enter your City":[null,""],"Retrieve recently used pictures":[null,""],"Are you sure to delete these %1 images?":[null,""],"You will be forwarded to these websites to retrieve your pictures uploaded there.":[null,""],"Comment flagged as inappropriate":[null,""],"feed_timestamp_formatstr":[null,"(%1 %2 ago)"],"Please enter your Password":[null,""],"Please enter your Zip Code":[null,""],"Import Contacts from <PROVIDER>":[null,""],"Are you sure to download this video?":[null,""],"You can also delete some, rotate them or import some more.":[null,""],"Demo Preview":[null,""],"Validating account password, please wait ...":[null,""],"Please enter your Display Name":[null,""],"You are now a friend of this animator<br/>Now if this user adds you as friend, you will be able to see each<br/>other online and chat using the bar at the bottom of your screen":[null,""],"Are you sure you want to subscribe to our mailing list?":[null,""],"You will not be able to watch this animation any more!":[null,""],"Buy GoBucks":[null,""],"Cancelling Sound":[null,""],"Error contacting the server":[null,""],"Please enter a 4-digit Security Number":[null,""],"Please enter Recipients":[null,""],"We will import the first %1 pictures from your Facebook photoset.":[null,""],"Processing, please wait ...":[null,""],"File not uploaded. Size must be smaller than 5MB.":[null,""],"You are done with your slideshow.  Give it a name, choose a thumbnail and save it to generate the final version.":[null,""],"Cancel":[null,""],"Accepted":[null,""],"Animation has been deleted":[null,""],"Are you sure to delete this Message?":[null,""],"Animation has been removed from your recommendations":[null,""],"Your new password must be greater than 3 characters":[null,""],"This movie has successfully been recovered.":[null,""],"Generating Transaction ...":[null,""],"Please enter Your Email in a valid format":[null,""],"Please enter email":[null,""],"Please enter your company name":[null,""],"Your transaction has not been processed.":[null,""],"Please wait...":[null,""],"Sign up now":[null,""],"Previous":[null,""],"Complete.":[null,""],"This movie has successfully been moved to your trash.":[null,""],"We are building a library of loops that fit as many moods and generes as possible to fit your personal pictures.":[null,""],"Please enter your Email in a valid format":[null,""],"Would you like to buy it?":[null,""],"Animation added to your recommendations":[null,""],"File size too big.":[null,""],"Your rating has been sucessfully registered":[null,""],"%1 credit(s) left":[null,""],"You have to agree to the Terms of Use":[null,""],"Please enter your subject":[null,""],"%1 characters remaining":[null,""],"Next":[null,""],"Confirm password required":[null,""],"You must enter your current password":[null,""],"Watermark assigned to user":[null,""],"Please enter your Email":[null,""],"Please enter your account password":[null,""],"Updating Sound Title":[null,""],"Select pictures":[null,""],"Please specify a transparent image as your watermark":[null,""],"Your Password and Confirm Password do not match":[null,""],"You do not have sufficient points to copy this animation.":[null,""],"Please enter a valid Credit card number":[null,""],"Please enter your Confirm Password":[null,""],"Please enter Your Friend Emails":[null,""],"Save":[null,""],"Promotion code applied":[null,""],"Please enter your First Name":[null,""],"Remove inappropriate contents to download a new version of your video":[null,""],"Are you sure to download this video again?":[null,""],"Error occurred, please try again later.":[null,""],"GoPlus Character":[null,""],"Invalid email address":[null,""],"Uploading your photos":[null,""],"Confirm":[null,""],"Your main badge is updated.":[null,""],"We received invalid transaction details":[null,""],"You can import <b>%1 files maximum</b>.  Each file size should be under <b>5Mb</b>.":[null,""],"Invalid email provider":[null,""],"Save Slideshow":[null,""],"We could not find a match for the given email and password. Please try again.":[null,""],"Press CTRL + click to select multiple files.":[null,""],"Please select the package you are interested in":[null,""],"Invalid File Type.":[null,""],"Upload progress":[null,""],"You do not have enough credit to complete the transaction":[null,""],"Retrieving albums info":[null,""],"hour":["hours","",""],"Please select a voice for the character":[null,""],"Message successfully posted":[null,""],"Redirecting to PayPal ...":[null,""],"Are you sure you want to unsubscribe from our mailing list?":[null,""],"Invalid image file.":[null,""],"Upload Failed.":[null,""],"Uploading...":[null,""],"Please enter a 3-digit Security Number":[null,""],"You do not have the permission to download this video":[null,""],"Movie information saved succesfully.":[null,""],"Please enter your first name":[null,""],"The first set displayed includes all your pictures whether they are or not in an photoset.  Select this one to browse all your Flickr pictures.":[null,""],"minimize":[null,""],"minute":["minutes","",""],"Choose 50 pictures maximum per import.<br/><br/>These are your Flickr Photosets.  You can import all the pictures in one photoset at once or browse their content and upload pictures individually.":[null,""],"Pending...":[null,""],"Retrieving the album photos":[null,""],"Your phone number must not be empty":[null,""],"Please input a valid promotion code":[null,""],"Please enter password":[null,""],"Please try again. Your sounds were not uploaded.":[null,""],"Your account will be downgraded starting %1":[null,""],"Animation removed from your recommendations":[null,""],"We will import the first %1 pictures from your Flickr photoset.":[null,""],"You have already used your 1<sup>st</sup> download discount":[null,""],"GoAnimate for Business":[null,""],"%1 file(s) uploaded.":[null,""],"Are you sure to delete this Comment/Post?":[null,""],"You are about to import %1 pictures.  The slideshow you have selected can only display a maximum of %2 pictures.":[null,""],"Make sure your confirmation password matches your new password":[null,""],"This animation contains premium character(s)\\nThe cost to copy this movie is:\\n":[null,""],"You need to complete your payment for the download to go ahead.<br/>Contact us if any issue: support@goanimate.com":[null,""],"Please enter your credit card number":[null,""],"Please enter your city/state/country":[null,""],"Please contact us at support@goanimate.com for details.":[null,""],"Upload Error:":[null,""],"You have selected %1 media files.  The last %2 will not be shown in the final slideshow.":[null,""],"Retrieving your profile photos info":[null,""],"Signing up account, please wait ...":[null,""],"Password required":[null,""],"Please enter your Last Name":[null,""],"Please enter Your Name":[null,""],"more":[null,""],"Become a Fan":[null,""],"year":["years","",""],"You are now a fan of all friends":[null,""],"Are you sure you want to remove this movie from your favorite list?":[null,""],"Enter Your Password":[null,""],"Please enter your email address":[null,""],"Comment has been deleted":[null,""],"You can also reuse the songs already in your &quot;My Stuff - Music&quot; library or use songs in our growing GoAnimate library.":[null,""],"Be aware that from this date onwards you will lose access to GoPlus features as well as to assets you have uploaded as part of your GoPlus account.":[null,""],"The creator of the video may have disallowed downloads for this video. Get in touch with him or her for more information.":[null,""],"Subscribe to GoAnimate":[null,""],"This photo cannot be uploaded.  Please try another one.":[null,""],"Invite your friends to GoAnimate":[null,""],"Your display name must not be empty":[null,""],"Retrieving your friends' info":[null,""],"Please enter an email from supported providers":[null,""],"Processing transaction, please wait ...":[null,""],"Stopped":[null,""],"Your Password must be longer than 3 characters":[null,""],"Checking Promotion code, please wait ...":[null,""],"You may have just used some GoBucks and you now do not have enough to purchase this download.":[null,""],"Add Friend":[null,""],"Choose which media files will make it to your final slideshow and in which order they will be shown.":[null,""],"You are now a fan of this animator":[null,""],"Please enter your last name":[null,""],"Facebook Connect failed. Another GoAnimate account was connected to your Facebook.":[null,""],"You have attempted to upload an empty image.":[null,""],"Server (IO) Error":[null,""],"Are you sure to you want to stop being a fan of this user?":[null,""],"You cannot download this video":[null,""],"Please enter Your Email":[null,""]}} });
+    </script>
+
+</head>
+
+<body id="school">
+    <script type="text/javascript">
+        GoLite.settings.player = {
+            swf: "http://localhost:4343/animation/414827163ad4eb60/player.swf",
+            height: 384,
+            width: 550
+        }
+        GoLite.settings.thumbnailChooser = {
+            swf: "http://localhost:4343/animation/qvm/thumbnailChooser.swf",
+            height: 170,
+            width: 295
+        }
+
+        VoiceRecorder.defaultSettings.swf = "http://localhost:4343/animation/qvm/MyMicRecorder.swf";
+        jQuery.extend(VoiceRecorder.defaultSettings.flashvars, {
+            apiserver: "http://localhost:4343/",
+            clientThemePath: "http://localhost:4343/static/tommy/2013/<client_theme>"
+        });
+
+        // scroll to target step
+        function stepTo(step) {
+            var settings = {
+                duration: 1500,
+                offset: { top: 10 }
+            };
+            // auto focus dialog input
+            if (step == '#step3') {
+                settings.onAfter = function () { jQuery('#dialogs .focus .dialog_input').focus(); };
+            }
+            jQuery.scrollTo(step, settings);
+        }
+
+    </script>
+    <div id="bg"></div>
+    <div id="container">
+        <div id="nav_links" style="display: block;">
+            <div class="inside">
+                <ul>
+                    <li class="home" title="Back to Home"><a
+                            href="/"
+                            onclick="return confirm('You will lose your work if you leave this page. Are you sure?');">Home</a>
+                    </li>
+                    <li class="seperate">&nbsp;</li>
+                    <li class="intro"><a onclick="stepTo('#intro')">0</a></li>
+                    <li class="step1"><a onclick="stepTo('#step1');">1</a></li>
+                    <li class="step2"><a onclick="stepTo('#step2');">2</a></li>
+                    <li class="step3 on"><a onclick="stepTo('#step3');">3</a></li>
+                    <li class="step4"><a onclick="GoLite.preview();stepTo('#step4');">4</a></li>
+                    <li class="seperate">&nbsp;</li>
+                    <li class="next" title="Next step"><a>Next</a></li>
+                    <li class="prev" title="Previous step"><a>Previous</a></li>
+                </ul>
+                <div class="clear"></div>
+            </div>
+        </div>
+
+
+        <div id="intro" class="section">
+            <div class="inside">
+                <h1 class="hide">Slices of Daily Life</h1>
+                <p>Wrapper Classic brings you a collection of scenes from daily life for you to re-enact and make up comical,
+                    satirical or even dramatic stories.</p>
+                <p>The drill? 1. Select a template / 2. Choose characters / 3. Pull a script out of your best life
+                    observations / 4. Watch your masterpiece!</p>
+            </div>
+
+            <a class="btn_next" href="#step1" onclick="stepTo('#step1'); return false;">Next</a>
+        </div>
+
+        <div id="seperator0"></div>
+
+        <div id="step1" class="section">
+            <h2>1. Choose a Setting</h2>
+
+            <a class="previous_step" href="#intro" onclick="stepTo('#intro'); return false;">Back</a>
+
+            <div class="inside">
+                <div id="template_name">Chilling Out in the Office</div>
+                <div id="template_desc">Your characters are taking a break from a stressful day in the pantry. Now what
+                    could they be talking about?! (BTW this is the only template available right now)</div>
+                <div id="templates" class="item_selector">
+                    <a class="select_button prev" href="#">&lt;</a>
+                    <div class="items">
+                        <div class="item selected" data-tid="template1"
+                            data-thumb="https://s3.amazonaws.com/fs.goanimate4schools.com/files/thumbnails/movie/532/60532/124125.jpg"
+                            title="Chilling Out in the Office"
+                            data-desc="Your characters are taking a break from a stressful day in the pantry. Now what could they be talking about?! (BTW this is the only template available right now)"
+                            data-char-thumb-a="./static/642cd772aad8e952/go/img/script2cartoon/everydaylife/step02/thumbs/bg03_a.jpg"
+                            data-char-thumb-b="./static/642cd772aad8e952/go/img/script2cartoon/everydaylife/step02/thumbs/bg03_b.jpg">
+                            <img
+                                src="./static/642cd772aad8e952/go/img/script2cartoon/everydaylife/step01/bg03.jpg">
+                        </div>
+                        <div class="item" data-tid="template2"
+    data-thumb="https://s3.amazonaws.com/fs.goanimate4schools.com/files/thumbnails/movie/532/60532/124134.jpg"
+    title="Do not disturb..."
+    data-desc="Imagine sitting on a toilet and someone bursts into the bathroom!... Done? Now, animate the conversation!"
+    data-char-thumb-a="./static/642cd772aad8e952/go/img/script2cartoon/everydaylife/step02/thumbs/bg07_a.jpg"
+    data-char-thumb-b="./static/642cd772aad8e952/go/img/script2cartoon/everydaylife/step02/thumbs/bg07_b.jpg"
+    data-plus="true">
+    <img
+        src="./static/642cd772aad8e952/go/img/script2cartoon/everydaylife/step01/bg07.jpg">
+</div>
+<div class="item" data-tid="template3"
+                            data-thumb="https://s3.amazonaws.com/fs.goanimate4schools.com/files/thumbnails/movie/532/60532/124123.jpg"
+                            title="Honey. We have to talk..."
+                            data-desc="It's time for serious couple talk... or maybe not. This is just a bedroom chat."
+                            data-char-thumb-a="./static/642cd772aad8e952/go/img/script2cartoon/everydaylife/step02/thumbs/bg01_a.jpg"
+                            data-char-thumb-b="./static/642cd772aad8e952/go/img/script2cartoon/everydaylife/step02/thumbs/bg01_b.jpg"
+                            data-plus="true">
+                            <img
+                                src="./static/642cd772aad8e952/go/img/script2cartoon/everydaylife/step01/bg01.jpg">
+                        </div>
+                        <div class="item" data-tid="template4"
+                            data-thumb="https://s3.amazonaws.com/fs.goanimate4schools.com/files/thumbnails/movie/532/60532/124138.jpg"
+                            title="Where's the pilot?"
+                            data-desc="Flying in a 747 commercial airplane across the world is piece of cake... as long as you're not in the pilot seat. Oh boy!..."
+                            data-char-thumb-a="./static/642cd772aad8e952/go/img/script2cartoon/everydaylife/step02/thumbs/bg14_a.jpg"
+                            data-char-thumb-b="./static/642cd772aad8e952/go/img/script2cartoon/everydaylife/step02/thumbs/bg14_b.jpg"
+                            data-plus="true">
+                            <img
+                                src="./static/642cd772aad8e952/go/img/script2cartoon/everydaylife/step01/bg14.jpg">
+                        </div>
+                    </div>
+                    <a class="select_button next" href="#">&gt;</a>
+                </div>
+                <br>
+            </div>
+
+            <a class="btn_next" href="#step2" onclick="stepTo('#step2'); return false;">Next</a>
+            <div class="upgrade" style="display: none;">
+                <a href="javascript:popUpgrade();" class="buttonbase buttonblue dark"
+                    style="margin:0 auto;float:none;display:block;">
+                    <div class="buttontitle">Upgrade Now</div>
+                </a>
+            </div>
+        </div>
+
+        <div id="seperator1"></div>
+
+        <div id="step2" class="section">
+            <h2>2. Select Your Actors</h2>
+
+            <a class="previous_step" href="#step1" onclick="stepTo('#step1'); return false;">Back</a>
+
+            <div class="inside">
+                <div class="character">
+                    <div id="character1_title" class="title"><img
+                            src="./static/642cd772aad8e952/go/img/script2cartoon/everydaylife/step02/thumbs/bg03_a.jpg"
+                            alt=""></div>
+                    <div id="character1" class="item_selector character_selector">
+                        <a class="select_button prev" href="#">&lt;</a>
+                        <div class="items">
+                            <div class="item selected" data-cid="53772341" data-name="" data-voice="joey"
+                                data-thumb="./stock_thumbs/head/53772341.png">
+                                <span><img
+                                        src="./stock_thumbs/2487299.png"
+                                        alt=""></span></div>
+                            <div class="item" data-cid="0z1JxKx6sGek" data-name="" data-voice="amy"
+                                data-thumb="./stock_thumbs/head/2487300.png">
+                                <span><img
+                                        src="./stock_thumbs/2487300.png"
+                                        alt=""></span></div>
+                            <div class="item" data-cid="0a6L9Az1X_7U" data-name="" data-voice="brian"
+                                data-thumb="./stock_thumbs/head/2487301.png">
+                                <span><img
+                                        src="./stock_thumbs/2487301.png"
+                                        alt=""></span></div>
+                            <div class="item" data-cid="0Z6jBNZQ0Eac" data-name="" data-voice="eric"
+                                data-thumb="./stock_thumbs/head/2487302.png">
+                                <span><img
+                                        src="./stock_thumbs/2487302.png"
+                                        alt=""></span></div>
+                            <div class="item" data-cid="0QZgCi2tZf2E" data-name="" data-voice="emma"
+                                data-thumb="./stock_thumbs/head/2487303.png">
+                                <span><img
+                                        src="./stock_thumbs/2487303.png"
+                                        alt=""></span></div>
+                            <div class="item" data-cid="0hxu4pGuL0ns" data-name="" data-voice="eric"
+                                data-thumb="./stock_thumbs/head/2487304.png">
+                                <span><img
+                                        src="./stock_thumbs/2487304.png"
+                                        alt=""></span></div>
+                            <div class="item" data-cid="0803WH6cvZug" data-name="" data-voice="jennifer"
+                                data-thumb="./stock_thumbs/head/2487305.png">
+                                <span><img
+                                        src="./stock_thumbs/2487305.png"
+                                        alt=""></span></div>
+                            <div class="item" data-cid="0o8Yyunbixs4" data-name="" data-voice="brian"
+                                data-thumb="./stock_thumbs/head/2487306.png">
+                                <span><img
+                                        src="./stock_thumbs/2487306.png"
+                                        alt=""></span></div>
+                            <div class="item" data-cid="0-EftFs07HKM" data-name="" data-voice="brian"
+                                data-thumb="./stock_thumbs/head/2487307.png">
+                                <span><img
+                                        src="./stock_thumbs/2487307.png"
+                                        alt=""></span></div>
+                            <div class="item" data-cid="0jvXC7ies6p8" data-name="" data-voice="joey"
+                                data-thumb="./stock_thumbs/head/2487308.png">
+                                <span><img
+                                        src="./stock_thumbs/2487308.png"
+                                        alt=""></span></div>
+                            <div class="item" data-cid="0Xay3rNbNiqY" data-name="" data-voice="joey"
+                                data-thumb="./stock_thumbs/head/2487309.png">
+                                <span><img
+                                        src="./stock_thumbs/2487309.png"
+                                        alt=""></span></div>
+                            <div class="item" data-cid="0x1VUfBwAUUk" data-name="" data-voice="kimberly"
+                                data-thumb="./stock_thumbs/head/2487310.png">
+                                <span><img
+                                        src="./stock_thumbs/2487310.png"
+                                        alt=""></span></div>
+                            <div class="item" data-cid="0P-T7QnCDoh8" data-name="" data-voice="joey"
+                                data-thumb="./stock_thumbs/head/2487311.png">
+                                <span><img
+                                        src="./stock_thumbs/2487311.png"
+                                        alt=""></span></div>
+                            <div class="item" data-cid="0pyRezQ1El6k" data-name="" data-voice="kendra"
+                                data-thumb="./stock_thumbs/head/2487312.png">
+                                <span><img
+                                        src="./stock_thumbs/2487312.png"
+                                        alt=""></span></div>
+                            <div class="item" data-cid="0i5nxYaBNv54" data-name="" data-voice="eric"
+                                data-thumb="./stock_thumbs/head/2487313.png">
+                                <span><img
+                                        src="./stock_thumbs/2487313.png"
+                                        alt=""></span></div>
+                            <div class="item" data-cid="0bn3URIMd9Ys" data-name="" data-voice="brian"
+                                data-thumb="./stock_thumbs/head/2487314.png">
+                                <span><img
+                                        src="./stock_thumbs/2487314.png"
+                                        alt=""></span></div>
+                            <div class="item" data-cid="0_PllkZdhn-o" data-name="" data-voice="eric"
+                                data-thumb="./stock_thumbs/head/2487317.png">
+                                <span><img
+                                        src="./stock_thumbs/2487317.png"
+                                        alt=""></span></div>
+                            <div class="item" data-cid="0KXVWGDHGVqI" data-name="" data-voice="emma"
+                                data-thumb="./stock_thumbs/head/2487318.png">
+                                <span><img
+                                        src="./stock_thumbs/2487318.png"
+                                        alt=""></span></div>
+                            <div class="item" data-cid="09y_C1g2vRvI" data-name="" data-voice="kimberly"
+                                data-thumb="./stock_thumbs/head/2487319.png">
+                                <span><img
+                                        src="./stock_thumbs/2487319.png"
+                                        alt=""></span></div>
+                            <div class="item" data-cid="02DzR0IbvoAg" data-name="" data-voice="amy"
+                                data-thumb="./stock_thumbs/head/2487320.png">
+                                <span><img
+                                        src="./stock_thumbs/2487320.png"
+                                        alt=""></span></div>
+                            <div class="item" data-cid="0jHfmHZDbd4k" data-name="" data-voice="eric"
+                                data-thumb="./stock_thumbs/head/2487321.png">
+                                <span><img
+                                        src="./stock_thumbs/2487321.png"
+                                        alt=""></span></div>
+                            <div class="item" data-cid="0i3FiP4mEBI4" data-name="" data-voice="eric"
+                                data-thumb="./stock_thumbs/head/2487322.png">
+                                <span><img
+                                        src="./stock_thumbs/2487322.png"
+                                        alt=""></span></div>
+                            <div class="item" data-cid="0yeqP-cf9peg" data-name="" data-voice="emma"
+                                data-thumb="./stock_thumbs/head/2487323.png">
+                                <span><img
+                                        src="./stock_thumbs/2487323.png"
+                                        alt=""></span></div>
+                            <div class="item" data-cid="0wXKa9CK1ZiE" data-name="" data-voice="brian"
+                                data-thumb="./stock_thumbs/head/2487324.png">
+                                <span><img
+                                        src="./stock_thumbs/2487324.png"
+                                        alt=""></span></div>
+                        </div>
+                        <a class="select_button next" href="#">&gt;</a>
+                    </div>
+                    <div class="name"></div>
+                   <div class="customlink">
+                        <a href="javascript:GoLite.showSelectCCOverlay(0)">Use your own character</a>
+                    </div>
+                </div>
+
+                <div class="character">
+                    <div id="character2_title" class="title"><img
+                            src="./static/642cd772aad8e952/go/img/script2cartoon/everydaylife/step02/thumbs/bg03_b.jpg"
+                            alt=""></div>
+                    <div id="character2" class="item_selector character_selector">
+                        <a class="select_button prev" href="#">&lt;</a>
+                        <div class="items">
+                            <div class="item" data-cid="0C8xO7kYl65U" data-name="" data-voice="joey"
+                                data-thumb="./stock_thumbs/head/2487299.png"
+                                style="display: none;"><span><img
+                                        src="./stock_thumbs/2487299.png"
+                                        alt=""></span></div>
+                            <div class="item selected" data-cid="0x2VZE0YmXys" data-name="" data-voice="amy"
+                                data-thumb="./files/thumbnails/cchead/2132/1352132/51287869.png"
+                                style="display: none;"><span><img
+                                        src="./files/thumbnails/ccthumb/2132/1352132/51287869.png"
+                                        alt=""></span></div>
+                            <div class="item" data-cid="0PF9tkqs1aLY" data-name="" data-voice="brian"
+                                data-thumb="./files/thumbnails/cchead/2132/1352132/51288759.png"
+                                style="display: block;"><span><img
+                                        src="./files/thumbnails/ccthumb/2132/1352132/51288759.png"
+                                        alt=""></span></div>
+                            <div class="item" data-cid="0Z6jBNZQ0Eac" data-name="" data-voice="eric"
+                                data-thumb="./stock_thumbs/head/2487302.png"
+                                style="display: none;"><span><img
+                                        src="./stock_thumbs/2487302.png"
+                                        alt=""></span></div>
+                            <div class="item" data-cid="0QZgCi2tZf2E" data-name="" data-voice="emma"
+                                data-thumb="./stock_thumbs/head/2487303.png"
+                                style="display: none;"><span><img
+                                        src="./stock_thumbs/2487303.png"
+                                        alt=""></span></div>
+                            <div class="item" data-cid="0hxu4pGuL0ns" data-name="" data-voice="eric"
+                                data-thumb="./stock_thumbs/head/2487304.png"
+                                style="display: none;"><span><img
+                                        src="./stock_thumbs/2487304.png"
+                                        alt=""></span></div>
+                            <div class="item" data-cid="0803WH6cvZug" data-name="" data-voice="jennifer"
+                                data-thumb="./stock_thumbs/head/2487305.png"
+                                style="display: none;"><span><img
+                                        src="./stock_thumbs/2487305.png"
+                                        alt=""></span></div>
+                            <div class="item" data-cid="0o8Yyunbixs4" data-name="" data-voice="brian"
+                                data-thumb="./stock_thumbs/head/2487306.png"
+                                style="display: none;"><span><img
+                                        src="./stock_thumbs/2487306.png"
+                                        alt=""></span></div>
+                            <div class="item" data-cid="0-EftFs07HKM" data-name="" data-voice="brian"
+                                data-thumb="./stock_thumbs/head/2487307.png"
+                                style="display: none;"><span><img
+                                        src="./stock_thumbs/2487307.png"
+                                        alt=""></span></div>
+                            <div class="item" data-cid="0jvXC7ies6p8" data-name="" data-voice="joey"
+                                data-thumb="./stock_thumbs/head/2487308.png"
+                                style="display: none;"><span><img
+                                        src="./stock_thumbs/2487308.png"
+                                        alt=""></span></div>
+                            <div class="item" data-cid="0Xay3rNbNiqY" data-name="" data-voice="joey"
+                                data-thumb="./stock_thumbs/head/2487309.png"
+                                style="display: none;"><span><img
+                                        src="./stock_thumbs/2487309.png"
+                                        alt=""></span></div>
+                            <div class="item" data-cid="0x1VUfBwAUUk" data-name="" data-voice="kimberly"
+                                data-thumb="./stock_thumbs/head/2487310.png"
+                                style="display: none;"><span><img
+                                        src="./stock_thumbs/2487310.png"
+                                        alt=""></span></div>
+                            <div class="item" data-cid="0P-T7QnCDoh8" data-name="" data-voice="joey"
+                                data-thumb="./stock_thumbs/head/2487311.png"
+                                style="display: none;"><span><img
+                                        src="./stock_thumbs/2487311.png"
+                                        alt=""></span></div>
+                            <div class="item" data-cid="0pyRezQ1El6k" data-name="" data-voice="kendra"
+                                data-thumb="./stock_thumbs/head/2487312.png"
+                                style="display: none;"><span><img
+                                        src="./stock_thumbs/2487312.png"
+                                        alt=""></span></div>
+                            <div class="item" data-cid="0i5nxYaBNv54" data-name="" data-voice="eric"
+                                data-thumb="./stock_thumbs/head/2487313.png"
+                                style="display: none;"><span><img
+                                        src="./stock_thumbs/2487313.png"
+                                        alt=""></span></div>
+                            <div class="item" data-cid="0bn3URIMd9Ys" data-name="" data-voice="brian"
+                                data-thumb="./stock_thumbs/head/2487314.png"
+                                style="display: none;"><span><img
+                                        src="./stock_thumbs/2487314.png"
+                                        alt=""></span></div>
+                            <div class="item" data-cid="0_PllkZdhn-o" data-name="" data-voice="eric"
+                                data-thumb="./stock_thumbs/head/2487317.png"
+                                style="display: none;"><span><img
+                                        src="./stock_thumbs/2487317.png"
+                                        alt=""></span></div>
+                            <div class="item" data-cid="0KXVWGDHGVqI" data-name="" data-voice="emma"
+                                data-thumb="./stock_thumbs/head/2487318.png"
+                                style="display: none;"><span><img
+                                        src="./stock_thumbs/2487318.png"
+                                        alt=""></span></div>
+                            <div class="item" data-cid="09y_C1g2vRvI" data-name="" data-voice="kimberly"
+                                data-thumb="./stock_thumbs/head/2487319.png"
+                                style="display: none;"><span><img
+                                        src="./stock_thumbs/2487319.png"
+                                        alt=""></span></div>
+                            <div class="item" data-cid="02DzR0IbvoAg" data-name="" data-voice="amy"
+                                data-thumb="./stock_thumbs/head/2487320.png"
+                                style="display: none;"><span><img
+                                        src="./stock_thumbs/2487320.png"
+                                        alt=""></span></div>
+                            <div class="item" data-cid="0jHfmHZDbd4k" data-name="" data-voice="eric"
+                                data-thumb="./stock_thumbs/head/2487321.png"
+                                style="display: none;"><span><img
+                                        src="./stock_thumbs/2487321.png"
+                                        alt=""></span></div>
+                            <div class="item" data-cid="0i3FiP4mEBI4" data-name="" data-voice="eric"
+                                data-thumb="./stock_thumbs/head/2487322.png"
+                                style="display: none;"><span><img
+                                        src="./stock_thumbs/2487322.png"
+                                        alt=""></span></div>
+                            <div class="item" data-cid="0yeqP-cf9peg" data-name="" data-voice="emma"
+                                data-thumb="./stock_thumbs/head/2487323.png"
+                                style="display: none;"><span><img
+                                        src="./stock_thumbs/2487323.png"
+                                        alt=""></span></div>
+                            <div class="item" data-cid="0wXKa9CK1ZiE" data-name="" data-voice="brian"
+                                data-thumb="./stock_thumbs/head/2487324.png"
+                                style="display: none;"><span><img
+                                        src="./stock_thumbs/2487324.png"
+                                        alt=""></span></div>
+                        </div>
+                        <a class="select_button next" href="#">&gt;</a>
+                    </div>
+                    <div class="name"></div>
+                   <div class="customlink">
+                        <a href="javascript:GoLite.showSelectCCOverlay(1)">Use your own character</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="snippets" style="display: none">
+                <strong class="plus-char-txt">GoPlus Character</strong>
+                <div class="plus-cover">
+                    <div><strong>GoPlus Template</strong> Upgrade to GoPlus to go to the next step.</div>
+                </div>
+                <div class="item" data-cid="" data-name="" data-voice="amy" data-thumb=""><span><img alt=""></span>
+                </div>
+                <div class="selectccoverlay lightbox" style="display:none">
+                    <div class="lightbox_wrapper">
+                        <h2>1. Select your character:</h2>
+
+                        <style type="text/css">
+                            .selectccoverlay h2 {
+                                margin-left: 66px;
+                                margin-bottom: 0em;
+                                font-size: 18px;
+                            }
+
+                            .selectccoverlay .ccbrowsercontainer {
+                                width: 545px;
+                                height: 210px;
+                                padding: 5px 0px;
+                                margin-left: 33px;
+                            }
+
+                            .selectccoverlay .voiceselectorwidget {
+                                margin-left: 92px;
+                            }
+
+                            .selectccoverlay .ccbrowsercontainer .leftarrow,
+                            .rightarrow {
+                                position: relative;
+                                margin-left: auto;
+                                margin-right: auto;
+                                top: 72px;
+                                width: 11px;
+                                height: 28px;
+                            }
+
+                            .selectccoverlay .ccbrowsercontainer .leftarrow {
+                                background: url('/web/20191027000220im_/http://vyondhoster.000webhostapp.com/static/go/img/script2cartoon/voiceselectionwidget/btn_arrow_l.png') no-repeat 0px 0px;
+                                cursor: pointer;
+                            }
+
+                            .selectccoverlay .ccbrowsercontainer .disabled .leftarrow {
+                                background: none;
+                                cursor: default;
+                            }
+
+                            .selectccoverlay .ccbrowsercontainer .disabled .leftarrow:hover {
+                                background: none;
+                                cursor: default;
+                            }
+
+                            .selectccoverlay .ccbrowsercontainer .leftarrow:hover {
+                                background: url('/web/20191027000220im_/http://vyondhoster.000webhostapp.com/static/go/img/script2cartoon/voiceselectionwidget/btn_arrow_l.png') no-repeat 0px -28px;
+                            }
+
+                            .selectccoverlay .ccbrowsercontainer .rightarrow {
+                                background: url('/web/20191027000220im_/http://vyondhoster.000webhostapp.com/static/go/img/script2cartoon/voiceselectionwidget/btn_arrow_r.png') no-repeat 0px 0px;
+                                cursor: pointer;
+                            }
+
+                            .selectccoverlay .ccbrowsercontainer .disabled .rightarrow {
+                                background: none;
+                                cursor: default;
+                            }
+
+                            .selectccoverlay .ccbrowsercontainer .disabled .rightarrow:hover {
+                                background: none;
+                                cursor: default;
+                            }
+
+                            .selectccoverlay .ccbrowsercontainer .rightarrow:hover {
+                                background: url('/web/20191027000220im_/http://vyondhoster.000webhostapp.com/static/go/img/script2cartoon/voiceselectionwidget/btn_arrow_r.png') no-repeat 0px -28px;
+                            }
+
+                            .selectccoverlay .ccbrowsercontainer .leftarrowcontainer {
+                                float: left;
+                                height: 175px;
+                                width: 25px;
+                                margin-right: 10px;
+                            }
+
+                            .selectccoverlay .ccbrowsercontainer .rightarrowcontainer {
+                                float: right;
+                                height: 175px;
+                                width: 25px;
+                                margin-left: 5px;
+                            }
+
+                            .selectccoverlay .ccbrowsercontainer .selectedcc {
+                                border-width: 3px;
+                                border-style: solid;
+                                border-color: #999999 !important;
+                            }
+
+                            .selectccoverlay .ccbrowsercontainer .cc {
+                                overflow: hidden;
+                                position: relative;
+                                border-radius: 5px;
+                                -moz-border-radius: 5px;
+                                -webkit-border-radius: 5px;
+                                background-color: #dddddd;
+                                width: 85px;
+                                height: 85px;
+                                float: left;
+                                margin-right: 5px;
+                                margin-bottom: 5px;
+                                border-width: 3px;
+                                border-color: #dddddd;
+                                border-style: solid;
+                            }
+
+                            .selectccoverlay .ccbrowsercontainer .cc.enabled {
+                                cursor: pointer;
+                            }
+
+                            .selectccoverlay .ccbrowsercontainer .cc.enabled:hover {
+                                background-color: #eeeeee;
+                                border-color: #eeeeee;
+                            }
+
+                            .selectccoverlay .ccbrowsercontainer .cc img {
+                                position: absolute;
+                            }
+
+                            .selectccoverlay .pagenumdisplay {
+                                text-align: center;
+                                margin-bottom: 1em;
+                                clear: both;
+                                font-size: 14px;
+                                font-weight: bold;
+                                color: #aaaaaa;
+                            }
+
+                            .selectccoverlay a.bottomcancel {
+                                float: left;
+                                text-align: center;
+                                margin: 30px auto;
+                                display: block;
+                                color: #666666;
+                                font-size: 16px;
+                                font-weight: bold;
+                                text-decoration: none;
+                            }
+
+                            .selectccoverlay a.bottomcancel:hover {
+                                color: #777777;
+                                text-decoration: none;
+                            }
+                        </style>
+
+                        <div class="ccbrowsercontainer">
+                            <div class="leftarrowcontainer">
+                                <div class="leftarrow"></div>
+                            </div>
+                            <div class="rightarrowcontainer">
+                                <div class="rightarrow"></div>
+                            </div>
+                            <div class="cc"></div>
+                            <div class="cc"></div>
+                            <div class="cc"></div>
+                            <div class="cc"></div>
+                            <div class="cc"></div>
+                            <div class="cc"></div>
+                            <div class="cc"></div>
+                            <div class="cc"></div>
+                            <div class="cc"></div>
+                            <div class="cc"></div>
+                            <div class="pagenumdisplay"></div>
+                        </div>
+
+                        <h2>2. Select a voice for your character:</h2>
+                        <script type="text/javascript">
+                        var isRunning = false;
+                        var getTTS = function () {
+                        isRunning = true;
+                                     jQuery.ajax({
+                                    url: '/ajax/getTTSList',
+                                     type: 'POST',
+                                    data: { cc_theme_id: 'family', tags: '' },
+                                    dataType: 'json',
+                                    success: function(data, dummy1, dummy2) {
+                                    lang_model = data;
+                                    }
+                        });
+                        }
+                            var VoiceCatalog = (function () {
+                            if (lang_model === undefined && isRunning == false) getTTS();
+
+                                return {
+                                    getModel: function () {
+                                        return lang_model;
+                                    },
+                                    lookupVoiceInfo: function (voice_id) {
+                                        for (var langId in lang_model) {
+                                            var voice_count = lang_model[langId]['options'].length;
+                                            for (var i = 0; i < voice_count; i++) {
+                                                if (lang_model[langId]['options'][i].id == voice_id) {
+                                                    return {
+                                                        desc: lang_model[langId]['options'][i].desc,
+                                                        sex: lang_model[langId]['options'][i].sex,
+                                                        plus: lang_model[langId]['options'][i].plus,
+                                                        locale: { id: langId, lang: lang_model[langId]['options'][i].lang, country: lang_model[langId]['options'][i].country, desc: lang_model[langId].desc }
+                                                    };
+                                                }
+                                            }
+                                        }
+                                        return null;
+                                    },
+                                    getDefaultVoice: function () {
+                                        for (var langId in lang_model) {
+                                            var voice_count = lang_model[langId]['options'].length;
+                                            for (var i = 0; i < voice_count; i++) {
+                                                if (typeof lang_model[langId]['options'][i].id === 'string') {
+                                                    return lang_model[langId]['options'][i].id;
+                                                }
+                                            }
+                                        }
+                                        return null;
+                                    }
+                                };
+                            })();
+                        </script>
+                        <div class="voiceselectorwidget">
+                            <div class="voiceselector">
+                            </div>
+                            <!-- Templates -->
+                            <div class="templates" style="display: none">
+                                <!-- Voice list -->
+                                <div class="categorytab">
+                                    <div class="flag" title="Language"></div>
+                                    <div class="masteroptionscontainer">
+                                        <div class="optionscontainer">
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- Voice option -->
+                                <div class="option">
+                                    <div class="cflag"></div>
+                                    <div class="sex"></div>
+                                    <span class="desc"></span>
+                                    <span class="plus"> (Premium account only)</span>
+                                    <div class="playercontrol">
+                                        <div class="button play"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="jplayer"></div>
+                        </div>
+                        <div style="overflow: auto; padding-left: 135px;">
+                            <a href="javascript:;" class="buttonbase buttonorange" id="voiceselect_confirm"
+                                style="margin:15px auto;float:left;display:block;">
+                                <div class="buttontitle">Confirm</div>
+                            </a>
+                            <a href="javascript:;" class="buttonbase buttonblue dark" id="voiceselect_plusupgrade"
+                                style="margin:15px auto;float:left;display:none;">
+                                <div class="buttontitle">Upgrade Now</div>
+                            </a>
+                            <a href="#" onclick="jQuery.unblockUI();return false;" class="bottomcancel">
+                                <div style="width: 180px">Cancel</div>
+                            </a>
+                        </div>
+                        <a onclick="jQuery.unblockUI()" class="close_btn">×</a>
+                    </div>
+                </div>
+                <div class="selectvoiceoverlay lightbox" style="display:none">
+                    <div class="lightbox_wrapper">
+
+                        <style type="text/css">
+                            .selectvoiceoverlay {
+                                width: 550px;
+                            }
+
+                            .selectvoiceoverlay h2 {
+                                text-align: center;
+                                color: black;
+                                margin-bottom: 0px;
+                                font-size: 18px;
+                                line-height: 20px;
+                            }
+
+                            .selectvoiceoverlay h3 {
+                                text-align: center;
+                                color: #999999;
+                                font-style: oblique;
+                                margin-top: 0px;
+                                margin-bottom: 2em;
+                                font-weight: normal;
+                                font-size: 13px;
+                                line-height: 20px;
+                            }
+
+                            .selectvoiceoverlay .voiceselectorwidget {
+                                margin-left: auto;
+                                margin-right: auto;
+                            }
+
+                            .selectvoiceoverlay a.bottomcancel {
+                                float: left;
+                                text-align: center;
+                                margin: 30px auto;
+                                display: block;
+                                color: #666666;
+                                font-size: 16px;
+                                font-weight: bold;
+                                text-decoration: none;
+                            }
+
+                            .selectvoiceoverlay a.bottomcancel:hover {
+                                color: #777777;
+                                text-decoration: none;
+                            }
+                        </style>
+
+                        <h2>Select a voice for your character</h2>
+                        <h3>This change applies to the whole video</h3>
+                        <script type="text/javascript">
+                        </script>
+                        <div class="voiceselectorwidget">
+                            <div class="voiceselector">
+                            </div>
+                            <!-- Templates -->
+                            <div class="templates" style="display: none">
+                                <!-- Voice list -->
+                                <div class="categorytab">
+                                    <div class="flag" title="Language"></div>
+                                    <div class="masteroptionscontainer">
+                                        <div class="optionscontainer">
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- Voice option -->
+                                <div class="option">
+                                    <div class="cflag"></div>
+                                    <div class="sex"></div>
+                                    <span class="desc"></span>
+                                    <span class="plus"> (Premium account only)</span>
+                                    <div class="playercontrol">
+                                        <div class="button play"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="jplayer"></div>
+                        </div>
+                        <div style="overflow: auto; padding-left: 85px;">
+                            <a href="javascript:;" class="buttonbase buttonorange" id="voiceselectonly_confirm"
+                                style="margin:15px auto;float:left;display:block;">
+                                <div class="buttontitle">Confirm</div>
+                            </a>
+                            <a href="/web/20191027000220/http://vyondhoster.000webhostapp.com/public_features"
+                                class="buttonbase buttonpurple3 dark" id="voiceselectonly_plusupgrade"
+                                style="margin:15px auto;float:left;display:none;">
+                                <div class="buttontitle">Get a quote</div>
+                            </a>
+                            <a href="#" onclick="jQuery.unblockUI();return false;" class="bottomcancel">
+                                <div style="width: 180px">Cancel</div>
+                            </a>
+                        </div>
+                        <a onclick="jQuery.unblockUI()" class="close_btn">×</a>
+                    </div>
+                </div>
+            </div>
+
+            <script id="dialogTmpl" type="text/x-jquery-tmpl">
+    <div class="dialog">
+        <div class="num"></div>
+        <div class="char_thumb">
+            <img src="${thumbURL}" alt="" />
+            <a class="switch">Switch</a>
+            <div class="tips">Switch Actor</div>
+        </div>
+        <div class="box">
+            <div class="dialog_input_wrapper">
+                <textarea class="dialog_input" name="script_text[]"></textarea>
+                <span class="label">Type in or Record Your dialog</span>
+            </div>
+            <div class="counter" style="display:none;"></div>
+            <div class="voice_recorder"></div>
+            <div class="dialog_options">
+                <a class="dialog_switch">Actor<span class="tips">Switch Actor</span></a>
+                {{if hasFacial}}
+                <a class="dialog_facial">Emotion<span class="tips">Switch Emotion</span></a>
+                {{/if}}
+                <div class="langarea">
+                    <div class="lang"></div>
+                    <div class="gender"></div>
+                    Voice                    <div class="tips">Switch Voice</div>
+                </div>
+            </div>
+            <div class="dialog_input_control">
+                <a class="dialog_tts on" data-method="tts"><div class="icon"></div><span class="tips">Text to Speech</span></a>
+                <a class="dialog_mic" data-method="mic"><div class="icon"></div><span class="tips">Voice Recording</span></a>
+            </div>
+            <div class="dialog_control">
+                <a title="Delete" class="dialog_delete">Delete</a>
+                <a title="Insert Line" class="dialog_insert">Insert Line</a>
+            </div>
+        </div>
+    </div>
+</script>
+
+            <a class="btn_next" href="#step3" onclick="stepTo('#step3'); return false;">Next</a>
+            <div class="upgrade" style="display: none;">
+                <a href="javascript:popUpgrade();" class="buttonbase buttonblue dark"
+                    style="margin:0 auto;float:none;display:block;">
+                    <div class="buttontitle">Upgrade Now</div>
+                </a>
+            </div>
+        </div>
+
+        <div id="seperator2"></div>
+
+        <div id="step3" class="section">
+            <h2><span>3. Type in or Record Your dialog</span></h2>
+
+            <a class="previous_step" href="#step2" onclick="stepTo('#step2'); return false;">Back</a>
+
+            <div id="dialog_wrapper">
+                <div id="dialogs">
+                    <div class="dialog focus" data-charid="0" data-facial="neutral">
+                        <div class="num">1</div>
+                        <div class="char_thumb">
+                            <img src="./stock_thumbs/head/2487299.png"
+                                alt="">
+                            <a class="switch">Switch</a>
+                            <div class="tips">Switch Actor</div>
+                        </div>
+                        <div class="box">
+                            <div class="dialog_input_wrapper">
+                                <textarea class="dialog_input" name="script_text[]"></textarea>
+                                <span class="label" style="opacity: 1;">Type in or Record Your dialog</span>
+                            </div>
+                            <div class="counter" style="display: none;">180 characters remaining</div>
+                            <div class="voice_recorder"></div>
+                            <div class="dialog_options">
+                                <a class="dialog_switch">Actor<span class="tips">Switch Actor</span></a>
+                                <a class="dialog_facial">Emotion<span class="tips">Switch Emotion</span></a>
+                                <div class="langarea">
+                                    <div class="lang US"></div>
+                                    <div class="gender M"></div>
+                                    Voice <div class="tips">Switch Voice</div>
+                                </div>
+                            </div>
+                            <div class="dialog_input_control">
+                                <a class="dialog_tts on" data-method="tts">
+                                    <div class="icon"></div><span class="tips">Text to Speech</span>
+                                </a>
+                                <a class="dialog_mic" data-method="mic">
+                                    <div class="icon"></div><span class="tips">Voice Recording</span>
+                                </a>
+                            </div>
+                            <div class="dialog_control">
+                                <a title="Delete" class="dialog_delete">Delete</a>
+                                <a title="Insert Line" class="dialog_insert">Insert Line</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="dialog fake" data-charid="1">
+                        <div class="char_thumb">
+                            <img src="./files/thumbnails/cchead/2132/1352132/51288759.png"
+                                alt="">
+                        </div>
+                        <div class="box">
+                            <div class="dialog_input_wrapper">
+                                <div class="langarea">
+                                </div>
+                                <textarea id="fake_dialog_input" class="dialog_input" name="script_text[]"></textarea>
+                            </div>
+                            <label for="fake_dialog_input" class="dialog_input_message">
+                                <span class="basic" style="display: none;">Add as many as 10 dialog lines for
+                                    free.<br>Upgrade to GoPlus to add up to 20.</span>
+                                <span class="plus">Add up to 20 dialog lines</span>
+                            </label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer">
+                <div class="bottom"></div>
+                <a class="btn_next" onclick="GoLite.preview();stepTo('#step4');">Preview</a>
+
+                <div class="upgrade" style="display: none;">
+                    <a href="javascript:popUpgrade();" class="buttonbase buttonblue dark"
+                        style="margin:0 auto;float:none;display:block;">
+                        <div class="buttontitle">Upgrade Now</div>
+                    </a>
+                </div>
+            </div>
+
+            <div id="facial_expression" class="lightbox" style="display:none">
+                <div class="lightbox_wrapper">
+                    <h2>Choose a facial expression:</h2>
+                    <div id="expression">
+                        Expressions:
+                        <ul id="expression_list">
+                            <li><a data-facial="neutral" class="default selected">Default</a></li>
+                            <li><a data-facial="happy" class="happy">Happy</a></li>
+                            <li><a data-facial="angry" class="angry">Angry</a></li>
+                            <li><a data-facial="sad" class="sad">Sad</a></li>
+                            <li><a data-facial="cry" class="cry">Cry</a></li>
+                        </ul>
+                    </div>
+
+                    <a id="facial_expression_submit" href="javascript:;">Confirm</a>
+                    <a onclick="jQuery.unblockUI();" class="close_btn">×</a>
+                </div>
+            </div>
+
+            <script type="text/javascript">
+                facialExpression.init({
+                    "neutral": "Default",
+                    "happy": "Happy",
+                    "angry": "Angry",
+                    "sad": "Sad",
+                    "cry": "Cry"
+                });
+            </script>
+
+            <div id="dialog_input_change_confirm" class="lightbox confirmbox" style="display:none">
+                <div class="lightbox_wrapper">
+                    <p>Switch Voice Input</p>
+                    <p>The current line of dialog will reset if you switch to a different voice input.</p>
+                    <div class="confirm_buttons">
+                        <a class="action-btn alert" onclick="jQuery.unblockUI();">Proceed</a>
+                        <a class="action-btn disabled" onclick="jQuery.unblockUI();">Cancel</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script type="text/javascript">
+            jQuery('#dialogs .dialog').scriptDialog();
+        </script>
+
+        <div id="seperator3"></div>
+
+        <div id="step4" class="section">
+            <h2>4. Preview Your Video</h2>
+
+            <a class="previous_step" href="#step3" onclick="stepTo('#step3'); return false;">Back</a>
+
+            <div class="inside">
+                <div class="upgrade" style="display:none">
+                    <h3>Upgrade to GoPlus to enable preview and save your video.</h3>
+
+                    <a href="javascript:popUpgrade();" class="buttonbase buttonblue dark" id="btn_upgrade"
+                        style="margin:15px auto;float:none;display:block;">
+                        <div class="buttontitle">Upgrade Now</div>
+                    </a>
+                </div>
+                <div class="generate">
+                    <a class="btn_preview" href="#" onclick="GoLite.preview(); return false;">Generate Preview</a>
+                    <p>You made all the changes you wanted to your video?<br>
+                        Let's see how it looks like then!</p>
+                </div>
+                <div class="loading"></div>
+                <div class="preview" style="display:none">
+                    <div id="player_container">
+                        You can't use GoAnimate because Flash might be disabled. <a
+                            href="https://web.archive.org/web/20191027000220/https://get.adobe.com/flashplayer/">Enable
+                            Flash</a>.
+                    </div>
+                    <a id="btn_save" href="#"
+                        onclick="jQuery(document).trigger('GoLite.stateChange', ['save']); return false;">Save Now</a>
+                </div>
+
+                <div class="save" style="display:none">
+                    <div class="thumbnail">
+                        Choose your thumbnail
+                        <div id="thumb_chooser_container">
+                            You can't use GoAnimate because Flash might be disabled. <a
+                                href="https://web.archive.org/web/20191027000220/https://get.adobe.com/flashplayer/">Enable
+                                Flash</a>.
+                        </div>
+                    </div>
+
+                    <div class="title">
+                        <label for="movie_title">TITLE:</label>
+                        <input type="text" id="movie_title" name="movie_title" value="" maxlength="140"
+                            placeholder="Enter your title here">
+                    </div>
+
+                    <div class="description">
+                        <label for="movie_description">DESCRIPTION:</label>
+                        <textarea id="movie_description" name="movie_description"
+                            placeholder="Enter your description (optional)"></textarea>
+                    </div>
+
+
+                    <div class="clear"></div>
+                    <div class="group_message" style="color:#999999;font-size:19px;padding-top:10px;text-align:center;">
+                        When you are finished with your video, you can post it to a group from the video page.</div>
+                    <div class="buttons">
+                        <a id="btn_publish" href="#" style="font-size:21px;" onclick="GoLite.save(); return false;">Save
+                            and Go To Video Page</a>
+                    </div>
+                    <div class="clear"></div>
+
+                    <a id="back_preview" href="#"
+                        onclick="jQuery(document).trigger('GoLite.stateChange', ['preview']); return false;">&lt; Back
+                        to Preview</a>
+                </div>
+            </div>
+        </div>
+
+        <script type="text/javascript">
+            GoLite.init(2);
+            jQuery('div.character .customlink').addClass('isplus');
+        </script>
+
+        <div id="footer">
+        </div>
+
+    </div>
+
+    <div id="publishing" class="lightbox" style="display:none">
+        <div class="lightbox_wrapper">Publishing ...</div>
+    </div>
+
+
+    <div id="upgrade" class="lightbox" style="display:none">
+        <div class="lightbox_wrapper">
+            <h2>Make animated videos exactly the way you want!</h2>
+            <p>Complete the transaction in the browser window that just opened and confirm below to enable the upgrade.
+            </p>
+            <div>
+                <a href="javascript:;" class="buttonbase buttonorange" id="upgrade_confirm"
+                    style="margin:15px auto;float:none;display:block;">
+                    <div class="buttontitle">Confirm</div>
+                </a>
+            </div>
+            <a class="close_btn">×</a>
+        </div>
+    </div>
+    <script type="text/javascript">
+        jQuery('#upgrade_confirm, #upgrade .close_btn').click(function (e) {
+            e.preventDefault();
+            GoLite.updateUserState(function (userState) {
+                if (userState == 2) reloadCCList();
+            });
+            jQuery.unblockUI();
+        });
+    </script>
+
+    <script type="text/javascript" src="/qvm_files/jquery.swfobject.min.js.gz.js"></script>
+    <script type="text/javascript" src="/qvm_files/jquery.waypoints.min.js.gz.js"></script>
+    <script type="text/javascript" src="/qvm_files/jquery.placeholder.min.js.gz.js"></script>
+    <script type="text/javascript">
+        jQuery.flash.expressInstall = "/static/libs/expressInstall.swf";
+
+        var customCC_model = [];
+        var reloadCCList = function () {
+             jQuery.ajax({
+             url: '/ajax/getCCCharacters',
+             type: 'POST',
+             data: { cc_theme_id: 'family', tags: '' },
+             dataType: 'json',
+             success: function(data, dummy1, dummy2) {
+             customCC_model = jQuery.grep(data, function(cc) { return (cc.head_url && cc.thumb_url); });
+             jQuery('div.character .customlink').addClass('ready');
+             }
+             });
+        };
+
+        (function ($) {
+            $(document).ready(function () {
+                reloadCCList();
+
+                var next = 'step1', prev = '';
+
+                $('#nav_links .next').click(function (e) {
+                    e.preventDefault();
+
+                    next && stepTo('#' + next);
+                });
+                $('#nav_links .prev').click(function (e) {
+                    e.preventDefault();
+
+                    prev && stepTo('#' + prev);
+                });
+
+                $('.section').waypoint({ offset: '50%' });
+
+                $('body').delegate('.section', 'waypoint.reached', function (e, direction) {
+                    var $this = $(this);
+                    var id = $this.attr('id');
+
+                    if (direction == 'up') {
+                        if (id == 'step1') {
+                            next = 'step1';
+                            prev = '';
+                            id = 'intro';
+                        } else if (id == 'step2') {
+                            next = 'step2';
+                            prev = 'intro';
+                            id = 'step1';
+                        } else if (id == 'step3') {
+                            next = 'step3';
+                            prev = 'step1';
+                            id = 'step2';
+                        } else if (id == 'step4') {
+                            next = 'step4';
+                            prev = 'step2';
+                            id = 'step3';
+                        }
+                    } else {
+                        if (id == 'step1') {
+                            next = 'step2';
+                            prev = 'intro';
+                        } else if (id == 'step2') {
+                            next = 'step3';
+                            prev = 'step1';
+                        } else if (id == 'step3') {
+                            next = 'step4';
+                            prev = 'step2';
+                        } else if (id == 'step4') {
+                            next = '';
+                            prev = 'step3';
+                        }
+                    }
+
+                    $('#nav_links').find('li').removeClass('on').end()
+                        .find('.' + id).addClass('on');
+                });
+
+                if ($('#login_bar').length) {
+                    $('#seperator0').waypoint(function (e) {
+                        $('#login_bar').slideDown();
+                    }, { offset: 'bottom-in-view', triggerOnce: true });
+
+                    $(document).bind('user.signup user.login', function (e) {
+                        GoLite.updateUserState(function (userState) {
+                            if (userState == 2) reloadCCList();
+                            $(document).trigger('GoLite.stateChange', ['']);
+                            $('#login_bar').slideUp();
+                            showNotice('You are now logged in to GoAnimate');
+                        });
+                    });
+                }
+
+                jQuery('#movie_title, #movie_description').placeholder();
+            });
+            $(window).load(function () { $('#nav_links').fadeIn(); });
+        })(jQuery);
+    </script>
+
+    <script type="text/javascript">
+        var customCCHeadsBaseUrl = '/char_heads/';
+        var customCCThumbsBaseUrl = '/char_thumbs/';
+
+
+        var goliteEditorMode = 'new';
+
+    </script>
+
+
+
+    <!--
+playback timings (ms):
+  captures_list: 71.632
+  exclusion.robots: 0.247
+  exclusion.robots.policy: 0.229
+  RedisCDXSource: 0.582
+  esindex: 0.011
+  LoadShardBlock: 47.623 (3)
+  PetaboxLoader3.datanode: 85.469 (4)
+  load_resource: 358.356
+  PetaboxLoader3.resolve: 306.734
+-->

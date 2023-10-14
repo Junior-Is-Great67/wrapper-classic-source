@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list version="1.0">
+	<comic file="death.png">Death of a best friend</comic>
+	<comic file="anger.png">Anger at something</comic>
+	<comic file="sneaky.png">Sneaking away</comic>
+	<comic id="hectron" file="fear.png">Fear of something</comic>
+	<comic file="reverse.png">Reverse Phsychology</comic>
+</list>

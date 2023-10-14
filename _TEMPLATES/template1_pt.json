@@ -1,0 +1,28 @@
+{
+    "theme": "pt",
+    "xml": "template1_pt",
+    "hasCC": "Y",
+    "audioOffset": 132,
+    "avater1id": "",
+    "swap":true,
+    "avater2id": "AVATOR109",
+    "hasCam": "Y",
+    "usesSong": "Y",
+    "song":"ugc.72a148e.mp3",
+    "startPos": 3,
+    "char1scene": 4,
+    "char2scene": 3,
+    "char1camscene": 5,
+    "char2camscene": 6,
+    "end": 2,
+    "endPos": 7,
+    "toffset": [
+        2,
+        3,
+        0.5
+    ],
+    "toffset_end": [
+        1,
+        2
+    ]
+}

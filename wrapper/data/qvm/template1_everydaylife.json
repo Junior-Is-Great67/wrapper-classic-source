@@ -1,0 +1,25 @@
+{
+    "theme": "everydaylife",
+    "xml": "template1_everydaylife",
+    "hasCC": "Y",
+    "audioOffset": "132",
+    "char1id": "138cdd8",
+    "char2id": "9cab493",
+    "hasCam": "N",
+    "usesSong": "N",
+    "startPos": "3",
+    "char1scene": "4",
+    "char2scene": "5",
+    "char1camscene": "6",
+    "char2camscene": "7",
+    "end": "8",
+    "toffset": [
+        0.5,
+        2,
+        2
+    ],
+    "toffset_end": [
+        1,
+        2
+    ]
+}

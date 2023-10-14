@@ -1,0 +1,11 @@
+<html>
+		<script src="/pages/js/jquery.js"></script>
+		<script src="/pages/js/global.js"></script>
+	<script>
+	document.cookie = "usrname=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;";
+	document.cookie = "pass=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;";
+	$.post("/api/settings/update", {"setting":"IS_LOGGED_IN","value":"0"})
+	location.replace("http://localhost:4343/");
+	</script>
+
+</html>

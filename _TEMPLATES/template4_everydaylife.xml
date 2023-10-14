@@ -1,0 +1,449 @@
+<film copyable="0" duration="13.5" published="1" pshare="1">
+  <meta>
+    <title><![CDATA[template4]]></title>
+    <tag><![CDATA[school]]></tag>
+    <hiddenTag><![CDATA[]]></hiddenTag>
+    <desc><![CDATA[]]></desc>
+    <mver><![CDATA[4]]></mver>
+    <studio>d7446f28669693f5b7a35d41831e43c3662c48bf</studio>
+    <thumbnail index="0"/>
+    <palette>
+      <color value="333333"/>
+      <color value="999999"/>
+      <color value="fbfbfb"/>
+      <color value="669999"/>
+      <color value="55bbaa"/>
+      <color value="7fbb11"/>
+      <color value="15709b"/>
+      <color value="9a5d1"/>
+      <color value="6ab8d6"/>
+      <color value="da2021"/>
+      <color value="fecd31"/>
+      <color value="28c6c1"/>
+      <color value="37444f"/>
+      <color value="0"/>
+    </palette>
+  </meta>
+  <scene id="SCENE0" adelay="12" lock="Y" index="0" color="16777215" guid="4D06D3D1-0A0B-F522-6C8D-3E15DF662822" combgId="custom.cbg_plane_cockpit">
+    <bg id="cbg_plane_cockpit_BG348" index="0">
+      <file>custom.cockpit_bg.swf</file>
+    </bg>
+    <prop id="cbg_plane_cockpit_PROP123" index="1" attached="Y">
+      <file>custom.msp_cockpit_door.msp_cockpit_door_cockpit_door_close.swf</file>
+      <x>319</x>
+      <y>194</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="cbg_plane_cockpit_PROP125" index="2" attached="Y">
+      <file>custom.cockpit_sit.swf</file>
+      <x>301.1</x>
+      <y>274.1</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="cbg_plane_cockpit_PROP124" index="3" attached="Y">
+      <file>custom.cockpit_front.swf</file>
+      <x>329</x>
+      <y>314</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+    </prop>
+    <effectAsset id="EFFECT1" themecode="common" index="4">
+      <effect x="0" y="0" w="153" h="98.4763636" rotate="0" id="cut" type="ZOOM" isCut="true" isPan="false"/>
+      <x>47</x>
+      <y>117.6618182</y>
+      <width>153</width>
+      <height>98.4763636</height>
+      <speech>0</speech>
+    </effectAsset>
+  </scene>
+  <scene id="SCENE8" adelay="48" lock="Y" index="1" color="16777215" guid="C2B03184-9ECC-623B-4F13-ADD0C520FC6F" combgId="custom.cbg_plane_cockpit">
+    <bg id="cbg_plane_cockpit_BG348" index="0">
+      <file>custom.cockpit_bg.swf</file>
+    </bg>
+    <char id="AVATOR362" index="3" raceCode="1">
+      <action face="1" motionface="1">ugc.b6b96c4.sit.xml</action>
+      <x>377.7685735</x>
+      <y>232.3384464</y>
+      <xscale>1.1382042</xscale>
+      <yscale>1.1382042</yscale>
+      <rotation>0</rotation>
+    </char>
+    <char id="AVATOR360" index="4" raceCode="1">
+      <action face="1" motionface="1">ugc.8d1652a.sit.xml</action>
+      <x>217.3864437</x>
+      <y>211.9232394</y>
+      <xscale>1.1382042</xscale>
+      <yscale>1.1382042</yscale>
+      <rotation>0</rotation>
+    </char>
+    <prop id="cbg_plane_cockpit_PROP123" index="1" attached="Y">
+      <file>custom.msp_cockpit_door.msp_cockpit_door_cockpit_door_close.swf</file>
+      <x>319</x>
+      <y>194</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="cbg_plane_cockpit_PROP125" index="2" attached="Y">
+      <file>custom.cockpit_sit.swf</file>
+      <x>301.1</x>
+      <y>274.1</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="cbg_plane_cockpit_PROP124" index="5" attached="Y">
+      <file>custom.cockpit_front.swf</file>
+      <x>329</x>
+      <y>314</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+    </prop>
+    <effectAsset id="EFFECT1" themecode="common" index="6">
+      <effect x="0" y="0" w="153" h="98.4763636" rotate="0" id="cut" type="ZOOM" isCut="false" isPan="true"/>
+      <x>47,47</x>
+      <y>117.6618182,24</y>
+      <width>153,550</width>
+      <height>98.4763636,354</height>
+      <speech>0</speech>
+    </effectAsset>
+  </scene>
+  <scene id="SCENE3" adelay="24" lock="Y" index="2" color="16777215" guid="E5A4334C-340D-06DB-ABD5-8843ED72B215">
+    <bg id="cbg_plane_cockpit_BG348" index="0">
+      <file>custom.cockpit_bg.swf</file>
+    </bg>
+    <char id="AVATOR362" index="3" raceCode="1">
+      <action face="1" motionface="1">ugc.b6b96c4.sit.xml</action>
+      <x>377.7685735</x>
+      <y>232.3384464</y>
+      <xscale>1.1382042</xscale>
+      <yscale>1.1382042</yscale>
+      <rotation>0</rotation>
+    </char>
+    <char id="AVATOR360" index="4" raceCode="1">
+      <action face="1" motionface="1">ugc.8d1652a.sit.xml</action>
+      <x>217.3864437</x>
+      <y>211.9232394</y>
+      <xscale>1.1382042</xscale>
+      <yscale>1.1382042</yscale>
+      <rotation>0</rotation>
+    </char>
+    <prop id="cbg_plane_cockpit_PROP123" index="1" attached="Y">
+      <file>custom.msp_cockpit_door.msp_cockpit_door_cockpit_door_close.swf</file>
+      <x>319</x>
+      <y>194</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="cbg_plane_cockpit_PROP125" index="2" attached="Y">
+      <file>custom.cockpit_sit.swf</file>
+      <x>301.1</x>
+      <y>274.1</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="cbg_plane_cockpit_PROP124" index="5" attached="Y">
+      <file>custom.cockpit_front.swf</file>
+      <x>329</x>
+      <y>314</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+    </prop>
+    <effectAsset id="EFFECT1" themecode="common" index="6">
+      <effect x="0" y="0" w="550" h="354" rotate="0" id="cut" type="ZOOM" isCut="true" isPan="false"/>
+      <x>47</x>
+      <y>24</y>
+      <width>550</width>
+      <height>354</height>
+      <speech>0</speech>
+    </effectAsset>
+  </scene>
+  <scene id="SCENE5" adelay="48" lock="Y" index="3" color="16777215" guid="AB69A3F0-EEB6-26E5-4091-98A3596DD5CF">
+    <bg id="BG390" index="0">
+      <file>custom.plane_blurred.png</file>
+    </bg>
+    <char id="AVATOR362" index="2" raceCode="1">
+      <action face="1" motionface="1">ugc.b6b96c4.sit.xml</action>
+      <x>377.7685735</x>
+      <y>232.3384464</y>
+      <xscale>1.1382042</xscale>
+      <yscale>1.1382042</yscale>
+      <rotation>0</rotation>
+    </char>
+    <char id="AVATOR360" index="3" raceCode="1">
+      <action face="1" motionface="1">ugc.8d1652a.sit.xml</action>
+      <x>217.3864437</x>
+      <y>211.9232394</y>
+      <xscale>1.1382042</xscale>
+      <yscale>1.1382042</yscale>
+      <rotation>0</rotation>
+    </char>
+    <prop id="cbg_plane_cockpit_PROP125" index="1" attached="Y">
+      <file>custom.cockpit_sit.swf</file>
+      <x>301.1</x>
+      <y>274.1</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="cbg_plane_cockpit_PROP124" index="4" attached="Y">
+      <file>custom.cockpit_front.swf</file>
+      <x>329</x>
+      <y>314</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+    </prop>
+    <effectAsset id="EFFECT1" themecode="common" index="5">
+      <effect x="0" y="0" w="298.7711864" h="192.3" rotate="0" id="cut" type="ZOOM" isCut="true" isPan="false"/>
+      <x>51.3644068</x>
+      <y>83.2</y>
+      <width>298.7711864</width>
+      <height>192.3</height>
+      <speech>0</speech>
+    </effectAsset>
+  </scene>
+  <scene id="SCENE6" adelay="48" lock="Y" index="4" color="16777215" guid="E3232FA9-6112-2598-0784-99B4EADF18A6">
+    <bg id="BG390" index="0">
+      <file>custom.plane_blurred.png</file>
+    </bg>
+    <char id="AVATOR362" index="2" raceCode="1">
+      <action face="1" motionface="1">ugc.b6b96c4.xarms.xml</action>
+      <x>377.8244059</x>
+      <y>253.8172162</y>
+      <xscale>1.1382042</xscale>
+      <yscale>1.1382042</yscale>
+      <rotation>0</rotation>
+    </char>
+    <char id="AVATOR360" index="3" raceCode="1">
+      <action face="1" motionface="1">ugc.8d1652a.sit.xml</action>
+      <x>217.3864437</x>
+      <y>211.9232394</y>
+      <xscale>1.1382042</xscale>
+      <yscale>1.1382042</yscale>
+      <rotation>0</rotation>
+    </char>
+    <prop id="cbg_plane_cockpit_PROP125" index="1" attached="Y">
+      <file>custom.cockpit_sit.swf</file>
+      <x>301.1</x>
+      <y>274.1</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="cbg_plane_cockpit_PROP124" index="4" attached="Y">
+      <file>custom.cockpit_front.swf</file>
+      <x>329</x>
+      <y>314</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+    </prop>
+    <effectAsset id="EFFECT1" themecode="common" index="5">
+      <effect x="0" y="0" w="247.1892655" h="159.1" rotate="0" id="cut" type="ZOOM" isCut="true" isPan="false"/>
+      <x>256.4053672</x>
+      <y>101.45</y>
+      <width>247.1892655</width>
+      <height>159.1</height>
+      <speech>0</speech>
+    </effectAsset>
+  </scene>
+  <scene id="SCENE10" adelay="48" lock="Y" index="5" color="16777215" guid="19DE7BCC-1718-8001-4520-757EA7313D6A">
+    <bg id="cbg_plane_cockpit_BG348" index="0">
+      <file>custom.cockpit_bg.swf</file>
+    </bg>
+    <char id="AVATOR362" index="3" raceCode="1">
+      <action face="1" motionface="1">ugc.b6b96c4.sit.xml</action>
+      <x>377.7685735</x>
+      <y>232.3384464</y>
+      <xscale>1.1382042</xscale>
+      <yscale>1.1382042</yscale>
+      <rotation>0</rotation>
+    </char>
+    <char id="AVATOR360" index="4" raceCode="1">
+      <action face="1" motionface="1">ugc.8d1652a.sit.xml</action>
+      <x>217.3864437</x>
+      <y>211.9232394</y>
+      <xscale>1.1382042</xscale>
+      <yscale>1.1382042</yscale>
+      <rotation>0</rotation>
+    </char>
+    <prop id="cbg_plane_cockpit_PROP123" index="1" attached="Y">
+      <file>custom.msp_cockpit_door.msp_cockpit_door_cockpit_door_close.swf</file>
+      <x>319</x>
+      <y>194</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="cbg_plane_cockpit_PROP125" index="2" attached="Y">
+      <file>custom.cockpit_sit.swf</file>
+      <x>301.1</x>
+      <y>274.1</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="cbg_plane_cockpit_PROP124" index="5" attached="Y">
+      <file>custom.cockpit_front.swf</file>
+      <x>329</x>
+      <y>314</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+    </prop>
+    <effectAsset id="EFFECT1" themecode="common" index="6">
+      <effect x="0" y="0" w="550" h="354" rotate="0" id="cut" type="ZOOM" isCut="true" isPan="false"/>
+      <x>47</x>
+      <y>24</y>
+      <width>550</width>
+      <height>354</height>
+      <speech>0</speech>
+    </effectAsset>
+  </scene>
+  <scene id="SCENE11" adelay="48" lock="Y" index="6" color="16777215" guid="6B29DCF8-3DD1-851F-D02C-FC8D8828CFB7">
+    <bg id="cbg_plane_cockpit_BG348" index="0">
+      <file>custom.cockpit_bg.swf</file>
+    </bg>
+    <char id="AVATOR362" index="3" raceCode="1">
+      <action face="1" motionface="1">ugc.b6b96c4.sit.xml</action>
+      <x>377.7685735</x>
+      <y>232.3384464</y>
+      <xscale>1.1382042</xscale>
+      <yscale>1.1382042</yscale>
+      <rotation>0</rotation>
+    </char>
+    <char id="AVATOR360" index="4" raceCode="1">
+      <action face="1" motionface="1">ugc.8d1652a.sit.xml</action>
+      <x>217.3864437</x>
+      <y>211.9232394</y>
+      <xscale>1.1382042</xscale>
+      <yscale>1.1382042</yscale>
+      <rotation>0</rotation>
+    </char>
+    <prop id="cbg_plane_cockpit_PROP123" index="1" attached="Y">
+      <file>custom.msp_cockpit_door.msp_cockpit_door_cockpit_door_close.swf</file>
+      <x>319</x>
+      <y>194</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="cbg_plane_cockpit_PROP125" index="2" attached="Y">
+      <file>custom.cockpit_sit.swf</file>
+      <x>301.1</x>
+      <y>274.1</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="cbg_plane_cockpit_PROP124" index="5" attached="Y">
+      <file>custom.cockpit_front.swf</file>
+      <x>329</x>
+      <y>314</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+    </prop>
+    <effectAsset id="EFFECT1" themecode="common" index="6">
+      <effect x="0" y="0" w="550" h="354" rotate="0" id="cut" type="ZOOM" isCut="true" isPan="false"/>
+      <x>47</x>
+      <y>24</y>
+      <width>550</width>
+      <height>354</height>
+      <speech>0</speech>
+    </effectAsset>
+  </scene>
+  <scene id="SCENE12" adelay="48" lock="Y" index="7" color="16777215" guid="EF02D047-3F80-7CED-F945-E7F48290E7DD">
+    <bg id="cbg_plane_cockpit_BG348" index="0">
+      <file>custom.cockpit_bg.swf</file>
+    </bg>
+    <char id="AVATOR362" index="3" raceCode="1">
+      <action face="1" motionface="1">ugc.b6b96c4.sit.xml</action>
+      <x>377.7685735</x>
+      <y>232.3384464</y>
+      <xscale>1.1382042</xscale>
+      <yscale>1.1382042</yscale>
+      <rotation>0</rotation>
+    </char>
+    <char id="AVATOR360" index="4" raceCode="1">
+      <action face="1" motionface="1">ugc.8d1652a.sit.xml</action>
+      <x>217.3864437</x>
+      <y>211.9232394</y>
+      <xscale>1.1382042</xscale>
+      <yscale>1.1382042</yscale>
+      <rotation>0</rotation>
+    </char>
+    <prop id="cbg_plane_cockpit_PROP123" index="1" attached="Y">
+      <file>custom.msp_cockpit_door.msp_cockpit_door_cockpit_door_close.swf</file>
+      <x>319</x>
+      <y>194</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="cbg_plane_cockpit_PROP125" index="2" attached="Y">
+      <file>custom.cockpit_sit.swf</file>
+      <x>301.1</x>
+      <y>274.1</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="cbg_plane_cockpit_PROP124" index="5" attached="Y">
+      <file>custom.cockpit_front.swf</file>
+      <x>329</x>
+      <y>314</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+    </prop>
+    <effectAsset id="EFFECT14" index="6">
+      <effect id="fade_out.swf" type="ANIME"/>
+      <x>47</x>
+      <y>24</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <file>common.fade_out.swf</file>
+    </effectAsset>
+    <effectAsset id="EFFECT1" themecode="common" index="7">
+      <effect x="0" y="0" w="550" h="354" rotate="0" id="cut" type="ZOOM" isCut="true" isPan="false"/>
+      <x>47</x>
+      <y>24</y>
+      <width>550</width>
+      <height>354</height>
+      <speech>0</speech>
+    </effectAsset>
+  </scene>
+</film>

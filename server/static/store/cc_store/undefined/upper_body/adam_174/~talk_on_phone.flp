@@ -1,0 +1,5 @@
+﻿<flash_project name="~talk_on_phone" version="1">
+	<project_file path="./~talk_on_phone.fla" filetype="fla" profile="" def_file="true"/>
+	<project_file path="./talk_on_phone_fla/MainTimeline.as" filetype="as"/>
+	<project_file path="./talk_on_phone_fla/theUpper_1.as" filetype="as"/>
+</flash_project>

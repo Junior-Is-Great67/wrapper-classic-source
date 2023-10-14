@@ -1,0 +1,11 @@
+﻿<flash_project name="yawn" version="1">
+	<project_file path="./yawn.fla" filetype="fla" profile="" def_file="true"/>
+	<project_file path="./eyeLeft.as" filetype="as"/>
+	<project_file path="./eyeLeft_Cam.as" filetype="as"/>
+	<project_file path="./eyeRight.as" filetype="as"/>
+	<project_file path="./eyeRight_Cam.as" filetype="as"/>
+	<project_file path="./yawn_fla/eyeL_11.as" filetype="as"/>
+	<project_file path="./yawn_fla/eyeL_24.as" filetype="as"/>
+	<project_file path="./yawn_fla/eyeR_15.as" filetype="as"/>
+	<project_file path="./yawn_fla/eyeR_2.as" filetype="as"/>
+</flash_project>

@@ -1,0 +1,5 @@
+﻿<flash_project name="~walk" version="1">
+	<project_file path="./~walk.fla" filetype="fla" profile="" def_file="true"/>
+	<project_file path="./walk_fla/MainTimeline.as" filetype="as"/>
+	<project_file path="./walk_fla/theUpper_1.as" filetype="as"/>
+</flash_project>

@@ -1,0 +1,16 @@
+{
+"theme":"life",
+"xml":"template1_life",
+"hasCC":"Y",
+"audioOffset":"132",
+"char1id":"movie char id",
+"char2id":"movie char 2 id",
+"hasCam":"N",
+"usesSong":"N",
+"startPos":"3",
+"char1scene":"4",
+"char2scene":"5",
+"char1camscene":"6",
+"char2camscene":"7",
+"end":"6"
+}

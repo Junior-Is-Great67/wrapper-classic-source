@@ -1,0 +1,16 @@
+New updates
+
+New assets
+-4 new ears
+-6 new eyes
+-12 new face decorations
+-10 new face shapes
+-30 new hair styles
+-6 new lower body clothes; 2 for Adam, 3 for Eve, 1 for Rocky
+-4 new moustaches
+-5 new noses
+-13 new upper body clothes; 9 for Adam, 3 for Eve, 1 for Rocky
+
+Replaced traced versions of some assets with their original ones
+
+Significant fixes in some assets, especially in some broken actions

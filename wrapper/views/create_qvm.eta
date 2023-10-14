@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8"/>
+		<link rel="icon" href="/favicon.ico" type="image/png"/>
+		<title>Create - Wrapper: Offline</title>
+		<meta name="description" content="Wrapper: Offline's create page"/>
+		<link rel="stylesheet" type="text/css" href="/pages/css/global.css">
+		<link rel="stylesheet" type="text/css" href="/pages/css/create.css">
+		<script src="/pages/js/jquery.js"></script>
+		<script src="/pages/js/global.js"></script>
+	</head>
+
+	<body>
+		<%~ includeFile("./includes/header", { env: it.env }) %>
+
+		<main>
+			<h1>Select a QVM template</h1>
+
+			<div class="theme" data-has-cc>
+				<a href="#" onclick="redirect('bar')">
+					<img src="/pages/img/themes/pizza.png" alt="Pizza Tower">
+					In Peppinos Pizzeria
+				</a>
+			</div>
+			
+			<div class="theme" data-has-cc>
+				<a href="#" onclick="redirect('life')">
+					<img src="/pages/img/themes/custom.jpg" alt="Comedy world">
+					Slices of life
+				</a>
+			</div>
+			<div class="theme">
+				<a href="#" onclick="redirect('michigan')">
+					<img src="/pages/img/themes/dea.jpg" alt="Diamond eric">
+					Michigan 🥰
+				</a>
+			</div>
+		</main>
+
+		<%~ includeFile("./includes/footer", { env: it.env }) %>
+	</body>
+
+	<script>
+		// filter the list
+		const params = new URLSearchParams(window.location.search);
+		// default to all themes
+		const filter = params.get("filter") || "vl";
+		if (filter == "cc")
+			$(".theme").not("[data-has-cc]").hide();
+
+		function redirect(tId, ccId = false) {
+			if (filter == "cc") {
+				window.location.href = `./cc_browser?themeId=${ccId}`;
+				return;
+			}
+			window.location.href = `./qvm?theme=${tId}`;
+		}
+
+	</script>
+
+</html>

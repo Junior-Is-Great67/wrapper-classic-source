@@ -1,0 +1,2338 @@
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+
+* html .clearfix {
+  zoom: 1;
+}
+
+*:first-child+html .clearfix {
+  zoom: 1;
+}
+
+:focus {
+  outline: 0;
+}
+
+html {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0 auto;
+  background-color: #ccc;
+  font: 12px Trebuchet MS, Tahoma, sans-serif;
+}
+
+img {
+  border: none;
+}
+
+p {
+  margin: 0 0 8px 0;
+  padding: 0;
+}
+
+textarea {
+  font-family: Trebuchet MS, Tahoma, sans-serif;
+}
+
+p.contest {
+  margin: 0 100px 0 20px;
+}
+
+div.container {
+  margin: 0 auto;
+  width: 960px;
+  background-color: white;
+  position: relative;
+  z-index: 0;
+}
+
+a {
+  color: #1b619b;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+a:hover,
+a:active {
+  color: #7bb1de;
+  text-decoration: none;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+ol {
+  margin: 0;
+  padding: 0;
+}
+
+.browse ul li,
+.lang_filter ul li,
+.sharing_buttons ul li {
+  display: block;
+  float: left;
+  margin: 0;
+  padding: 0;
+}
+
+hr {
+  margin-top: 15px;
+  width: 100%;
+  border: none;
+  height: 1px;
+  background-color: gray;
+}
+
+div.rating {
+  float: left;
+  height: 18px;
+  overflow: hidden;
+}
+
+.time {
+  color: #5ba5be;
+}
+
+.count {
+  font-size: 10px;
+  color: #6f6f6f;
+  font-weight: bold;
+}
+
+div.left {
+  float: left;
+  width: 550px;
+  margin-bottom: 50px;
+}
+
+div.right {
+  float: left;
+  width: 350px;
+  margin: 0 0 50px 18px;
+}
+
+div.header {
+  background-color: #ccc;
+  width: 960px;
+  height: 80px;
+  position: relative;
+}
+
+#header_underlay {
+  display: none;
+}
+
+div.logo {
+  position: absolute;
+  top: 18px;
+  left: 18px;
+}
+
+#gologo {
+  display: block;
+}
+
+#gologo img {
+  vertical-align: top;
+}
+
+#headertopnavmenu {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 700px;
+  z-index: 10;
+}
+
+#headertopnavmenu a {
+  color: #fff;
+  font-weight: bold;
+}
+
+#headertopnavmenu a:hover {
+  color: #ff7000;
+  text-decoration: underline;
+}
+
+.header_block {
+  color: #fff;
+  float: right;
+  margin-left: 10px;
+}
+
+#top_nav {
+  background-color: #333;
+  list-style: none;
+  -webkit-border-radius: 0 0 5px 5px;
+  -moz-border-radius: 0 0 5px 5px;
+  border-radius: 0 0 5px 5px;
+}
+
+#top_nav .top_nav_item {
+  float: left;
+  padding: 10px 0;
+  position: relative;
+}
+
+#top_nav .top_nav_item a {
+  display: block;
+  height: 14px;
+  line-height: 14px;
+  padding: 0 15px;
+  border-right: 2px solid #666;
+}
+
+* html #top_nav .top_nav_item a {
+  display: inline-block;
+}
+
+
+
+
+
+
+
+#qvm_nav {
+  background-color: #5ba5be;
+  list-style: none;
+  -webkit-border-radius: 0 0 5px 5px;
+  -moz-border-radius: 0 0 5px 5px;
+  border-radius: 0 0 5px 5px;
+}
+
+#qvm_nav .qvm_nav_item {
+  float: left;
+  padding: 10px 0;
+  position: relative;
+}
+
+#qvm_nav .qvm_nav_item a {
+  display: block;
+  height: 14px;
+  line-height: 14px;
+  padding: 0 15px;
+  border-right: 2px solid #666;
+}
+
+* html #qvm_nav .qvm_nav_item a {
+  display: inline-block;
+}
+
+#qvm_nav .qvm_nav_submenu {
+  display: none;
+  background-color: #244650;
+  margin: 0;
+  padding: 5px 0;
+  float: left;
+  list-style: none;
+  position: absolute;
+  top: 34px;
+  left: 0;
+  text-align: center;
+  width: 125px;
+  -webkit-border-radius: 0 0 5px 5px;
+  -moz-border-radius: 0 0 5px 5px;
+  border-radius: 0 0 5px 5px;
+}
+
+* html #qvm_nav .qvm_nav_submenu {
+  top: 38px;
+  width: 110px;
+}
+
+#qvm_nav li:hover ul,
+#qvm_nav li.hover ul {
+  display: block;
+}
+
+#qvm_nav .qvm_nav_submenu li {
+  background-color: #244650;
+  padding: 0 10px;
+  display: block;
+  float: none;
+}
+
+#qvm_nav .qvm_nav_submenu li.first {
+  position: relative;
+}
+
+#qvm_nav .qvm_nav_submenu li .arrow {
+  background: transparent url(/web/20110610193205im_/http://lightspeed.goanimate.com/static/210/go/img/header/arrow_nav_dropdown.gif) no-repeat 0 0;
+  position: absolute;
+  top: -12px;
+  left: 15px;
+  height: 7px;
+  width: 14px;
+}
+
+#qvm_nav .search ul {
+  left: auto;
+  right: 0;
+  width: 150px;
+}
+
+#qvm_nav_search_icon {
+  background: transparent url(/web/20110610193205im_/http://lightspeed.goanimate.com/static/210/go/img/header/img_magnifier.gif) no-repeat 0 0;
+  height: 19px;
+  width: 19px;
+  margin-top: -4px;
+}
+
+#qvm_nav_search_icon:hover {
+  background-position: 0 -19px;
+}
+
+#qvm_nav .plus {
+  background-color: #5ba5be;
+  -webkit-border-radius: 0 0 5px;
+  -moz-border-radius: 0 0 5px 0;
+  border-radius: 0 0 5px 0;
+}
+
+#qvm_nav .search a,
+#qvm_nav .plus a {
+  border: none;
+}
+
+#qvm_nav .qvm_nav_submenu a {
+  display: block;
+  padding: 4px 0;
+  border: none;
+  text-align: left;
+}
+
+* html #qvm_nav .qvm_nav_submenu a {
+  display: block;
+  padding: 4px 0;
+  border: none;
+  text-align: left;
+}
+
+#qvm_nav a.alert {
+  color: #dc143c;
+}
+
+
+#top_nav .top_nav_submenu {
+  display: none;
+  background-color: #244650;
+  margin: 0;
+  padding: 5px 0;
+  float: left;
+  list-style: none;
+  position: absolute;
+  top: 34px;
+  left: 0;
+  text-align: center;
+  width: 125px;
+  -webkit-border-radius: 0 0 5px 5px;
+  -moz-border-radius: 0 0 5px 5px;
+  border-radius: 0 0 5px 5px;
+}
+
+* html #top_nav .top_nav_submenu {
+  top: 38px;
+  width: 110px;
+}
+
+#top_nav li:hover ul,
+#top_nav li.hover ul {
+  display: block;
+}
+
+#top_nav .top_nav_submenu li {
+  background-color: #244650;
+  padding: 0 10px;
+  display: block;
+  float: none;
+}
+
+#top_nav .top_nav_submenu li.first {
+  position: relative;
+}
+
+#top_nav .top_nav_submenu li .arrow {
+  background: transparent url(/web/20110610193205im_/http://lightspeed.goanimate.com/static/210/go/img/header/arrow_nav_dropdown.gif) no-repeat 0 0;
+  position: absolute;
+  top: -12px;
+  left: 15px;
+  height: 7px;
+  width: 14px;
+}
+
+#top_nav .search ul {
+  left: auto;
+  right: 0;
+  width: 150px;
+}
+
+#top_nav_search_icon {
+  background: transparent url(/web/20110610193205im_/http://lightspeed.goanimate.com/static/210/go/img/header/img_magnifier.gif) no-repeat 0 0;
+  height: 19px;
+  width: 19px;
+  margin-top: -4px;
+}
+
+#top_nav_search_icon:hover {
+  background-position: 0 -19px;
+}
+
+#top_nav .plus {
+  background-color: #5ba5be;
+  -webkit-border-radius: 0 0 5px;
+  -moz-border-radius: 0 0 5px 0;
+  border-radius: 0 0 5px 0;
+}
+#top_nav .create {
+  background-color: #5ba5be;
+}
+
+#top_nav .search a,
+#top_nav .plus a {
+  border: none;
+}
+
+#top_nav .top_nav_submenu a {
+  display: block;
+  padding: 4px 0;
+  border: none;
+  text-align: left;
+}
+
+* html #top_nav .top_nav_submenu a {
+  display: block;
+  padding: 4px 0;
+  border: none;
+  text-align: left;
+}
+
+#top_nav a.alert {
+  color: #dc143c;
+}
+
+#header_links {
+  padding: 8px 0;
+}
+
+#header_links a {
+  color: #333;
+}
+
+#header_fb_connect {
+  background: transparent url(/web/20110610193205im_/http://lightspeed.goanimate.com/static/210/go/img/fb/ico_fb.gif) no-repeat 0 center;
+  padding-left: 18px;
+}
+
+#header_google_login {
+  background: transparent url(/web/20110610193205im_/http://lightspeed.goanimate.com/static/210/go/img/common/ico_google.gif) no-repeat 0 center;
+  padding-left: 18px;
+}
+
+#top_nav_points,
+#top_nav_bucks {
+  background-color: #a0a0a0;
+  border: 1px solid #fff;
+  color: #fff;
+  float: left;
+  font-size: 14px;
+  position: relative;
+  padding: 0 6px 0 14px;
+  margin: 8px 0 0 18px;
+  height: 16px;
+  line-height: 16px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+}
+
+#top_nav_points .icon,
+#top_nav_bucks .icon {
+  background: transparent url(/web/20110610193205im_/http://lightspeed.goanimate.com/static/210/go/img/dashboard/ico_point.png) no-repeat 0 0;
+  position: absolute;
+  top: -4px;
+  left: -15px;
+  height: 24px;
+  width: 24px;
+}
+
+#top_nav_bucks .icon {
+  background-position: 0 -96px;
+}
+
+#searchForm {
+  margin: 0;
+  padding: 0;
+}
+
+#criteria {
+  border: none;
+  color: #fff;
+  background-color: #15333d;
+  padding: 5px;
+  margin: 5px 0;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  width: 120px;
+}
+
+div.header_shadow {
+  height: 10px;
+  width: 960px;
+  background: transparent url(/web/20110610193205im_/http://lightspeed.goanimate.com/static/210/go/img/header/img_top_rc.png) no-repeat 0 0;
+}
+
+#feedback_block {
+  padding: 5px 14px 0;
+}
+
+#feedback_block div {
+  padding: 5px;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+#feedback_block div.info {
+  color: #576B9D;
+  background-color: #EAEDF5;
+  border: 1px #576B9D solid;
+}
+
+#feedback_block div.error {
+  color: #C03;
+  background-color: #F0DCE1;
+  border: 1px #C03 solid;
+}
+
+#header_alert {
+  background-color: #244650;
+  padding: 5px;
+  position: absolute;
+  bottom: 0;
+  right: 15px;
+  -webkit-border-radius: 5px 5px 0 0;
+  -moz-border-radius: 5px 5px 0 0;
+  border-radius: 5px 5px 0 0;
+}
+
+#header_alert a {
+  color: #fff;
+  font-weight: bold;
+  margin: 0 5px;
+  padding-left: 25px;
+}
+
+#header_alert a:hover {
+  text-decoration: underline;
+}
+
+#header_new_badge {
+  background: transparent url(/web/20110610193205im_/http://lightspeed.goanimate.com/static/210/go/img/common/icon_new_badge.png) no-repeat center left;
+}
+
+#header_new_message {
+  background: transparent url(/web/20110610193205im_/http://lightspeed.goanimate.com/static/210/go/img/common/icon_new_msg.png) no-repeat center left;
+}
+
+.roundtop {
+  -webkit-border-radius: 10px 10px 0 0;
+  -moz-border-radius: 10px 10px 0 0;
+  border-radius: 10px 10px 0 0;
+}
+
+div.content {
+  background-color: transparent;
+  clear: both;
+  width: 880px;
+  margin: 10px 50px 50px 30px;
+  position: relative;
+  z-index: 0;
+}
+
+h1 {
+  font-size: 18px;
+  color: gray;
+  margin: 0 0 10px 0;
+  padding: 0;
+}
+
+h2 {
+  font-size: 16px;
+  color: gray;
+  margin: 0 0 10px 0;
+  padding: 0;
+}
+
+h3 {
+  font-size: 16px;
+  color: gray;
+  margin: 0 0 10px 0;
+  padding: 0;
+}
+
+h1 a:link,
+h1 a:visited,
+h1 a:hover,
+h1 a:active {
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
+}
+
+div.tabcontainer {
+  padding: 0;
+}
+
+div.tabcontainer ul {
+  list-style-type: none;
+}
+
+div.tabcontainer li {
+  float: left;
+  font-size: 14px;
+  font-weight: bold;
+  width: 24%;
+  padding: 0;
+  margin: 0 1% 0 0;
+}
+
+div.tabactive,
+div.tabinactive {
+  background-color: #fff;
+  color: #165b8a;
+  cursor: pointer;
+  text-align: center;
+  -webkit-border-radius: 5px 5px 0 0;
+  -moz-border-radius: 5px 5px 0 0;
+  border-radius: 5px 5px 0 0;
+}
+
+div.tabinactive {
+  background-color: #666;
+  color: #fff;
+}
+
+div.tabactive div.tabc,
+div.tabinactive div.tabc {
+  padding: 5px 0;
+}
+
+div.tabinactive a {
+  color: #fff;
+}
+
+div.tabinactive a:hover {
+  color: #165b8a;
+}
+
+div.tabbox {
+  background-color: #fff;
+  padding: 10px 0;
+  position: relative;
+  -webkit-border-radius: 0 0 5px 5px;
+  -moz-border-radius: 0 0 5px 5px;
+  border-radius: 0 0 5px 5px;
+}
+
+div.thumb {
+  float: left;
+  width: 150px;
+  margin: 0 5px 10px;
+}
+
+div.thumb a {
+  font-size: 14px;
+}
+
+div.thumb div span {
+  float: right;
+  margin-right: 10px;
+}
+
+div.movie_thumb {
+  float: left;
+  height: 97px;
+  width: 150px;
+  position: relative;
+}
+
+div.movie_thumb div.movie_overlay_status {
+  width: 150px;
+  bottom: 0;
+  position: absolute;
+  background-color: #800;
+  color: #fff;
+  font-weight: bold;
+  text-align: center;
+}
+
+div.movie_thumb div.movie_overlay_status_private {
+  background-color: #ffa200;
+}
+
+div.movie_thumb div.movie_overlay_status_public {
+  background-color: #0094ff;
+}
+
+div.movie_thumb div.movie_overlay_status_draft {
+  background-color: #a0a0a0;
+}
+
+div.movie_thumb div.movie_overlay_status_processing {
+  background-color: #a0a0a0;
+}
+
+div.movie_overlay_frame {
+  z-index: 15;
+  width: 150px;
+  height: 97px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+div.user_thumb {
+  float: left;
+  height: 90px;
+  width: 90px;
+}
+
+div.thumb_title {
+  height: 26px;
+  line-height: 26px;
+  overflow: hidden;
+}
+
+div.thumb_author {
+  height: 16px;
+  line-height: 16px;
+  overflow: hidden;
+}
+
+div.page_nav {
+  clear: both;
+  text-align: center;
+  padding-top: 10px;
+  font-size: 14px;
+}
+
+div.page_nav span {
+  display: block;
+  margin: 0 5px;
+}
+
+div.page_nav span.next a:link,
+div.page_nav span.next a:visited {
+  padding-right: 20px;
+  margin-right: 20px;
+  background: url(/web/20110610193205im_/http://lightspeed.goanimate.com/static/210/go/img/v2/btn_arrow_next.gif) right top no-repeat;
+  float: right;
+}
+
+div.page_nav span.next a:hover,
+div.page_nav span.next a:active {
+  background: url(/web/20110610193205im_/http://lightspeed.goanimate.com/static/210/go/img/v2/btn_arrow_next.gif) right -20px no-repeat;
+}
+
+div.page_nav span.prev a:link,
+div.page_nav span.prev a:visited {
+  padding-left: 20px;
+  background: url(/web/20110610193205im_/http://lightspeed.goanimate.com/static/210/go/img/v2/btn_arrow_prev.gif) left top no-repeat;
+  float: left;
+}
+
+div.page_nav span.prev a:hover,
+div.page_nav span.prev a:active {
+  background: url(/web/20110610193205im_/http://lightspeed.goanimate.com/static/210/go/img/v2/btn_arrow_prev.gif) left -20px no-repeat;
+}
+
+div.calltoaction {
+  float: left;
+  clear: both;
+  width: 100%;
+  padding-bottom: 15px;
+}
+
+div.create_action {
+  padding-left: 345px;
+  width: 190px;
+}
+
+div.create_action a:link,
+div.create_action a:visited {
+  display: block;
+  float: left;
+  width: 190px;
+  height: 65px;
+  background: url(/web/20110610193205im_/http://lightspeed.goanimate.com/static/210/go/img/v2/btn_create_02.gif) left top no-repeat;
+}
+
+div.create_action a:hover,
+div.create_action a:active {
+  background: url(/web/20110610193205im_/http://lightspeed.goanimate.com/static/210/go/img/v2/btn_create_02.gif) left -65px no-repeat;
+}
+
+div.signup_action {
+  padding-left: 345px;
+  width: 190px;
+}
+
+div.signup_action a:link,
+div.signup_action a:visited {
+  display: block;
+  float: left;
+  width: 190px;
+  height: 65px;
+  background: url(/web/20110610193205im_/http://lightspeed.goanimate.com/static/210/go/img/v2/btn_sign_up_02.gif) left top no-repeat;
+}
+
+div.signup_action a:hover,
+div.signup_action a:active {
+  background: url(/web/20110610193205im_/http://lightspeed.goanimate.com/static/210/go/img/v2/btn_sign_up_02.gif) left -65px no-repeat;
+}
+
+div.footer {
+  clear: both;
+  width: 100%;
+  background-color: #B5B5B5;
+  border-top: 2px solid #909090;
+  padding: 20px 0;
+  position: relative;
+}
+
+#footernav {
+  margin: 0 auto;
+  width: 900px;
+}
+
+#footernav .col {
+  border-right: 1px solid #999;
+  float: left;
+  padding: 10px 0 0;
+  text-align: center;
+  width: 220px;
+}
+
+#footernav .col.last {
+  background-color: #f3f3f3;
+  border: none;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+}
+
+#footernav h4 {
+  font-size: 16px;
+  font-weight: bold;
+  margin: 0 0 10px 0;
+  padding: 0;
+}
+
+#footernav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+#footernav li {
+  margin: 0 0 10px 0;
+  padding: 0;
+}
+
+.footer_bottom {
+  margin: 0 auto 20px;
+  padding: 15px 0;
+  width: 960px;
+}
+
+.footer_bottom .copyright {
+  color: #606060;
+  font-weight: bold;
+  text-align: right;
+}
+
+#footernav a {
+  color: #383838;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+#footernav a:hover {
+  background-color: #383838;
+  color: white;
+}
+
+div.footerad {
+  width: 960px;
+  clear: both;
+}
+
+.footer_cc_banner {
+  display: block;
+}
+
+.footer_cc_banner img {
+  vertical-align: top;
+}
+
+.signup_left {
+  float: left;
+  width: 510px;
+  margin: 20px 0 50px 0;
+  background: url('/web/20110610193205im_/http://lightspeed.goanimate.com/static/210/go/img/v2/signup_bg.gif') repeat-y left top;
+}
+
+.signup_left .bottompic {
+  float: left;
+  background: url('/web/20110610193205im_/http://lightspeed.goanimate.com/static/210/go/img/v2/signup03.gif') no-repeat left bottom;
+  padding-bottom: 20px;
+}
+
+.signup_left .signup_form {
+  float: left;
+  width: 332px;
+}
+
+.signup_left .leftpic {
+  float: left;
+  display: block;
+  padding-left: 178px;
+  background: url('/web/20110610193205im_/http://lightspeed.goanimate.com/static/210/go/img/v2/signup01.gif') no-repeat left top;
+}
+
+.signup_left .toppic {
+  float: left;
+  padding-top: 145px;
+  background: url('/web/20110610193205im_/http://lightspeed.goanimate.com/static/210/go/img/v2/signup02.gif') no-repeat left top;
+}
+
+.signup_left .signup_form .label {
+  float: left;
+  width: 110px;
+  padding: 4px 0 0 10px;
+  color: #7c7c7c;
+  font-weight: bold;
+  height: 36px;
+}
+
+.signup_left .signup_form .field {
+  float: left;
+  width: 190px;
+  text-align: right;
+  font-size: 10px;
+  color: #9a9a9a;
+  height: 40px;
+}
+
+.signup_right {
+  float: left;
+  width: 335px;
+  margin: 70px 0 50px 30px;
+  color: #7c7c7c;
+  font-size: 14px;
+}
+
+.signup_right ul {
+  margin: 5px 0 15px 25px;
+  line-height: 35px;
+}
+
+.loginbox {
+  padding: 0 20px 15px 20px;
+  background-color: #b5d7f0;
+  color: #7C7C7C;
+  width: 295px;
+  float: left;
+}
+
+.loginbox p {
+  margin-bottom: 0;
+}
+
+.logintitle {
+  padding: 15px 20px 0 20px;
+  background-color: #b5d7f0;
+  color: #7C7C7C;
+  width: 295px;
+  float: left;
+}
+
+.loginbox .label {
+  float: left;
+  width: 80px;
+  padding: 4px 0 0 10px;
+  color: #7c7c7c;
+  font-weight: bold;
+  height: 26px;
+  font-size: 12px;
+}
+
+.loginbox .field {
+  float: left;
+  width: 190px;
+  height: 30px;
+}
+
+.btn_sty {
+  font: bold 12px "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif;
+  color: #000;
+  background: url(/web/20110610193205im_/http://lightspeed.goanimate.com/static/210/go/img/btn_bg.gif) repeat-x bottom #efd0b3;
+  margin: 0;
+  height: 24px;
+  padding: 2px 5px;
+  border: 1px solid #dbbb95;
+  cursor: pointer;
+}
+
+.btn_sty:hover {
+  border: 1px solid #f90;
+}
+
+div#mainforumblock {
+  float: left;
+  width: 600px;
+}
+
+#faq {
+  font-size: 14px;
+  color: #444;
+  padding: 10px;
+  float: left;
+  width: 600px;
+}
+
+#faq h2 {
+  font-size: 18px;
+  color: black;
+  padding: 30px 0 0;
+}
+
+#tableofcontents .sect {
+  margin: 0 50px;
+  font-size: 16px;
+  line-height: 200%;
+}
+
+#tableofcontents h2 {
+  font-size: 18px;
+  color: black;
+  padding: 30px 0 0 30px;
+}
+
+#tableofcontents ul {
+  color: #1B619B;
+}
+
+.faqq {
+  color: #FE9717;
+  font-weight: bold;
+}
+
+.faqa {
+  margin-bottom: 20px;
+}
+
+.faqa ul {
+  margin-left: 20px;
+}
+
+div.rightpanel {
+  width: 250px;
+  float: left;
+}
+
+div.rightpanel div.blkvideo {
+  padding: 5px;
+  color: white;
+  font-size: 1.3em;
+  font-weight: bold;
+  background-color: #ff7800;
+  margin-bottom: 20px;
+  overflow: auto;
+}
+
+div.rightpanel div.blkfaq {
+  margin-bottom: 20px;
+  background-color: #efefef;
+  padding-bottom: 10px;
+  position: relative;
+}
+
+div.rightpanel div.blktitle_img {
+  color: white;
+  width: 200px;
+  font-size: 17px;
+  top: 8px;
+  left: 5px;
+  position: absolute;
+}
+
+div.rightpanel li {
+  width: 200px;
+  margin-left: 35px;
+}
+
+div.rightpanel div.blkupdates {
+  background-color: #efefef;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+  position: relative;
+}
+
+div.rightpanel div.blknew_img {
+  color: white;
+  width: 35px;
+  font-size: 17px;
+  top: 15px;
+  right: 7px;
+  position: absolute;
+  text-align: center;
+}
+
+div.rightpanel a.hoverUnderline:hover {
+  text-decoration: underline;
+}
+
+.announcement {
+  border: 2px solid #0070c0;
+  text-align: center;
+  font-size: 16px;
+  padding: 10px 30px;
+  width: 806px;
+  margin-top: 30px;
+  color: #0070c0;
+}
+
+.announcehead {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+#career {
+  font-size: 14px;
+  color: #444;
+  padding: 10px;
+}
+
+#career ul {
+  margin: 20px 20px 20px;
+}
+
+#career h2 {
+  color: #FE9717;
+  font-weight: bold;
+}
+
+#pointsheader {
+  position: relative;
+  float: left;
+  width: 930px;
+  padding: 10px 10px 10px 10px;
+}
+
+#leftcontainer {
+  float: left;
+  width: 690px;
+  height: 180px;
+  margin-right: 5px;
+}
+
+#rightcontainer {
+  float: left;
+  width: 200px;
+  height: 150px;
+  padding: 10px 20px 10px 10px;
+  text-align: center;
+  background: url(/web/20110610193205im_/http://lightspeed.goanimate.com/static/210/go/img/v2/user_points.gif) left top no-repeat;
+}
+
+div#channel_overlay {
+  position: absolute;
+  top: 45px;
+  left: -317px;
+  width: 960px;
+  height: 434px;
+  z-index: 50;
+}
+
+div.help_item {
+  float: left;
+  display: block;
+  padding: 8px;
+  color: white;
+  font-weight: bold;
+  background: transparent url(/web/20110610193205im_/http://lightspeed.goanimate.com/static/210/go/img/v2/graybar.gif) scroll right top;
+}
+
+div.help_item:hover {
+  background: url(/web/20110610193205im_/http://lightspeed.goanimate.com/static/210/go/img/v2/graybar.gif) scroll 0 -35px;
+}
+
+div#help_overlay {
+  position: absolute;
+  top: 25px;
+  right: 0;
+  width: 110px;
+  z-index: 50;
+  overflow: visible;
+}
+
+div#lang_overlay {
+  overflow: visible;
+  position: absolute;
+  top: 25px;
+  right: 0;
+  width: 110px;
+  z-index: 50;
+}
+
+div#create_overlay {
+  position: absolute;
+  top: 40px;
+  left: 0;
+  width: 780px;
+  height: 381px;
+  z-index: 50;
+}
+
+.menumask {
+  background-color: #1a1e22;
+  height: 100%;
+  width: 100%;
+  filter: alpha(opacity=90);
+  opacity: .9;
+  MozOpacity: .9;
+  padding-bottom: 8px;
+  -webkit-border-radius: 0 0 5px 5px;
+  -moz-border-radius: 0 0 5px 5px;
+  border-radius: 0 0 5px 5px;
+}
+
+.createmask {
+  background-color: #1a1e22;
+  height: 100%;
+  width: 100%;
+  filter: alpha(opacity=90);
+  opacity: .9;
+  MozOpacity: .9;
+}
+
+#createmaskleft {
+  height: 335px;
+  left: 6px;
+  position: absolute;
+  top: -358px;
+  width: 315px;
+}
+
+#createmaskblank {
+  background: transparent url(/web/20110610193205im_/http://lightspeed.goanimate.com/static/210/go/img/v2/emessage_blank_slate.gif) no-repeat scroll 20px 0;
+  border-right: 1px solid #5A5A5A;
+  cursor: pointer;
+  height: 335px;
+  padding: 0 10px;
+  width: 290px;
+}
+
+#createtitle {
+  color: #FFF;
+  font-size: 30px;
+  left: 472px;
+  position: absolute;
+  text-align: center;
+  top: -358px;
+}
+
+#createallmsg {
+  font-size: 14px;
+  left: 608px;
+  position: absolute;
+  text-align: right;
+  top: -37px;
+}
+
+div#createallmsg a:hover {
+  color: #4AAAC4;
+}
+
+div#createallmsg a:active {
+  color: #4AAAC4;
+}
+
+div#createallmsg a:link {
+  color: #fff;
+}
+
+div#createallmsg a:visited {
+  color: #fff;
+}
+
+#eMessage1 {
+  width: 382px;
+  height: 112px;
+  position: absolute;
+  left: 353px;
+  top: -312px;
+  background: transparent url(/web/20110610193205im_/http://lightspeed.goanimate.com/static/210/go/img/v2/emessage_banner01.gif) no-repeat scroll 0 0;
+}
+
+#eMessage2 {
+  width: 382px;
+  height: 112px;
+  position: absolute;
+  left: 353px;
+  top: -168px;
+  background: transparent url(/web/20110610193205im_/http://lightspeed.goanimate.com/static/210/go/img/v2/emessage_banner02.gif) no-repeat scroll 0 0;
+}
+
+#eMessage3 {
+  width: 382px;
+  height: 112px;
+  position: absolute;
+  left: 353px;
+  top: -312px;
+  background: transparent url(/web/20110610193205im_/http://lightspeed.goanimate.com/static/210/go/img/v2/emessage_banner03.gif) no-repeat scroll 0 0;
+}
+
+#channelmenu {
+  color: white;
+  padding: 13px 25px 10px 25px;
+  font-size: 32px;
+  position: absolute;
+  top: -439px;
+  left: 0;
+  width: 939px;
+}
+
+#createmenu {
+  color: white;
+  padding: 13px 25px 10px 25px;
+  font-size: 32px;
+  position: absolute;
+  top: -245px;
+  left: 0;
+  width: 900px;
+}
+
+#helpmenu {
+  color: white;
+  width: 105px;
+  text-align: center;
+}
+
+#langmenu {
+  color: white;
+  width: 105px;
+  text-align: center;
+}
+
+.helpbox {
+  width: 110px;
+  height: 20px;
+  padding-top: 5px;
+}
+
+div.helpitemlink a:link,
+div.helpitemlink a:visited {
+  color: white;
+}
+
+div.helpitemlink a:hover,
+div.helpitemlink a:active {
+  color: #faa23c;
+}
+
+.channelbox {
+  background: transparent url(/web/20110610193205im_/http://lightspeed.goanimate.com/static/210/go/img/v2/channel_box_border.gif) no-repeat scroll left top;
+  width: 200px;
+  height: 59px;
+  float: left;
+  padding: 4px;
+  margin-right: 25px;
+  margin-bottom: 23px;
+}
+
+.channelbox a div {
+  width: 198px;
+  height: 59px;
+}
+
+.channel_close {
+  border: 1px solid white;
+  color: white;
+  cursor: pointer;
+  display: block;
+  font-weight: bold;
+  height: 17px;
+  right: 42px;
+  position: absolute;
+  text-align: center;
+  top: 12px;
+  width: 17px;
+}
+
+div#channelsmc {
+  background: transparent url(/web/20110610193205im_/http://lightspeed.goanimate.com/static/210/go/img/v2/i.jpg?v=1) no-repeat scroll -594px -80px;
+  cursor: pointer;
+}
+
+div#channelpt {
+  background: transparent url(/web/20110610193205im_/http://lightspeed.goanimate.com/static/210/go/img/v2/i.jpg?v=1) no-repeat scroll -594px -316px;
+  cursor: pointer;
+}
+
+div#channelmt {
+  background: transparent url(/web/20110610193205im_/http://lightspeed.goanimate.com/static/210/go/img/v2/i.jpg?v=1) no-repeat scroll -594px -139px;
+  cursor: pointer;
+}
+
+div#channelms {
+  background: transparent url(/web/20110610193205im_/http://lightspeed.goanimate.com/static/210/go/img/v2/i.jpg?v=1) no-repeat scroll -594px -257px;
+  cursor: pointer;
+}
+
+div#channelct {
+  background: transparent url(/web/20110610193205im_/http://lightspeed.goanimate.com/static/210/go/img/v2/i.jpg?v=1) no-repeat scroll -594px -198px;
+  cursor: pointer;
+}
+
+div#channelsf {
+  background: transparent url(/web/20110610193205im_/http://lightspeed.goanimate.com/static/210/go/img/v2/i.jpg?v=1) no-repeat scroll -594px -375px;
+  cursor: pointer;
+}
+
+div#channelakon {
+  background: transparent url(/web/20110610193205im_/http://lightspeed.goanimate.com/static/210/go/img/v2/i.jpg?v=1) no-repeat scroll -594px -434px;
+  cursor: pointer;
+}
+
+div#channelstartrek {
+  background: transparent url(/web/20110610193205im_/http://lightspeed.goanimate.com/static/210/go/img/v2/banner_star_trek02.jpg) no-repeat scroll 0 0;
+  cursor: pointer;
+}
+
+div#channelwillienelson {
+  background: transparent url(/web/20110610193205im_/http://lightspeed.goanimate.com/static/210/go/img/v2/Williechannelbanner01.jpg) no-repeat scroll 0 0;
+  cursor: pointer;
+}
+
+div#channelbunny {
+  background: transparent url(/web/20110610193205im_/http://lightspeed.goanimate.com/static/210/go/img/v2/hb_channelbanner.jpg) no-repeat scroll 0 0;
+  cursor: pointer;
+}
+
+div#channeldomo {
+  background: transparent url(/web/20110610193205im_/http://lightspeed.goanimate.com/static/210/go/img/v2/domo_channelbanner.jpg) no-repeat scroll 0 0;
+  cursor: pointer;
+}
+
+div#channelstf {
+  background: transparent url(/web/20110610193205im_/http://lightspeed.goanimate.com/static/210/go/img/v2/stickfigurechannelbanner01.jpg) no-repeat scroll 0 0;
+  cursor: pointer;
+}
+
+div#channelfullene {
+  background: transparent url(/web/20110610193205im_/http://lightspeed.goanimate.com/static/210/go/img/v2/fullenergychannelbanner01.jpg) no-repeat scroll 0 0;
+  cursor: pointer;
+}
+
+.columntitle {
+  background: transparent url(/web/20110610193205im_/http://lightspeed.goanimate.com/static/210/go/img/v2/column_title.gif) no-repeat scroll left top;
+  font-size: 13px;
+  color: #fff;
+  font-weight: bold;
+  padding: 12px 25px 12px 25px;
+  height: 22px;
+  width: 165px;
+}
+
+.char_asset {
+  text-align: center;
+}
+
+div.signupbtn {
+  width: 176px;
+  height: 75px;
+  float: right;
+}
+
+div.signupbtn a:link,
+div.signupbtn a:visited {
+  display: block;
+  width: 176px;
+  height: 75px;
+  background: url('/web/20110610193205im_/http://lightspeed.goanimate.com/static/210/go/img/intro/btn_signup.png') no-repeat 0 0;
+}
+
+div.signupbtn a:hover,
+div.signupbtn a:active {
+  background: url('/web/20110610193205im_/http://lightspeed.goanimate.com/static/210/go/img/intro/btn_signup.png') no-repeat 0 -75px;
+}
+
+div.overlayLoginClose a:link,
+div.overlayLoginClose a:visited {
+  display: block;
+  float: right;
+  width: 11px;
+  height: 11px;
+  right: 10px;
+  top: 10px;
+  position: absolute;
+  background: transparent url(/web/20110610193205im_/http://lightspeed.goanimate.com/static/210/go/img/v2/btn_close_login.gif) left top no-repeat;
+}
+
+div.overlayLoginClose a:hover,
+div.overlayLoginClose a:active {
+  background: transparent url(/web/20110610193205im_/http://lightspeed.goanimate.com/static/210/go/img/v2/btn_close_login.gif) left -11px no-repeat;
+}
+
+div.overlaySignupClose a:link,
+div.overlaySignupClose a:visited {
+  display: block;
+  float: right;
+  width: 11px;
+  height: 11px;
+  right: 10px;
+  top: 10px;
+  position: absolute;
+  z-index: 10;
+  background: transparent url(/web/20110610193205im_/http://lightspeed.goanimate.com/static/210/go/img/v2/btn_close_signup.gif) left top no-repeat;
+}
+
+div.overlaySignupClose a:hover,
+div.overlaySignupClose a:active {
+  background: transparent url(/web/20110610193205im_/http://lightspeed.goanimate.com/static/210/go/img/v2/btn_close_signup.gif) left -11px no-repeat;
+}
+
+div#registerBanner {
+  position: relative;
+  width: 224px;
+  height: 135px;
+}
+
+div#registerBanner div#para {
+  position: absolute;
+  top: 42px;
+  left: 15px;
+  width: 200px;
+  color: #151515;
+  font-size: .9em;
+}
+
+div#registerBanner div#signupButton {
+  position: absolute;
+  width: 134px;
+  height: 46px;
+  bottom: 10px;
+  right: 10px;
+  cursor: pointer;
+}
+
+div.signupButtonNormal {
+  background: url('/web/20110610193205im_/http://lightspeed.goanimate.com/static/210/go/img/v2/btn_signup.gif') left top no-repeat;
+}
+
+div.signupButtonHover {
+  background: url('/web/20110610193205im_/http://lightspeed.goanimate.com/static/210/go/img/v2/btn_signup.gif') left -46px no-repeat;
+}
+
+div#slideshowBanner {
+  position: relative;
+  width: 224px;
+  height: 135px;
+  cursor: pointer;
+  background: url('/web/20110610193205im_/http://lightspeed.goanimate.com/static/210/go/img/v2/homepage_slideshow.gif') left top no-repeat;
+}
+
+div#slideshowBanner:hover {
+  background: url('/web/20110610193205im_/http://lightspeed.goanimate.com/static/210/go/img/v2/homepage_slideshow.gif') left -135px no-repeat;
+}
+
+div#gradbunnyBanner {
+  position: relative;
+  width: 224px;
+  height: 135px;
+  cursor: pointer;
+  background: url('/web/20110610193205im_/http://lightspeed.goanimate.com/static/210/go/img/v2/homepage_graduation_banner.jpg') left top no-repeat;
+}
+
+div.signupLink a:link,
+div.signupLink a:visited {
+  background: transparent;
+  color: #1b619b;
+  text-decoration: none;
+  font-weight: bold;
+  margin: 0;
+  display: inline;
+  float: none;
+  position: relative;
+}
+
+div.signupLink a:hover,
+div.signupLink a:active {
+  background: transparent;
+  color: #7bb1de;
+}
+
+div#overlayObjectGlobal {
+  position: absolute;
+  background: none;
+  z-index: 50;
+  margin: auto;
+  color: black;
+}
+
+.overlayHTMLul {
+  display: block;
+  padding: 0 12px;
+  height: 45px;
+}
+
+.overlayHTMLul li {
+  list-style-type: none;
+  float: left;
+}
+
+div#domooverlay {
+  background: transparent url(/web/20110610193205im_/http://lightspeed.goanimate.com/static/210/domo/img/promotion/img_bubble.png) no-repeat 0 0;
+  display: none;
+  width: 461px;
+  height: 333px;
+}
+
+div#domooverlay div#trybtn {
+  position: absolute;
+  width: 461px;
+  height: 30px;
+  top: 164px;
+  left: 0;
+  text-align: center;
+}
+
+div#domooverlay a#closebtn {
+  font-size: 10px;
+  background: transparent url(/web/20110610193205im_/http://lightspeed.goanimate.com/static/210/domo/img/promotion/btn_close.png) no-repeat 0 0;
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  top: 80px;
+  left: 378px;
+  cursor: pointer;
+}
+
+div#domooverlay a#closebtn:hover {
+  background-position: 0 -15px;
+}
+
+div#domooverlay div#textpara {
+  position: absolute;
+  font-size: 1.2em;
+  color: #52720a;
+  top: 100px;
+  left: 60px;
+  width: 330px;
+  text-align: center;
+}
+
+div.overlay_header {
+  float: left;
+  width: 500px;
+  height: 37px;
+}
+
+div.overlay_header_title {
+  position: absolute;
+  left: 10px;
+  color: white;
+  font-size: 22px;
+  height: 25px;
+  top: 6px;
+  z-index: 200;
+}
+
+div.overlay_footer {
+  float: left;
+  width: 500px;
+  height: 30px;
+}
+
+div.overlayClose a:link,
+div.overlayClose a:visited {
+  display: block;
+  float: right;
+  width: 16px;
+  height: 16px;
+  right: 10px;
+  top: 12px;
+  position: absolute;
+  background: transparent url(/web/20110610193205im_/http://lightspeed.goanimate.com/static/210/go/img/dl_animation/btn_close_gray.png) left top no-repeat;
+}
+
+div.overlayClose a:hover,
+div.overlayClose a:active {
+  background: transparent url(/web/20110610193205im_/http://lightspeed.goanimate.com/static/210/go/img/dl_animation/btn_close_gray.png) left -16px no-repeat;
+}
+
+div.overlay_tag_title {
+  float: left;
+  font-size: 16px;
+  font-weight: bold;
+  margin-top: 25px;
+  padding: 9px 15px;
+  text-align: center;
+  width: 450px;
+  color: #333;
+  background: transparent url(/web/20110610193205im_/http://lightspeed.goanimate.com/static/210/go/img/v2/img_ziczac_bg.gif) left top repeat-y;
+}
+
+div.plusLabel60 {
+  position: absolute;
+  width: 27px;
+  height: 28px;
+  top: 34px;
+  left: 35px;
+}
+
+div.plusLabel90 {
+  position: absolute;
+  width: 27px;
+  height: 28px;
+  top: 64px;
+  left: 65px;
+}
+
+.centeredentity {
+  float: left;
+  width: 100%;
+  position: relative;
+}
+
+.centeredentity_ul {
+  clear: left;
+  float: left;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  left: 50%;
+  text-align: center;
+}
+
+.centeredentity_ul_li {
+  display: block;
+  float: left;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  right: 50%;
+}
+
+a.sitebtn {
+  color: #fff;
+}
+
+div.bottomlangbar {
+  background-color: #606060;
+  text-align: center;
+  padding: .6em 0;
+}
+
+div.bottomlangbar .element {
+  margin-right: 20px;
+}
+
+div.bottomlangbar .element .selected {
+  color: #000;
+}
+
+div.bottomlangbar .element a {
+  color: #dfdfdf;
+}
+
+div.bottomlangbar .element a:hover {
+  color: #000;
+}
+
+div.growlUI h1,
+div.growlUI h2 {
+  color: white;
+  padding: 5px 5px 5px 75px;
+  text-align: left;
+  margin: 0;
+  font-family: 'trebuchet ms', verdana, arial;
+}
+
+div#growlnotify,
+div#growlerror {
+  width: 52px;
+  height: 52px;
+  display: none;
+  float: left;
+}
+
+div.growlcontent {
+  width: 290px;
+  color: #fff;
+  font-size: 15px;
+  float: right;
+}
+
+div.growltitle {
+  width: 290px;
+  font-weight: bold;
+  float: left;
+}
+
+div#growlfeedback {
+  padding-top: 10px;
+  width: 290px;
+  float: left;
+}
+
+.badge_30 {
+  background: transparent url(/web/20110610193205im_/http://lightspeed.goanimate.com/static/210/go/img/badge/badges_30.png) no-repeat 0 0;
+  display: block;
+  height: 30px;
+  width: 30px;
+}
+
+.badge_50 {
+  background: transparent url(/web/20110610193205im_/http://lightspeed.goanimate.com/static/210/go/img/badge/badges_50.png) no-repeat 0 0;
+  display: block;
+  position: relative;
+  height: 50px;
+  width: 50px;
+}
+
+.badge_50 .owned {
+  background-color: #000;
+  color: #fff;
+  font-weight: 11px;
+  padding: 0 2px;
+  position: absolute;
+  bottom: -3px;
+  right: -3px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+}
+
+.badge_100 {
+  background: transparent url(/web/20110610193205im_/http://lightspeed.goanimate.com/static/210/go/img/badge/badges_100.png) no-repeat 0 0;
+  display: block;
+  position: relative;
+  height: 100px;
+  width: 100px;
+}
+
+.badge_dark_box,
+.badge_light_box {
+  background: transparent url(/web/20110610193205im_/http://lightspeed.goanimate.com/static/210/go/img/badge/box_dark.png) no-repeat 0 0;
+  padding: 25px;
+  height: 100px;
+  width: 100px;
+}
+
+.badge_dark_box {
+  margin: 10px auto;
+}
+
+.badge_light_box {
+  background-image: url(/web/20110610193205im_/http://lightspeed.goanimate.com/static/210/go/img/badge/box_light.png);
+  float: left;
+  margin: 0 30px 0 0;
+}
+
+#recaptcha {
+  margin: 10px auto;
+}
+
+#recaptcha_area {
+  margin: 0 auto;
+}
+
+.money {
+  cursor: pointer;
+}
+
+.points_submenu {
+  display: none;
+  background-color: #222;
+  margin: 0;
+  padding: 5px 0 10px;
+  float: left;
+  list-style: none;
+  position: absolute;
+  top: 30px;
+  left: 0;
+  text-align: center;
+  width: 133px;
+  -webkit-border-bottom-left-radius: 5px;
+  -webkit-border-bottom-right-radius: 5px;
+  -moz-border-radius-bottomleft: 5px;
+  -moz-border-radius-bottomright: 5px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  z-index: 10;
+}
+
+.money:hover ul,
+.money.hover ul {
+  display: block;
+}
+
+.money .points_submenu li {
+  background-color: #222;
+  padding: 0 10px;
+  display: block;
+  float: none;
+  text-align: right;
+}
+
+.points_submenu a:link,
+.points_submenu a:visited {
+  color: #fff;
+  font-size: 12px;
+  line-height: 15px;
+}
+
+.points_submenu a:hover,
+.points_submenu a:active {
+  text-decoration: underline;
+}
+
+.footerad_cast2 {
+  background: url(/web/20110610193205im_/http://lightspeed.goanimate.com/static/210/go/img/ad/banner_bg002.jpg) no-repeat 0 0;
+}
+
+.footerad_cast3 {
+  background: url(/web/20110610193205im_/http://lightspeed.goanimate.com/static/210/go/img/ad/banner_bg003.jpg) no-repeat 0 0;
+}
+
+.footerad_cast4 {
+  background: url(/web/20110610193205im_/http://lightspeed.goanimate.com/static/210/go/img/ad/banner_bg004.jpg) no-repeat 0 0;
+}
+
+.footerad_cast5 {
+  background: url(/web/20110610193205im_/http://lightspeed.goanimate.com/static/210/go/img/ad/banner_bg005.jpg) no-repeat 0 0;
+}
+
+.fb_request_overlay {
+  background: transparent url(/web/20110610193205im_/http://lightspeed.goanimate.com/static/210/go/img/overlay/overlay_normal.png) no-repeat 0 0;
+  position: relative;
+  width: 705px;
+  height: 495px;
+}
+
+.fb_request_overlay .offer_content {
+  position: absolute;
+  left: 20px;
+  top: 40px;
+  width: 660px;
+}
+
+.fb_request_overlay .close_button {
+  background: transparent url(/web/20110610193205im_/http://lightspeed.goanimate.com/static/210/go/img/overlay/btn_close.gif) no-repeat 0 0;
+  display: block;
+  height: 14px;
+  width: 15px;
+  position: absolute;
+  top: 20px;
+  right: 25px;
+}
+
+.fb_request_overlay .close_button:hover {
+  background-position: 0 -14px;
+}
+
+.fb_request_overlay .close_button span {
+  display: none;
+}
+
+.fb_request_overlay .post_to_profile {
+  color: #3B5998;
+  position: absolute;
+  top: 15px;
+  left: 25px;
+}
+
+.fb_request_overlay .post_to_profile:hover {
+  text-decoration: underline;
+}
+
+#daily_game_overlay {
+  background: transparent url(/web/20110610193205im_/http://lightspeed.goanimate.com/static/210/go/img/lucky_draw/bg.png) no-repeat 0 0;
+  position: relative;
+  height: 533px;
+  width: 867px;
+}
+
+#daily_game_overlay .close_button {
+  background: transparent url(/web/20110610193205im_/http://lightspeed.goanimate.com/static/210/go/img/overlay/btn_close.gif) no-repeat 0 0;
+  display: block;
+  height: 14px;
+  width: 15px;
+  position: absolute;
+  top: 150px;
+  right: 65px;
+}
+
+#daily_game_overlay .close_button:hover {
+  background-position: 0 -14px;
+}
+
+#daily_game_overlay .close_button span {
+  display: none;
+}
+
+#daily_game_content {
+  color: #0cf;
+  font-size: 16px;
+  font-weight: bold;
+  margin: 0 auto;
+  width: 480px;
+  position: absolute;
+  top: 270px;
+  left: 165px;
+}
+
+#daily_game_swf_container {
+  margin-top: -40px;
+}
+
+.overlaybox {
+  background: transparent url(/web/20110610193205im_/http://lightspeed.goanimate.com/static/210/go/img/overlay/overlay_normal.png) no-repeat 0 0;
+  position: relative;
+  width: 705px;
+  height: 495px;
+}
+
+.overlaybox.large {
+  background: transparent url(/web/20110610193205im_/http://lightspeed.goanimate.com/static/210/go/img/overlay/overlay_large.png) no-repeat 0 0;
+  position: relative;
+  width: 805px;
+  height: 565px;
+}
+
+.overlaybox.small {
+  background: transparent url(/web/20110610193205im_/http://lightspeed.goanimate.com/static/210/go/img/overlay/overlay_small.png) no-repeat 0 0;
+  position: relative;
+  width: 498px;
+  height: 350px;
+}
+
+.overlaybox h1,
+.overlaybox.large h1 {
+  color: #333;
+  font-size: 22px;
+  font-weight: bold;
+  margin: 0 25px 20px 25px;
+  padding: 20px 0 0;
+  text-align: left;
+}
+
+.overlaybox .close_button,
+.overlaybox.large .close_button,
+.overlaybox.small .close_button {
+  background: transparent url(/web/20110610193205im_/http://lightspeed.goanimate.com/static/210/go/img/overlay/btn_close.gif) no-repeat 0 0;
+  display: block;
+  height: 14px;
+  width: 15px;
+  position: absolute;
+  top: 20px;
+  right: 25px;
+}
+
+.overlaybox .close_button:hover,
+.overlaybox.large .close_button:hover,
+.overlaybox.small .close_button:hover {
+  background-position: 0 -14px;
+}
+
+.overlaybox .close_button span,
+.overlaybox.large .close_button span,
+.overlaybox.small .close_button span {
+  display: none;
+}
+
+.overlaybox .box {
+  position: relative;
+  margin: 20px auto 0;
+  width: 600px;
+}
+
+.overlaybox .box_footer {
+  background: transparent url(/web/20110610193205im_/http://lightspeed.goanimate.com/static/210/go/img/overlay/long_bar.png) no-repeat center 0;
+  color: #fff;
+  font-size: 18px;
+  padding-top: 10px;
+  position: absolute;
+  height: 49px;
+  width: 705px;
+  bottom: 0;
+  left: 0;
+}
+
+.overlaybox .box_footer a {
+  color: #ff7200;
+}
+
+.overlaybox .box_footer a:hover {
+  text-decoration: underline;
+}
+
+#claim_badge_overlay {
+  color: #333;
+  font-size: 14px;
+  text-align: center;
+}
+
+#claim_badge_overlay h1 {
+  color: #09f;
+  font-size: 28px;
+  padding: 30px 0 0;
+  text-align: center;
+}
+
+#claim_badge_overlay h2 {
+  color: #333;
+  font-size: 28px;
+  margin: 20px auto;
+}
+
+#claim_badge_overlay .gp,
+#claim_badge_overlay .xp {
+  background: transparent url(/web/20110610193205im_/http://lightspeed.goanimate.com/static/210/go/img/icons/icon_xp.png) no-repeat 0 center;
+  float: left;
+  position: relative;
+  height: 60px;
+  padding: 45px 0 45px 70px;
+}
+
+#claim_badge_overlay .gp {
+  background-image: url(/web/20110610193205im_/http://lightspeed.goanimate.com/static/210/go/img/icons/icon_gopoint.png);
+  margin-right: 30px;
+}
+
+#claim_badge_overlay .points {
+  color: #ff4800;
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 60px;
+}
+
+#claim_badge_overlay .gp .points {
+  color: #0067fe;
+}
+
+#claim_badge_overlay .desc {
+  display: none;
+  background-color: #09F;
+  color: #fefefe;
+  font-size: 11px;
+  padding: 10px 15px;
+  position: absolute;
+  bottom: 105px;
+  left: -110px;
+  text-align: left;
+  width: 250px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  z-index: 10;
+}
+
+#claim_badge_overlay .desc .arrow {
+  background: transparent url(/web/20110610193205im_/http://lightspeed.goanimate.com/static/210/go/img/dashboard/ico_arrow_02.gif) no-repeat 0 0;
+  position: absolute;
+  height: 8px;
+  width: 15px;
+  bottom: -8px;
+  left: 50%;
+  margin-left: -8px;
+}
+
+#claim_badge_overlay .gp:hover .desc,
+#claim_badge_overlay .xp:hover .desc {
+  display: block;
+}
+
+#claim_badge_overlay .buttonfacebook,
+#fb_connect_overlay .buttonfacebook,
+#tts_landing_overlay .buttonfacebook {
+  background-image: url(/web/20110610193205im_/http://lightspeed.goanimate.com/static/210/go/img/icons/icon_fb.png);
+  background-position: 20px center;
+  background-repeat: no-repeat;
+}
+
+#claim_badge_overlay .buttontwitter {
+  background-image: url(/web/20110610193205im_/http://lightspeed.goanimate.com/static/210/go/img/icons/icon_twitter.png);
+  background-position: 20px center;
+  background-repeat: no-repeat;
+}
+
+#fb_connect_overlay h1 {
+  color: #0f5ab8;
+  text-align: center;
+  margin-bottom: 0;
+}
+
+#fb_connect_overlay .box {
+  margin-top: 10px;
+}
+
+#tts_landing_overlay {
+  font-size: 14px;
+}
+
+#tts_landing_overlay h1 {
+  color: #165b8a;
+  padding-top: 40px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.tts_image_block {
+  background-color: #bdd066;
+  padding: 10px;
+  margin: 30px auto;
+  width: 140px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+}
+
+.tts_image_block img {
+  display: block;
+  margin: 10px auto;
+}
+
+#signup,
+#login {
+  text-align: center;
+  width: 430px;
+}
+
+#signup h2,
+#login h2 {
+  color: #121212;
+  font-size: 18px;
+  margin: 10px 0;
+  padding: 0;
+}
+
+#signup_form,
+#login_form {
+  margin: 0 auto;
+  width: 300px;
+}
+
+#signup_form label,
+#login_form label {
+  display: block;
+  padding-left: 22px;
+  text-align: left;
+}
+
+#signup_form_message,
+#login_form_message {
+  color: #f00;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 14px;
+  height: 16px;
+  text-align: center;
+}
+
+#signup_email,
+#signup_username,
+#signup_password1,
+#signup_password2,
+#login_form input {
+  background-color: #f2f2f2;
+  border: 1px solid #aaa;
+  display: block;
+  font-size: 14px;
+  margin: 0 auto 15px;
+  padding: 6px 8px;
+  width: 240px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+}
+
+#signup_email.error,
+#signup_username.error,
+#signup_password1.error,
+#signup_password2.error,
+#login_form input.error {
+  border-color: #f00;
+}
+
+#forgotpassword {
+  text-align: right;
+  padding: 10px 0;
+}
+
+.google_login {
+  background: transparent url(/web/20110610193205im_/http://lightspeed.goanimate.com/static/210/go/img/common/ico_google.gif) no-repeat 0 10px;
+  border-top: 1px solid #aaa;
+  font-size: 12px;
+  padding: 10px 0 0 22px;
+}
+
+.google_login p {
+  float: left;
+  text-align: left;
+  width: 200px;
+}
+
+.google_login a {
+  background-color: #565656;
+  color: #fff;
+  display: block;
+  float: right;
+  padding: 5px 12px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  border-radius: 15px;
+}
+
+.google_login a:hover {
+  background-color: #787878;
+}
+
+/*
+     FILE ARCHIVED ON 19:32:05 Jun 10, 2011 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 00:23:21 Feb 18, 2023.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 71.515
+  exclusion.robots: 0.131
+  exclusion.robots.policy: 0.118
+  RedisCDXSource: 0.658
+  esindex: 0.011
+  LoadShardBlock: 44.534 (3)
+  PetaboxLoader3.datanode: 44.852 (4)
+  CDXLines.iter: 22.948 (3)
+  load_resource: 899.008
+  PetaboxLoader3.resolve: 887.464
+*/

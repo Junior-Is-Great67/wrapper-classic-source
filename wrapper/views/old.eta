@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html>
+<script src="./Wrapper Offline_files/prototype.js"></script>
+<script src="./Wrapper Offline_files/jquery-1.4.4.min.js"></script>
+<script src="./Wrapper Offline_files/jsapi"></script>
+<script src="./Wrapper Offline_files/4554059.js"></script>
+<script src="./Wrapper Offline_files/go2.js"></script>
+<script src="./Wrapper Offline_files/overlay.js"></script>
+<script src="./Wrapper Offline_files/jquery.swfobject.min.js"></script>
+<script src="./Wrapper Offline_files/jquery.blockUI.js"></script>
+<script src="./Wrapper Offline_files/cookie.js"></script>
+<script src="./Wrapper Offline_files/Gettext.js"></script>
+	<head>
+		<meta charset="UTF-8"/>
+		<link rel="icon" href="/favicon.ico" type="image/png"/>
+		<title>Video List - Wrapper: Classic</title>
+		<meta name="description" content="Wrapper: Classic's Video List"/>
+		<link rel="stylesheet" type="text/css" href="/pages/css/global.css">
+		<link rel="stylesheet" type="text/css" href="/pages/css/list.css">
+		<script src="/pages/js/jquery.js"></script>
+		<script src="/pages/js/global.js"></script>
+  <style>
+    /* Add your custom styles here */
+    body {
+      font-family: 'Roboto', sans-serif;
+      background-color: #1a1a1a;
+      color: #fff;
+    }
+
+    main {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 20px;
+      background-color: #333;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-bottom: 20px;
+    }
+
+    th,
+    td {
+      padding: 10px;
+      text-align: left;
+      vertical-align: middle;
+      border-bottom: 1px solid #666;
+    }
+
+    th {
+      background-color: #222;
+      color: #fff;
+    }
+
+    img {
+      width: 80px;
+      height: auto;
+      border-radius: 5px;
+    }
+
+    .video-title {
+      font-weight: bold;
+      color: #fff;
+    }
+
+    .video-duration {
+      color: #ccc;
+      font-size: 14px;
+    }
+
+    .video-date {
+      color: #ccc;
+    }
+
+    .load-more {
+      text-align: center;
+      margin-top: 20px;
+    }
+
+    .load-more a {
+      display: inline-block;
+      padding: 10px 20px;
+      background-color: #666;
+      color: #fff;
+      text-decoration: none;
+      font-size: 16px;
+      border-radius: 5px;
+      transition: background-color 0.3s;
+    }
+
+    .load-more a:hover {
+      background-color: #888;
+    }
+  </style>
+</head>
+
+<body>
+  <%~ includeFile("./includes/header", { env: it.env }) %>
+
+  <main>
+    <table>
+      <thead>
+        <tr>
+          <th></th>
+          <th>Video Title</th>
+          <th>Last Modified</th>
+          <th></th>
+        </tr>
+      </thead>
+      <tbody></tbody>
+    </table>
+
+    <div class="load-more">
+      <a href="javascript:;" id="load_more">LOAD MORE...</a>
+    </div>
+  </main>
+
+  <script>
+    let json;
+    const tbody = $('tbody');
+    const loadMore = $('#load_more');
+
+    let C = 0;
+    function loadRows() {
+      // load only 200 rows
+      let c = C;
+      C += 200;
+      for (; c < C; c++) {
+        // we reached the end
+        if (c > json.length - 1) {
+          loadMore.remove();
+          break;
+        }
+
+        const tbl = json[c];
+        // make the date and time less confusing to read
+        const date = tbl.date.split('T')[0];
+        const time = tbl.date.split('T')[1].substring(0, 8);
+        // escape the title
+        const title = tbl.title.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+
+        tbody.append(
+          `<tr id="${tbl.id}">
+            <td>
+              <img src="/file/movie/thumb/${tbl.id}" alt="thumbnail">
+            </td>
+            <td>
+              <div class="video-title">${title}</div>
+              <div class="video-duration">${tbl.duration}</div>
+            </td>
+            <td>
+              <span class="video-date">${date}, ${time}</span>
+            </td>
+            <td>
+              <a href="javascript:;" onclick="popup('${tbl.id}')"></a>
+              <a href="/go_full?movieId=${tbl.id}"></a>
+              <a href="/file/movie/file/${tbl.id}" download="${tbl.title}.zip"></a>
+              <a href="#" onclick="destructive('${tbl.id}', 'repair')"></a>
+              <a href="#" onclick="destructive('${tbl.id}', 'delete')"></a>
+              <a href="#" onclick="exportVideo('${tbl.id}')" class="export-button">Export</a>
+            </td>
+          </tr>`.trim(),
+        );
+      }
+    }
+
+    // Load more movies
+    loadMore.on('click', loadRows);
+
+    $.get('/api/movies/list', (data) => {
+      json = data;
+      loadRows();
+    });
+
+    function destructive(mId, act) {
+      const yesno = confirm(`Are you sure you want to ${act} movie #${mId}?`);
+
+      if (yesno) {
+        $.get(`/api/movie/${act}/${mId}`, (data) => {
+          if (data.status === 'ok') {
+            switch (act) {
+              case 'repair':
+                window.location = `/player?movieId=${mId}`;
+                break;
+              case 'delete':
+                $(`#${mId}`).fadeOut(() => $(`#${mId}`).remove());
+                break;
+              default:
+                break;
+            }
+          } else {
+            alert(`Guess you're stuck with your movie.`);
+          }
+        });
+      }
+    }
+
+    function popup(id) {
+      window.open('/player?movieId=' + id, 'MsgWindow', 'width=1280,height=720,left=' + (screen.width / 2 - 640) +
+        ',top=' + (screen.height / 2 - 360));
+    }
+
+    function exportVideo(movieId) {
+      const downloadUrl = `/api/movie/export/${movieId}`;
+
+      // Create a temporary anchor element
+      const anchor = document.createElement('a');
+      anchor.href = downloadUrl;
+      anchor.setAttribute('download', 'video.mp4');
+      anchor.style.display = 'none';
+
+      // Append the anchor to the body and click it programmatically
+      document.body.appendChild(anchor);
+      anchor.click();
+
+      // Clean up by removing the anchor element
+      document.body.removeChild(anchor);
+    }
+  </script>
+
+  <%~ includeFile("./includes/footer", { env: it.env }) %>
+</body>
+</html>

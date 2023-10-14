@@ -1,0 +1,11 @@
+﻿<flash_project name="angry" version="1">
+	<project_file path="./angry.fla" filetype="fla" profile="" def_file="true"/>
+	<project_file path="./angry_fla/eyeL_19.as" filetype="as"/>
+	<project_file path="./angry_fla/eyeL_8.as" filetype="as"/>
+	<project_file path="./angry_fla/eyeR_13.as" filetype="as"/>
+	<project_file path="./angry_fla/eyeR_2.as" filetype="as"/>
+	<project_file path="./eyeLeft.as" filetype="as"/>
+	<project_file path="./eyeLeft_Cam.as" filetype="as"/>
+	<project_file path="./eyeRight.as" filetype="as"/>
+	<project_file path="./eyeRight_Cam.as" filetype="as"/>
+</flash_project>

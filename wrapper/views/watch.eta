@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<script src="./Wrapper Offline_files/prototype.js"></script>
+<script src="./Wrapper Offline_files/jquery-1.4.4.min.js"></script>
+<script src="./Wrapper Offline_files/jsapi"></script>
+<script src="./Wrapper Offline_files/4554059.js"></script>
+<script src="./Wrapper Offline_files/go2.js"></script>
+<script src="./Wrapper Offline_files/overlay.js"></script>
+<script src="./Wrapper Offline_files/jquery.swfobject.min.js"></script>
+<script src="./Wrapper Offline_files/jquery.blockUI.js"></script>
+<script src="./Wrapper Offline_files/cookie.js"></script>
+<script src="./Wrapper Offline_files/Gettext.js"></script>
+    <body>
+	<%~ includeFile("./includes/header", { env: it.env }) %>
+    <div id="movielist">
+      <div class="tabcontainer clearfix">
+	<ul>
+             <li><div id="sptab" class="tabinactive" onclick="rssobj.rsspath=&#39;site/staffpicks.rss&#39;; rssobj.customGetWidgetParam=&#39;staffpicks/0&#39;; switchTab(&#39;sptab&#39;, &#39;mrtab,mptab,mvtab&#39;, switchIndexRSSTab, rssobj);"><div class="tabc"><a id="sptablink" href="javascript:goVoid();">STAFF PICKS</a></div></div></li>
+             <li><div id="mrtab" class="tabinactive" onclick="rssobj.rsspath=&#39;site/mostshared.rss&#39;; rssobj.customGetWidgetParam=&#39;mostshared/0&#39;; switchTab(&#39;mrtab&#39;, &#39;sptab,mptab,mvtab&#39;, switchIndexRSSTab, rssobj);"><div class="tabc"><a id="mrtablink" href="javascript:goVoid();">MOST SHARED</a></div></div></li>
+             <li><div id="mptab" class="tabactive" onclick="rssobj.rsspath=&#39;site/topscored.rss&#39;; rssobj.customGetWidgetParam=&#39;topscored/0&#39;; switchTab(&#39;mptab&#39;, &#39;sptab,mrtab,mvtab&#39;, switchIndexRSSTab, rssobj);"><div class="tabc">TOP ANIMATIONS</div></div></li>
+             <li><div id="mvtab" class="tabinactive" onclick="rssobj.rsspath=&#39;site/mostwatched.rss&#39;; rssobj.customGetWidgetParam=&#39;mostwatched/0&#39;; switchTab(&#39;mvtab&#39;, &#39;sptab,mrtab,mptab&#39;, switchIndexRSSTab, rssobj);"><div class="tabc"><a id="mvtablink" href="javascript:goVoid();">MOST WATCHED</a></div></div></li>
+	</ul>
+      </div>
+      <div class="tabbox">
+		<div id="rss_player_container">
+		  <div style="position:relative">
+	<div style="position:relative">
+			<div id="rssplayerdiv" style="margin:0 auto;width:570px;height:550px;">
+			This content requires the Macromedia Flash Player 10.0.12. <a href="https://web.archive.org/web/20110602161649/http://get.adobe.com/flashplayer/">Get Flash</a>
+		</div>
+		<div class="ConnectionBridge" style="position:absolute;top:0px;left:0px;">
+		   <div id="bridgediv" style="display: block; width: 1px; height: 1px;"></div>
+<script type="text/javascript">
+jQuery('#bridgediv').flash({
+	id: "Bridge",
+	swf: "https://web.archive.org/web/20110602161649/http://goanimate.com/static/libs/ConnectionBridge.swf?v=210",
+	height: 1,
+	width: 1,
+
+	scale: "exactfit",
+	wmode: "transparent"
+});
+</script>
+		</div>
+	</div>
+</div>
+<script>
+const userbro = getCookie("usrname");
+function getCookie(cname) {
+  let name = cname + "=";
+  let ca = document.cookie.split(';');
+  for(let i = 0; i < ca.length; i++) {
+    let c = ca[i];
+    while (c.charAt(0) == ' ') {
+      c = c.substring(1);
+    }
+    if (c.indexOf(name) == 0) {
+      return c.substring(name.length, c.length);
+    }
+  }
+  return "";
+}
+</script>
+
+<script type="text/javascript">
+let json;
+const params = new URLSearchParams(window.location.search);
+const movid = params.get("movieId");
+jQuery('#rssplayerdiv').flash({
+	id: "RSSPlayer",
+	swf: "http://localhost:4343/animation/457/rssplayer.swf",
+	height: 550,
+	width: 570,
+	bgcolor: "#000000",
+
+	scale: "exactfit",
+	allowScriptAccess: "always",
+	allowFullScreen: "true",
+	wmode: "transparent",
+
+	hasVersion: "10.0.12",
+
+	flashvars: {"movieOwnerId":"","userId":"","username":"","userId":userbro,"uemail":"","styleCode":"gray","numContact":"","movieId":movid,"rsspath":"site\/topscored.rss","apiserver":"http://localhost:4343/","autostart":0,"randomizeFeed":1,"isEmbed":0,"ctc":"go","tlang":"en_US","appCode":"go","storePath":"http://localhost:4343/static/store/<store>","clientThemePath":"http://localhost:4343/static/<client_theme>","movieNum":10,"channel":"all","isShowGetWidget":1,"customGetWidgetParam":"topscored\/0"}});
+</script>		</div>
+      </div>
+      <div style="clear:both;"></div>
+    </div>
+	<%~ includeFile("./includes/footer", { env: it.env }) %>
+    </body>
+</html>

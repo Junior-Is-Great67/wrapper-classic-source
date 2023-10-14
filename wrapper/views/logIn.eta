@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8"/>
+		<link rel="icon" href="/favicon.ico" type="image/png"/>
+		<title>Create - Wrapper: Offline</title>
+		<meta name="description" content="Wrapper: Offline's create page"/>
+		<link rel="stylesheet" type="text/css" href="/pages/css/global.css">
+		<link rel="stylesheet" type="text/css" href="/pages/css/create.css">
+		<script src="/pages/js/jquery.js"></script>
+		<script src="/pages/js/global.js"></script>
+	</head>
+
+	<body>
+	<a id="giy">Hi i am a text</a>
+	<br>
+	<a id="guy">Hi i am another text</a>
+	<script>
+		// get the inputs
+		function setCookie(cname, cvalue, exdays) {
+ 		const d = new Date();
+  		d.setTime(d.getTime() + (exdays * 24 * 60 * 60 * 1000));
+  		let expires = "expires="+d.toUTCString();
+  		document.cookie = cname + "=" + cvalue + ";" + expires + ";path=/";
+		}
+
+		const params = new URLSearchParams(window.location.search);
+		const password = params.get("pass") || "Hi i am a text";
+		const gotusr = ["jaxson09","owen11","megaT","ItsJay"];
+		const passwords = ["CaillouLover09","OwenGrounded89","Flashthemes23","ScratchDev69"];
+		const username = params.get("usrname") || "Hi i am another text";
+		document.getElementById("giy").innerHTML = password;
+		document.getElementById("guy").innerHTML = username;
+		if (passwords.indexOf(password) == gotusr.indexOf(username) && passwords.indexOf(password) != -1)
+		{
+		document.getElementById("guy").innerHTML = "Im the guy that lets you know you entered it correctly";
+		setCookie("usrname", username, 365);
+		setCookie("pass", password, 365);
+		const IS_LOGGED_IN = "IS_LOGGED_IN";
+		$.post("/api/settings/update", {"setting":"IS_LOGGED_IN","value":"60"})
+		location.replace("http://localhost:4343/");	
+		}
+	</script>
+
+</html>

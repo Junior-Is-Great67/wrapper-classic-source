@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html>
+<script src="./Wrapper Offline_files/prototype.js"></script>
+<script src="./Wrapper Offline_files/jquery-1.4.4.min.js"></script>
+<script src="./Wrapper Offline_files/jsapi"></script>
+<script src="./Wrapper Offline_files/4554059.js"></script>
+<script src="./Wrapper Offline_files/go2.js"></script>
+<script src="./Wrapper Offline_files/overlay.js"></script>
+<script src="./Wrapper Offline_files/jquery.swfobject.min.js"></script>
+<script src="./Wrapper Offline_files/jquery.blockUI.js"></script>
+<script src="./Wrapper Offline_files/cookie.js"></script>
+<script src="./Wrapper Offline_files/Gettext.js"></script>
+	<head>
+		<meta charset="UTF-8"/>
+		<link rel="icon" href="/favicon.ico" type="image/png"/>
+		<title>Video List - Wrapper: Offline</title>
+		<meta name="description" content="Wrapper: Offline's Video List"/>
+		<link rel="stylesheet" type="text/css" href="/pages/css/global.css">
+		<link rel="stylesheet" type="text/css" href="/pages/css/list.css">
+		<link rel="stylesheet" type="text/css" href="/pages/css/button.css">
+		<link rel="stylesheet" type="text/css" href="/pages/css/modern-normalize.css">
+		<link rel="stylesheet" type="text/css" href="/pages/css/flash.css">
+		<script src="/pages/js/jquery.js"></script>
+		<script src="/pages/js/global.js"></script>
+	</head>
+
+	<body>
+	<style>
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+  
+  center {
+    font-size: 48px;
+  }
+  
+  p {
+    width:100%;
+    text-align:center;
+  }
+  
+  .on {
+    width:100%;
+    text-align:center;
+  }
+
+	</style>
+		<%~ includeFile("./includes/header", { env: it.env }) %>
+	<div id="step1">
+	<h1 id="step1text">
+	Step 1: Choose a character set
+	</h1>
+<table class="full_screen" id="charpage">
+				<thead>
+					<tr>
+						<td></td>
+						<td class="center">Choose a char</td>
+						<td></td>
+					</tr>
+				</thead>
+				<tbody id="bodi"></tbody>
+				</tfoot>
+			</table>
+</a>	
+<button id="nextbuttoniguess" onclick="loadChars()">Next</button>
+<button id="firstpage" onclick="loadFirstPage()">First Page</button>
+	</div>
+	<div id="step2">
+	<h1>
+	Step 2: Create Dialogue	</h1>
+<style>
+.dropbtn {
+  background-color: #04AA6D;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #ddd;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: #3e8e41;}
+</style>
+</head>
+<body style="background-color:white;">
+
+<div class="dropdown">
+  <button class="dropbtn">Char 1 Voice</button>
+  <div class="dropdown-content">
+    <a href="#" onclick="setVoice('char1','joey1')">Joey</a>
+    <a href="#" onclick="setVoice('char1','eric')">Eric</a>
+    <a href="#" onclick="setVoice('char1','brian1')">Brian</a>
+	<a href="#" onclick="setVoice('char1','kevin1')">Kevin</a>
+	<a href="#" onclick="setVoice('char1','diesel')">Diesel</a>
+	<a href="#" onclick="setVoice('char1','david')">David</a>
+	<a href="#" onclick="setVoice('char1','steven')">Steven</a>
+	<a href="#" onclick="setVoice('char1','kayla')">Kayla</a>
+  </div>
+</div>
+<br>
+<div class="dropdown">
+  <button class="dropbtn">Char 2 Voice</button>
+  <div class="dropdown-content">
+    <a href="#" onclick="setVoice('char2','joey1')">Joey</a>
+    <a href="#" onclick="setVoice('char2','eric')">Eric</a>
+    <a href="#" onclick="setVoice('char2','brian1')">Brian</a>
+	<a href="#" onclick="setVoice('char2','kevin1')">Kevin</a>
+	<a href="#" onclick="setVoice('char2','diesel')">Diesel</a>
+	<a href="#" onclick="setVoice('char2','david')">David</a>
+	<a href="#" onclick="setVoice('char2','steven')">Steven</a>
+	<a href="#" onclick="setVoice('char2','kayla')">Kayla</a>
+  </div>
+  </div>
+<br>
+<div class="dropdown" style="float:right;">
+  <button class="dropbtn">Dialogue 1 Expression</button>
+  <div class="dropdown-content">
+    <a href="#" onclick="getCharacterAction('char1','neutral','1')">Neutral</a>
+    <a href="#" onclick="getCharacterAction('char1','happy','1')">Happy</a>
+    <a href="#" onclick="getCharacterAction('char1','cry','1')">Cry</a>
+    <a href="#" onclick="getCharacterAction('char1','angry','1')">Angry</a>
+    <a href="#" onclick="getCharacterAction('char1','sad','1')">Sad</a>
+  </div>
+  </div>
+  <br>
+<div class="dropdown" style="float:right;">
+  <button class="dropbtn">Dialogue 2 Expression</button>
+  <div class="dropdown-content">
+    <a href="#" onclick="getCharacterAction('char2','neutral','2')">Neutral</a>
+    <a href="#" onclick="getCharacterAction('char2','happy','2')">Happy</a>
+    <a href="#" onclick="getCharacterAction('char2','cry','2')">Cry</a>
+    <a href="#" onclick="getCharacterAction('char2','angry','4')">Angry</a>
+    <a href="#" onclick="getCharacterAction('char2','sad','2')">Sad</a>
+  </div>
+  </div>
+  <div class="dropdown" style="float:right;">
+  <button class="dropbtn">Dialogue 3 Expression</button>
+  <div class="dropdown-content">
+    <a href="#" onclick="getCharacterAction('char1','neutral','3')">Neutral</a>
+    <a href="#" onclick="getCharacterAction('char1','happy','3')">Happy</a>
+    <a href="#" onclick="getCharacterAction('char1','cry','3')">Cry</a>
+    <a href="#" onclick="getCharacterAction('char1','angry','3')">Angry</a>
+    <a href="#" onclick="getCharacterAction('char1','sad','3')">Sad</a>
+  </div>
+  </div>
+    <br>
+  <div class="dropdown" style="float:right;">
+  <button class="dropbtn">Dialogue 4 Expression</button>
+  <div class="dropdown-content">
+    <a href="#" onclick="getCharacterAction('char2','neutral','4')">Neutral</a>
+    <a href="#" onclick="getCharacterAction('char2','happy','4')">Happy</a>
+    <a href="#" onclick="getCharacterAction('char2','cry','4')">Cry</a>
+    <a href="#" onclick="getCharacterAction('char2','angry','4')">Angry</a>
+    <a href="#" onclick="getCharacterAction('char2','sad','4')">Sad</a>
+  </div>
+  </div>
+</a>
+<form id="loginform" method="post" action="/api/generate/qvm/" class="on" style="float:right;">
+<input name="dialogue1" maxlength="255" placeholder="Dialogue" value="">
+<input name="dialogue2" maxlength="255" placeholder="Dialogue 2" value="">
+<input name="dialogue3" maxlength="255" placeholder="Dialogue 3" value="">
+<input name="dialogue4" maxlength="255" placeholder="Dialogue 4" value="">
+<input type="hidden" name="theme" value="life">
+<input type="hidden" name="char1" id="char1" value="default">
+<input type="hidden" name="char2" id="char2" value="default">
+<input type="hidden" name="e1" id="1" value="neutral">
+<input type="hidden" name="e2" id="2" value="neutral">
+<input type="hidden" name="e3" id="3" value="neutral">
+<input type="hidden" name="e4" id="4" value="neutral">
+<input type="hidden" id="voice1" name="voice1" value="freaking dude">
+<input type="hidden" id="voice2" name="voice2" value="sdfaghjahgfg">
+<input type="submit" name="submit" value="Generate" onclick="showPreview()">
+</form>	
+	</div>
+	<div id="previewscreen" style="margin:0px">
+				<div class="popup_inside" style="width:640px;length:474px;">
+				<h2 class="popup_heading">Preview Video</h2>
+			
+				<img src="/static/img/loading.gif" style="width:640px;length:340px;">
+				<div class="buttons">
+					<button class="preview-button save" type="button">Save Now</button>
+				</div>
+
+				<a class="close-button" href="/qvm?theme=bar" >×</a>
+			</div>
+	</div>
+	<script>
+		let step = 0.5;
+		let json;
+		let C = 0;
+		let startpos = 0;
+		const tbody = $("tbody");
+		$.get("/api/listCharJson/", data => {
+			json = data;
+			loadChars();
+		});
+		function loadFirstPage()
+		{
+		var elmtTable = document.getElementById('chars');
+			document.getElementById('firstpage').style.display='none';
+			for (let i = 0; i < 10; i++)
+			{
+			elmtTable.deleteCell(0);
+			}
+			C = 10;
+			c = 0;
+			startpos = 10;
+for (; c < C; c++) {
+				let id = json[c].id;
+				let title = json[c].title;
+			var x = elmtTable.insertCell(-1);
+			x.innerHTML = `<td><div class="thumbnail" onclick="nextStep(${step}, '${id}')">
+<img src="/assets/${id}.png" id="${id}" alt="thumbnail" title="${title}"/>
+</div></td><br>`;
+		}
+		}
+		function loadChars() {
+			// load only 10 rows
+			document.getElementById('firstpage').style.display='none';
+			var elmtTable = document.getElementById('chars');
+			let whatstep = 0.5;
+			if (step == 1)
+			{
+			console.log("Going to 0.5?");
+			whatstep = 1;
+			}
+
+			let c = 0;
+			if (startpos != 0)
+			{
+			c = startpos;
+			}
+			if (c > 0)
+			{
+			document.getElementById('firstpage').style.display='none';
+			for (let i = 0; i < 10; i++)
+			{
+			elmtTable.deleteCell(0);
+			}
+			}
+			let kson = `<tr id="chars">`;
+			C += 10;
+			if (c < 1)
+			{
+			for (; c < C; c++) {
+				let id = json[c].id;
+				let title = json[c].title;
+				kson += `<td><div class="thumbnail" onclick="nextStep(${whatstep}, '${id}')">
+<img src="/assets/${id}.png" id="${id}" alt="thumbnail" title="${title}"/>
+</div></td><br>`;
+				// we reached the end
+				if (c > json.length - 1) {
+					break;
+				}
+			}
+			}
+			else
+			{
+			for (; c < C; c++) {
+	document.getElementById('firstpage').style.display='block';
+				let id = json[c].id;
+				let title = json[c].title;
+			var x = elmtTable.insertCell(-1);
+			x.innerHTML = `<td><div class="thumbnail" onclick="nextStep(${whatstep}, '${id}')">
+<img src="/assets/${id}.png" id="${id}" alt="thumbnail" title="${title}"/>
+</div></td><br>`;
+				// we reached the end
+				if (c > json.length - 1) {
+					break;
+				}
+			}
+			}
+			startpos = c;
+			console.log(kson);
+		tbody.append(kson.trim());
+		}
+document.getElementById('step2').style.display='none';	
+document.getElementById('previewscreen').style.display='none';
+</script>
+		<%~ includeFile("./includes/footer", { env: it.env }) %>
+	<script>
+	function getCharacterAction(char, emotion, scene)
+	{
+	document.getElementById(scene).value = emotion;	
+	console.log("0scene=" + scene + "&emotion=" + emotion);
+	}
+	function updateVoicesVariable()
+	{
+	}
+	function showPreview()
+	{
+	document.getElementById('previewscreen').style.display='block';
+	document.getElementById('step2').style.display='none';	
+	}
+	function setVoice(char, voice)
+	{
+	if (char == "char1")
+	{
+	console.log("CHAR 1!!!!");
+	document.getElementById("voice1").value = voice;
+	}
+	else
+	{
+	console.log("CHAR 2!!!!");
+	document.getElementById("voice2").value = voice;
+	}
+	}
+	function nextStep(stev, id = "")
+	{
+	if (stev == 0.5)
+	{
+	document.getElementById("char1").value = id;
+	document.getElementById("step1text").innerHTML = "Step 1.5, Grab your second char!";
+	step = 1;
+	loadFirstPage();
+	}
+	else if (stev == 1)
+	{
+	document.getElementById("char2").value = id;
+	console.log(id);
+	document.getElementById('step1').style.display='none';
+	document.getElementById('step2').style.display='block';	
+	}
+	else if (stev == 2)
+	{
+	document.getElementById('step2').style.display='none';		
+	}
+	return;
+	}
+	</script>
+    </body>
+</html>

@@ -1,0 +1,383 @@
+<film copyable="0" duration="16.0" published="1" pshare="1">
+  <meta>
+    <title><![CDATA[template2]]></title>
+    <tag><![CDATA[school]]></tag>
+    <hiddenTag><![CDATA[]]></hiddenTag>
+    <desc><![CDATA[]]></desc>
+    <mver><![CDATA[4]]></mver>
+    <studio>d7446f28669693f5b7a35d41831e43c3662c48bf</studio>
+    <thumbnail index="0"/>
+    <palette>
+      <color value="333333"/>
+      <color value="999999"/>
+      <color value="fbfbfb"/>
+      <color value="669999"/>
+      <color value="55bbaa"/>
+      <color value="7fbb11"/>
+      <color value="15709b"/>
+      <color value="9a5d1"/>
+      <color value="6ab8d6"/>
+      <color value="da2021"/>
+      <color value="fecd31"/>
+      <color value="28c6c1"/>
+      <color value="37444f"/>
+      <color value="0"/>
+    </palette>
+  </meta>
+  <scene id="SCENE0" adelay="12" lock="Y" index="0" color="0" guid="4E4E91D4-A0D3-80EC-E054-812BAF3DF2C0">
+    <effectAsset id="EFFECT1" themecode="common" index="1">
+      <effect x="0" y="0" w="550" h="354" rotate="0" id="cut" type="ZOOM" isCut="true" isPan="false"/>
+      <x>47</x>
+      <y>24</y>
+      <width>550</width>
+      <height>354</height>
+      <speech>0</speech>
+    </effectAsset>
+  </scene>
+  <scene id="SCENE1" adelay="48" lock="Y" index="1" color="16777215" guid="31E53E5A-9698-9076-2B86-2D6E88EBDAAF" combgId="custom.cbg_toilet">
+    <bg id="cbg_toilet_BG2" index="0">
+      <file>custom.toilet_bg.swf</file>
+      <dcsn>9610</dcsn>
+      <color r="ccColorA" oc="0x0">13538451</color>
+    </bg>
+    <char id="AVATOR134" index="2" raceCode="1">
+      <action face="1" motionface="1">ugc.e62fcdc.sit.xml</action>
+      <x>500.15</x>
+      <y>214.65</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <rotation>0</rotation>
+    </char>
+    <prop id="cbg_toilet_PROP0" index="1" attached="Y">
+      <file>custom.msp_toilet_door.msp_toilet_door_toilet_door_close.swf</file>
+      <x>93</x>
+      <y>185</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+    </prop>
+    <effectAsset id="EFFECT3" index="3">
+      <effect id="fade_in.swf" type="ANIME"/>
+      <x>47</x>
+      <y>24</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <file>common.fade_in.swf</file>
+    </effectAsset>
+    <effectAsset id="EFFECT1" themecode="common" index="4">
+      <effect x="0" y="0" w="550" h="354" rotate="0" id="cut" type="ZOOM" isCut="true" isPan="false"/>
+      <x>47</x>
+      <y>24</y>
+      <width>550</width>
+      <height>354</height>
+      <speech>0</speech>
+    </effectAsset>
+  </scene>
+  <scene id="SCENE2" adelay="12" lock="Y" index="2" color="16777215" guid="953DE755-6027-ED9E-C39D-99BAFCA6AE15">
+    <bg id="cbg_toilet_BG2" index="0">
+      <file>custom.toilet_bg.swf</file>
+      <color r="ccColorA" oc="0x0">13538451</color>
+    </bg>
+    <char id="AVATOR134" index="2" raceCode="1">
+      <action face="1" motionface="1">ugc.e62fcdc.sit.xml</action>
+      <x>500.15</x>
+      <y>214.65</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <rotation>0</rotation>
+    </char>
+    <prop id="cbg_toilet_PROP0" index="1" attached="Y">
+      <file>custom.msp_toilet_door.msp_toilet_door_toilet_door_half.swf</file>
+      <x>93</x>
+      <y>185</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+    </prop>
+    <effectAsset id="EFFECT1" themecode="common" index="3">
+      <effect x="0" y="0" w="550" h="354" rotate="0" id="cut" type="ZOOM" isCut="true" isPan="false"/>
+      <x>47</x>
+      <y>24</y>
+      <width>550</width>
+      <height>354</height>
+      <speech>0</speech>
+    </effectAsset>
+  </scene>
+  <scene id="SCENE3" adelay="24" lock="Y" index="3" color="16777215" guid="B8837A4D-195B-9C34-7FEE-A51FB0004A64">
+    <bg id="cbg_toilet_BG2" index="0">
+      <file>custom.toilet_bg.swf</file>
+      <color r="ccColorA" oc="0x0">13538451</color>
+    </bg>
+    <char id="AVATOR144" index="1" raceCode="1">
+      <action face="-1,-1" motionface="-1">ugc.b29bbaa.run.xml</action>
+      <x>99.35,322</x>
+      <y>216.625,228.725</y>
+      <xscale>1,1</xscale>
+      <yscale>1,1</yscale>
+      <rotation>0,0</rotation>
+      <assetMotion ver="2"/>
+    </char>
+    <char id="AVATOR134" index="3" raceCode="1">
+      <action face="1" motionface="1">ugc.e62fcdc.sit.xml</action>
+      <head id="PROP7" raceCode="1">
+        <file>ugc.e62fcdc.head.head_shocked.xml</file>
+      </head>
+      <x>500.15</x>
+      <y>214.65</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <rotation>0</rotation>
+    </char>
+    <prop id="cbg_toilet_PROP0" index="2" attached="Y">
+      <file>custom.msp_toilet_door.msp_toilet_door_toilet_door_open.swf</file>
+      <x>93</x>
+      <y>185</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+    </prop>
+    <effectAsset id="EFFECT1" themecode="common" index="4">
+      <effect x="0" y="0" w="550" h="354" rotate="0" id="cut" type="ZOOM" isCut="true" isPan="false"/>
+      <x>47</x>
+      <y>24</y>
+      <width>550</width>
+      <height>354</height>
+      <speech>0</speech>
+    </effectAsset>
+    <aTranList>
+      <aTran id="0" target="AVATOR144" type="MotionPath" atype="Character" direction="2" section="6" timing="3" duration="24" delay="0">null</aTran>
+    </aTranList>
+  </scene>
+  <scene id="SCENE5" adelay="48" lock="Y" index="4" color="16777215" guid="6BA82878-05A3-D5B8-15D4-63F1F4CA29A7">
+    <bg id="cbg_toilet_BG2" index="0">
+      <file>custom.toilet_bg.swf</file>
+      <color r="ccColorA" oc="0x0">13538451</color>
+    </bg>
+    <char id="AVATOR144" index="1" raceCode="1">
+      <action face="-1" motionface="1">ugc.b29bbaa.fearful.xml</action>
+      <x>322</x>
+      <y>228.725</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <rotation>0</rotation>
+    </char>
+    <char id="AVATOR134" index="3" raceCode="1">
+      <action face="1" motionface="1">ugc.e62fcdc.sit.xml</action>
+      <head id="PROP30" raceCode="1">
+        <file>ugc.e62fcdc.head.head_shocked.xml</file>
+      </head>
+      <x>500.15</x>
+      <y>214.65</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <rotation>0</rotation>
+    </char>
+    <prop id="cbg_toilet_PROP0" index="2" attached="Y">
+      <file>custom.msp_toilet_door.msp_toilet_door_toilet_door_open.swf</file>
+      <x>93</x>
+      <y>185</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+    </prop>
+    <effectAsset id="EFFECT1" themecode="common" index="4">
+      <effect x="0" y="0" w="550" h="354" rotate="0" id="cut" type="ZOOM" isCut="true" isPan="false"/>
+      <x>47</x>
+      <y>24</y>
+      <width>550</width>
+      <height>354</height>
+      <speech>0</speech>
+    </effectAsset>
+  </scene>
+  <scene id="SCENE7" adelay="48" lock="Y" index="5" color="16777215" guid="96C0C393-8E0A-F7A9-080D-1855EF34A7FC">
+    <bg id="BG192" index="0">
+      <file>custom.toilet_blurred.png</file>
+    </bg>
+    <char id="AVATOR144" index="1" raceCode="1">
+      <action face="-1" motionface="1">ugc.b29bbaa.fearful.xml</action>
+      <head id="PROP9" raceCode="1">
+        <file>ugc.b29bbaa.head.head_neutral.xml</file>
+      </head>
+      <x>322</x>
+      <y>228.725</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <rotation>0</rotation>
+    </char>
+    <char id="AVATOR134" index="2" raceCode="1">
+      <action face="1" motionface="1">ugc.e62fcdc.sit.xml</action>
+      <x>500.15</x>
+      <y>214.65</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <rotation>0</rotation>
+    </char>
+    <effectAsset id="EFFECT1" themecode="common" index="3">
+      <effect x="0" y="0" w="233.9830508" h="150.6" rotate="0" id="cut" type="ZOOM" isCut="true" isPan="false"/>
+      <x>363.0169492</x>
+      <y>75.95</y>
+      <width>233.9830508</width>
+      <height>150.6</height>
+      <speech>0</speech>
+    </effectAsset>
+  </scene>
+  <scene id="SCENE8" adelay="48" lock="Y" index="6" color="16777215" guid="E84E615E-240E-0A90-839E-7D6AD11101F7">
+    <bg id="BG192" index="0">
+      <file>custom.toilet_blurred.png</file>
+    </bg>
+    <char id="AVATOR144" index="1" raceCode="1">
+      <action face="-1" motionface="1">ugc.b29bbaa.fearful.xml</action>
+      <x>270.5334746</x>
+      <y>229.575</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <rotation>0</rotation>
+    </char>
+    <char id="AVATOR134" index="2" raceCode="1">
+      <action face="1" motionface="1">ugc.e62fcdc.sit.xml</action>
+      <head id="PROP16" raceCode="1">
+        <file>ugc.e62fcdc.head.head_adore.xml</file>
+      </head>
+      <x>500.15</x>
+      <y>214.65</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <rotation>0</rotation>
+    </char>
+    <effectAsset id="EFFECT1" themecode="common" index="3">
+      <effect x="0" y="0" w="263.5" h="169.5981818" rotate="0" id="cut" type="ZOOM" isCut="true" isPan="false"/>
+      <x>136.6584746</x>
+      <y>79.0509091</y>
+      <width>263.5</width>
+      <height>169.5981818</height>
+      <speech>0</speech>
+    </effectAsset>
+  </scene>
+  <scene id="SCENE11" adelay="48" lock="Y" index="7" color="16777215" guid="21EAD250-950A-71ED-CCC9-16E72A8F1811">
+    <bg id="cbg_toilet_BG2" index="0">
+      <file>custom.toilet_bg.swf</file>
+      <color r="ccColorA" oc="0x0">13538451</color>
+    </bg>
+    <char id="AVATOR134" index="2" raceCode="1">
+      <action face="1" motionface="1">ugc.e62fcdc.sit.xml</action>
+      <x>500.15</x>
+      <y>214.65</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <rotation>0</rotation>
+    </char>
+    <prop id="cbg_toilet_PROP0" index="1" attached="Y">
+      <file>custom.msp_toilet_door.msp_toilet_door_toilet_door_open.swf</file>
+      <x>93</x>
+      <y>185</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+    </prop>
+    <effectAsset id="EFFECT1" themecode="common" index="3">
+      <effect x="0" y="0" w="276.3983051" h="177.9" rotate="0" id="cut" type="ZOOM" isCut="true" isPan="false"/>
+      <x>320.6016949</x>
+      <y>68.65</y>
+      <width>276.3983051</width>
+      <height>177.9</height>
+      <speech>0</speech>
+    </effectAsset>
+  </scene>
+  <scene id="SCENE12" adelay="48" lock="Y" index="8" color="16777215" guid="6CE3E396-72EE-4A5D-3DD6-D20D28DC7CAE">
+    <bg id="cbg_toilet_BG2" index="0">
+      <file>custom.toilet_bg.swf</file>
+      <color r="ccColorA" oc="0x0">13538451</color>
+    </bg>
+    <char id="AVATOR144" index="1" raceCode="1">
+      <action face="-1" motionface="1">ugc.b29bbaa.fearful.xml</action>
+      <x>322</x>
+      <y>228.725</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <rotation>0</rotation>
+    </char>
+    <char id="AVATOR134" index="3" raceCode="1">
+      <action face="1" motionface="1">ugc.e62fcdc.sit.xml</action>
+      <x>500.15</x>
+      <y>214.65</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <rotation>0</rotation>
+    </char>
+    <prop id="cbg_toilet_PROP0" index="2" attached="Y">
+      <file>custom.msp_toilet_door.msp_toilet_door_toilet_door_open.swf</file>
+      <x>93</x>
+      <y>185</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+    </prop>
+    <effectAsset id="EFFECT1" themecode="common" index="4">
+      <effect x="0" y="0" w="550" h="354" rotate="0" id="cut" type="ZOOM" isCut="true" isPan="false"/>
+      <x>47</x>
+      <y>24</y>
+      <width>550</width>
+      <height>354</height>
+      <speech>0</speech>
+    </effectAsset>
+  </scene>
+  <scene id="SCENE13" adelay="48" lock="Y" index="9" color="16777215" guid="23EDF322-27AE-82FA-C9D3-84D32774F442">
+    <bg id="cbg_toilet_BG2" index="0">
+      <file>custom.toilet_bg.swf</file>
+      <color r="ccColorA" oc="0x0">13538451</color>
+    </bg>
+    <char id="AVATOR144" index="1" raceCode="1" faceCamera="true">
+      <action face="-1" motionface="1">ugc.b29bbaa.sad.xml</action>
+      <head id="PROP27" raceCode="1">
+        <file>ugc.b29bbaa.head.head_sad.xml</file>
+      </head>
+      <x>322</x>
+      <y>228.725</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <rotation>0</rotation>
+    </char>
+    <char id="AVATOR134" index="3" raceCode="1" faceCamera="true">
+      <action face="1" motionface="1">ugc.e62fcdc.sit.xml</action>
+      <head id="PROP29" raceCode="1">
+        <file>ugc.e62fcdc.head.head_shocked.xml</file>
+      </head>
+      <x>500.15</x>
+      <y>214.65</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <rotation>0</rotation>
+    </char>
+    <prop id="cbg_toilet_PROP0" index="2" attached="Y">
+      <file>custom.msp_toilet_door.msp_toilet_door_toilet_door_open.swf</file>
+      <x>93</x>
+      <y>185</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+    </prop>
+    <effectAsset id="EFFECT12" index="4">
+      <effect id="fade_out.swf" type="ANIME"/>
+      <x>47</x>
+      <y>24</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <file>common.fade_out.swf</file>
+    </effectAsset>
+    <effectAsset id="EFFECT1" themecode="common" index="5">
+      <effect x="0" y="0" w="550" h="354" rotate="0" id="cut" type="ZOOM" isCut="true" isPan="false"/>
+      <x>47</x>
+      <y>24</y>
+      <width>550</width>
+      <height>354</height>
+      <speech>0</speech>
+    </effectAsset>
+  </scene>
+</film>

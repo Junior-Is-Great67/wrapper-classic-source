@@ -1,0 +1,898 @@
+<film copyable="0" duration="17.8" published="0" pshare="1">
+  <meta>
+    <title><![CDATA[qvm_pt]]></title>
+    <tag><![CDATA[school]]></tag>
+    <hiddenTag><![CDATA[pizza,pizza,vilgante,noise]]></hiddenTag>
+    <desc><![CDATA[]]></desc>
+    <mver><![CDATA[4]]></mver>
+    <studio>d7446f28669693f5b7a35d41831e43c3662c48bf</studio>
+    <thumbnail index="1"/>
+    <palette>
+      <color value="333333"/>
+      <color value="999999"/>
+      <color value="fbfbfb"/>
+      <color value="669999"/>
+      <color value="55bbaa"/>
+      <color value="7fbb11"/>
+      <color value="15709b"/>
+      <color value="9a5d1"/>
+      <color value="6ab8d6"/>
+      <color value="da2021"/>
+      <color value="fecd31"/>
+      <color value="28c6c1"/>
+      <color value="37444f"/>
+      <color value="ffffff"/>
+      <color value="0"/>
+    </palette>
+  </meta>
+  <scene id="SCENE1" adelay="12" lock="Y" index="0" color="0" guid="BF8B38BC-1E0D-05D0-0600-36F717FAA034">
+    <effectAsset id="EFFECT3" themecode="common" index="1">
+      <effect x="0" y="0" w="550" h="354" rotate="0" id="cut" type="ZOOM" isCut="true" isPan="false"/>
+      <x>47</x>
+      <y>24</y>
+      <width>550</width>
+      <height>354</height>
+      <speech>0</speech>
+    </effectAsset>
+  </scene>
+  <scene id="SCENE0" adelay="72" lock="Y" index="1" color="16777215" guid="B47E4141-5D21-11D7-906C-8FCE169081F8" combgId="common.cbg_bar01">
+    <bg id="cbg_bar01_BG25" index="0">
+      <file>common.ncc_floor.swf</file>
+      <color r="colorA">3342336</color>
+      <color r="colorB">16777215</color>
+    </bg>
+    <char id="AVATOR104" index="10" raceCode="0">
+      <action face="1,1" motionface="-1">pizza.pizza.walk.swf</action>
+      <x>-86.95,126.6303753</x>
+      <y>300.65,290.725</y>
+      <xscale>1,1.6308316</xscale>
+      <yscale>1,1.6308316</yscale>
+      <rotation>0,0</rotation>
+      <assetMotion ver="2"/>
+    </char>
+    <char id="AVATOR106" index="7" raceCode="0">
+      <action face="1,1" motionface="-1">pizza.vilgante.walks.swf</action>
+      <x>214.85,280.1,281.8,297.55,318.8</x>
+      <y>256.975,279.15,228.05,200.6,196.375</y>
+      <xscale>1,1</xscale>
+      <yscale>1,1</yscale>
+      <rotation>0,0</rotation>
+      <assetMotion ver="2"/>
+    </char>
+    <char id="AVATOR108" index="8" raceCode="0">
+      <action face="1" motionface="1">pizza.noise.idle.swf</action>
+      <x>125.6</x>
+      <y>255.9</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <rotation>0</rotation>
+    </char>
+    <char id="AVATOR109" index="9" raceCode="1">
+      <action face="1,1" motionface="1">ugc.138cdd8.walk.xml</action>
+      <x>702.2,407.7</x>
+      <y>248.375,245.25</y>
+      <xscale>1,1</xscale>
+      <yscale>1,1</yscale>
+      <rotation>0,0</rotation>
+      <assetMotion ver="2"/>
+    </char>
+    <prop id="cbg_bar01_PROP13" index="6" attached="Y">
+      <file>common.bar_stool.swf</file>
+      <x>526.1720238</x>
+      <y>275.732753</y>
+      <xscale>0.4835952</xscale>
+      <yscale>0.4835952</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="cbg_bar01_PROP12" index="5" attached="Y">
+      <file>common.bar_stool.swf</file>
+      <x>429.4529762</x>
+      <y>277.005372</y>
+      <xscale>0.4835952</xscale>
+      <yscale>0.4835952</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="cbg_bar01_PROP11" index="4" attached="Y">
+      <file>common.bar_stool.swf</file>
+      <x>335.9154762</x>
+      <y>276.3690625</y>
+      <xscale>0.4835952</xscale>
+      <yscale>0.4835952</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="cbg_bar01_PROP5" index="3" attached="Y">
+      <file>common.msp_counter01.msp_counter01_counter01_front.swf</file>
+      <x>533.4895833</x>
+      <y>245.2535268</y>
+      <xscale>0.6363095</xscale>
+      <yscale>0.6363095</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+      <color r="ccColorB">6684672</color>
+      <color r="ccColorA">3355443</color>
+    </prop>
+    <prop id="cbg_bar01_PROP4" index="2" attached="Y">
+      <file>common.msp_counter01.msp_counter01_counter01_front.swf</file>
+      <x>438.0431548</x>
+      <y>244.6172173</y>
+      <xscale>0.6363095</xscale>
+      <yscale>0.6363095</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+      <color r="ccColorB">6684672</color>
+      <color r="ccColorA">3355443</color>
+    </prop>
+    <prop id="cbg_bar01_PROP3" index="1" attached="Y">
+      <file>common.msp_counter01.msp_counter01_counter01_front.swf</file>
+      <x>341.9604167</x>
+      <y>243.9809077</y>
+      <xscale>0.6363095</xscale>
+      <yscale>0.6363095</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+      <color r="ccColorB">6684672</color>
+      <color r="ccColorA">3355443</color>
+    </prop>
+    <effectAsset id="EFFECT1" themecode="common" index="12">
+      <effect x="0" y="0" w="436.6" h="281.0116364" rotate="0" id="cut" type="ZOOM" isCut="false" isPan="true"/>
+      <x>160.4,47</x>
+      <y>96.9883636,24</y>
+      <width>436.6,550</width>
+      <height>281.0116364,354</height>
+      <speech>0</speech>
+    </effectAsset>
+    <effectAsset id="EFFECT16" index="11">
+      <effect id="fade_in.swf" type="ANIME"/>
+      <x>47</x>
+      <y>24</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <file>common.fade_in.swf</file>
+    </effectAsset>
+    <aTranList>
+      <aTran id="0" target="AVATOR104" type="MotionPath" atype="Character" direction="2" section="6" timing="3" duration="24" delay="0">null</aTran>
+      <aTran id="1" target="AVATOR106" type="MotionPath" atype="Character" direction="2" section="6" timing="3" duration="24" delay="0">null</aTran>
+      <aTran id="2" target="AVATOR109" type="MotionPath" atype="Character" direction="2" section="6" timing="3" duration="24" delay="0">null</aTran>
+    </aTranList>
+  </scene>
+  <scene id="SCENE2" adelay="48" lock="Y" index="2" color="16777215" guid="55B8F630-FE8D-E6C3-2AB5-50671647D18B">
+    <bg id="cbg_bar01_BG25" index="0">
+      <file>common.ncc_floor.swf</file>
+      <color r="colorA">3342336</color>
+      <color r="colorB">16777215</color>
+    </bg>
+    <char id="AVATOR104" index="10" raceCode="0">
+      <action face="1" motionface="-1">pizza.pizza.idle.swf</action>
+      <x>126.6303753</x>
+      <y>290.725</y>
+      <xscale>1.6308316</xscale>
+      <yscale>1.6308316</yscale>
+      <rotation>0</rotation>
+    </char>
+    <char id="AVATOR106" index="7" raceCode="0">
+      <action face="1,1" motionface="-1">pizza.vilgante.walks.swf</action>
+      <x>318.8,519.95</x>
+      <y>196.375,192.025</y>
+      <xscale>1,1</xscale>
+      <yscale>1,1</yscale>
+      <rotation>0,0</rotation>
+      <assetMotion ver="2"/>
+    </char>
+    <char id="AVATOR108" index="8" raceCode="0">
+      <action face="1" motionface="1">pizza.noise.idle.swf</action>
+      <x>125.6</x>
+      <y>255.9</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <rotation>0</rotation>
+    </char>
+    <char id="AVATOR109" index="9" raceCode="1">
+      <action face="1" motionface="-1">ugc.138cdd8.stand2.xml</action>
+      <x>407.7</x>
+      <y>245.25</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <rotation>0</rotation>
+    </char>
+    <prop id="cbg_bar01_PROP3" index="1" attached="Y">
+      <file>common.msp_counter01.msp_counter01_counter01_front.swf</file>
+      <x>341.9604167</x>
+      <y>243.9809077</y>
+      <xscale>0.6363095</xscale>
+      <yscale>0.6363095</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+      <color r="ccColorB">6684672</color>
+      <color r="ccColorA">3355443</color>
+    </prop>
+    <prop id="cbg_bar01_PROP4" index="2" attached="Y">
+      <file>common.msp_counter01.msp_counter01_counter01_front.swf</file>
+      <x>438.0431548</x>
+      <y>244.6172173</y>
+      <xscale>0.6363095</xscale>
+      <yscale>0.6363095</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+      <color r="ccColorB">6684672</color>
+      <color r="ccColorA">3355443</color>
+    </prop>
+    <prop id="cbg_bar01_PROP5" index="3" attached="Y">
+      <file>common.msp_counter01.msp_counter01_counter01_front.swf</file>
+      <x>533.4895833</x>
+      <y>245.2535268</y>
+      <xscale>0.6363095</xscale>
+      <yscale>0.6363095</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+      <color r="ccColorB">6684672</color>
+      <color r="ccColorA">3355443</color>
+    </prop>
+    <prop id="cbg_bar01_PROP11" index="4" attached="Y">
+      <file>common.bar_stool.swf</file>
+      <x>335.9154762</x>
+      <y>276.3690625</y>
+      <xscale>0.4835952</xscale>
+      <yscale>0.4835952</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="cbg_bar01_PROP12" index="5" attached="Y">
+      <file>common.bar_stool.swf</file>
+      <x>429.4529762</x>
+      <y>277.005372</y>
+      <xscale>0.4835952</xscale>
+      <yscale>0.4835952</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="cbg_bar01_PROP13" index="6" attached="Y">
+      <file>common.bar_stool.swf</file>
+      <x>526.1720238</x>
+      <y>275.732753</y>
+      <xscale>0.4835952</xscale>
+      <yscale>0.4835952</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+    </prop>
+    <effectAsset id="EFFECT1" themecode="common" index="11">
+      <effect x="0" y="0" w="550" h="354" rotate="0" id="cut" type="ZOOM" isCut="true" isPan="false"/>
+      <x>47</x>
+      <y>24</y>
+      <width>550</width>
+      <height>354</height>
+      <speech>0</speech>
+    </effectAsset>
+    <aTranList>
+      <aTran id="3" target="AVATOR106" type="MotionPath" atype="Character" direction="2" section="6" timing="3" duration="24" delay="0">null</aTran>
+    </aTranList>
+  </scene>
+  <scene id="SCENE3" adelay="51" lock="Y" index="3" color="16777215" guid="B30158A2-82AF-61FF-2FBB-39C2D0C5E244">
+    <bg id="cbg_bar01_BG25" index="0">
+      <file>common.ncc_floor.swf</file>
+      <color r="colorA">3342336</color>
+      <color r="colorB">16777215</color>
+    </bg>
+    <char id="AVATOR106" index="7" raceCode="0">
+      <action face="1" motionface="-1">pizza.vilgante.walks.swf</action>
+      <x>519.95</x>
+      <y>192.025</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <rotation>0</rotation>
+    </char>
+    <char id="AVATOR108" index="8" raceCode="0">
+      <action face="1" motionface="1">pizza.noise.idle.swf</action>
+      <x>125.6</x>
+      <y>255.9</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <rotation>0</rotation>
+    </char>
+    <char id="AVATOR109" index="9" raceCode="1">
+      <action face="1" motionface="1">ugc.138cdd8.stand2.xml</action>
+      <x>407.7</x>
+      <y>245.25</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <rotation>0</rotation>
+    </char>
+    <char id="AVATOR104" index="10" raceCode="0">
+      <action face="1" motionface="1">pizza.pizza.idle.swf</action>
+      <x>126.6303753</x>
+      <y>290.725</y>
+      <xscale>1.6308316</xscale>
+      <yscale>1.6308316</yscale>
+      <rotation>0</rotation>
+    </char>
+    <prop id="cbg_bar01_PROP3" index="1" attached="Y">
+      <file>common.msp_counter01.msp_counter01_counter01_front.swf</file>
+      <x>341.9604167</x>
+      <y>243.9809077</y>
+      <xscale>0.6363095</xscale>
+      <yscale>0.6363095</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+      <color r="ccColorB">6684672</color>
+      <color r="ccColorA">3355443</color>
+    </prop>
+    <prop id="cbg_bar01_PROP4" index="2" attached="Y">
+      <file>common.msp_counter01.msp_counter01_counter01_front.swf</file>
+      <x>438.0431548</x>
+      <y>244.6172173</y>
+      <xscale>0.6363095</xscale>
+      <yscale>0.6363095</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+      <color r="ccColorB">6684672</color>
+      <color r="ccColorA">3355443</color>
+    </prop>
+    <prop id="cbg_bar01_PROP5" index="3" attached="Y">
+      <file>common.msp_counter01.msp_counter01_counter01_front.swf</file>
+      <x>533.4895833</x>
+      <y>245.2535268</y>
+      <xscale>0.6363095</xscale>
+      <yscale>0.6363095</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+      <color r="ccColorB">6684672</color>
+      <color r="ccColorA">3355443</color>
+    </prop>
+    <prop id="cbg_bar01_PROP11" index="4" attached="Y">
+      <file>common.bar_stool.swf</file>
+      <x>335.9154762</x>
+      <y>276.3690625</y>
+      <xscale>0.4835952</xscale>
+      <yscale>0.4835952</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="cbg_bar01_PROP12" index="5" attached="Y">
+      <file>common.bar_stool.swf</file>
+      <x>429.4529762</x>
+      <y>277.005372</y>
+      <xscale>0.4835952</xscale>
+      <yscale>0.4835952</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="cbg_bar01_PROP13" index="6" attached="Y">
+      <file>common.bar_stool.swf</file>
+      <x>526.1720238</x>
+      <y>275.732753</y>
+      <xscale>0.4835952</xscale>
+      <yscale>0.4835952</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+    </prop>
+    <effectAsset id="EFFECT1" themecode="common" index="11">
+      <effect x="0" y="0" w="222.6" h="143.2734545" rotate="0" id="cut" type="ZOOM" isCut="true" isPan="false"/>
+      <x>47</x>
+      <y>234.4890909</y>
+      <width>222.6</width>
+      <height>143.2734545</height>
+      <speech>0</speech>
+    </effectAsset>
+  </scene>
+  <scene id="SCENE4" adelay="60" lock="N" index="4" color="16777215" guid="C3B06A92-D5D0-BC87-2688-A91F0576D702">
+    <durationSetting countMinimum="1" countTransition="1" countAction="1" countBubble="1" countSpeech="1"/>
+    <bg id="cbg_bar01_BG25" index="0">
+      <file>common.ncc_floor.swf</file>
+      <color r="colorA">3342336</color>
+      <color r="colorB">16777215</color>
+    </bg>
+    <char id="AVATOR108" index="7" raceCode="0">
+      <action face="1" motionface="1">pizza.noise.idle.swf</action>
+      <x>125.6</x>
+      <y>255.9</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <rotation>0</rotation>
+    </char>
+    <char id="AVATOR109" index="8" raceCode="1">
+      <action face="1" motionface="1">ugc.138cdd8.stand2.xml</action>
+      <x>407.7</x>
+      <y>245.25</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <rotation>0</rotation>
+    </char>
+    <char id="AVATOR104" index="9" raceCode="0">
+      <action face="1" motionface="1">pizza.pizza.idle.swf</action>
+      <x>126.6303753</x>
+      <y>290.725</y>
+      <xscale>1.6308316</xscale>
+      <yscale>1.6308316</yscale>
+      <rotation>0</rotation>
+    </char>
+    <prop id="cbg_bar01_PROP3" index="1" attached="Y">
+      <file>common.msp_counter01.msp_counter01_counter01_front.swf</file>
+      <x>341.9604167</x>
+      <y>243.9809077</y>
+      <xscale>0.6363095</xscale>
+      <yscale>0.6363095</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+      <color r="ccColorB">6684672</color>
+      <color r="ccColorA">3355443</color>
+    </prop>
+    <prop id="cbg_bar01_PROP4" index="2" attached="Y">
+      <file>common.msp_counter01.msp_counter01_counter01_front.swf</file>
+      <x>438.0431548</x>
+      <y>244.6172173</y>
+      <xscale>0.6363095</xscale>
+      <yscale>0.6363095</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+      <color r="ccColorB">6684672</color>
+      <color r="ccColorA">3355443</color>
+    </prop>
+    <prop id="cbg_bar01_PROP5" index="3" attached="Y">
+      <file>common.msp_counter01.msp_counter01_counter01_front.swf</file>
+      <x>533.4895833</x>
+      <y>245.2535268</y>
+      <xscale>0.6363095</xscale>
+      <yscale>0.6363095</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+      <color r="ccColorB">6684672</color>
+      <color r="ccColorA">3355443</color>
+    </prop>
+    <prop id="cbg_bar01_PROP11" index="4" attached="Y">
+      <file>common.bar_stool.swf</file>
+      <x>335.9154762</x>
+      <y>276.3690625</y>
+      <xscale>0.4835952</xscale>
+      <yscale>0.4835952</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="cbg_bar01_PROP12" index="5" attached="Y">
+      <file>common.bar_stool.swf</file>
+      <x>429.4529762</x>
+      <y>277.005372</y>
+      <xscale>0.4835952</xscale>
+      <yscale>0.4835952</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="cbg_bar01_PROP13" index="6" attached="Y">
+      <file>common.bar_stool.swf</file>
+      <x>526.1720238</x>
+      <y>275.732753</y>
+      <xscale>0.4835952</xscale>
+      <yscale>0.4835952</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+    </prop>
+    <effectAsset id="EFFECT1" themecode="common" index="10">
+      <effect x="0" y="0" w="222.6" h="143.2734545" rotate="0" id="cut" type="ZOOM" isCut="true" isPan="false"/>
+      <x>278.25</x>
+      <y>102.6890909</y>
+      <width>222.6</width>
+      <height>143.2734545</height>
+      <speech>0</speech>
+    </effectAsset>
+  </scene>
+  <scene id="SCENE5" adelay="51" lock="Y" index="5" color="16777215" guid="C0D514B4-E8E7-655C-0714-F02849DCCF2F">
+    <bg id="cbg_bar01_BG25" index="0">
+      <file>common.ncc_floor.swf</file>
+      <color r="colorA">3342336</color>
+      <color r="colorB">16777215</color>
+    </bg>
+    <char id="AVATOR108" index="7" raceCode="0">
+      <action face="1" motionface="1">pizza.noise.idle.swf</action>
+      <x>125.6</x>
+      <y>255.9</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <rotation>0</rotation>
+    </char>
+    <char id="AVATOR109" index="8" raceCode="1">
+      <action face="1" motionface="1">ugc.138cdd8.stand2.xml</action>
+      <x>407.7</x>
+      <y>245.25</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <rotation>0</rotation>
+    </char>
+    <char id="AVATOR104" index="9" raceCode="0">
+      <action face="1" motionface="1">pizza.pizza.idle.swf</action>
+      <x>126.6303753</x>
+      <y>290.725</y>
+      <xscale>1.6308316</xscale>
+      <yscale>1.6308316</yscale>
+      <rotation>0</rotation>
+    </char>
+    <prop id="cbg_bar01_PROP3" index="1" attached="Y">
+      <file>common.msp_counter01.msp_counter01_counter01_front.swf</file>
+      <x>341.9604167</x>
+      <y>243.9809077</y>
+      <xscale>0.6363095</xscale>
+      <yscale>0.6363095</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+      <color r="ccColorB">6684672</color>
+      <color r="ccColorA">3355443</color>
+    </prop>
+    <prop id="cbg_bar01_PROP4" index="2" attached="Y">
+      <file>common.msp_counter01.msp_counter01_counter01_front.swf</file>
+      <x>438.0431548</x>
+      <y>244.6172173</y>
+      <xscale>0.6363095</xscale>
+      <yscale>0.6363095</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+      <color r="ccColorB">6684672</color>
+      <color r="ccColorA">3355443</color>
+    </prop>
+    <prop id="cbg_bar01_PROP5" index="3" attached="Y">
+      <file>common.msp_counter01.msp_counter01_counter01_front.swf</file>
+      <x>533.4895833</x>
+      <y>245.2535268</y>
+      <xscale>0.6363095</xscale>
+      <yscale>0.6363095</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+      <color r="ccColorB">6684672</color>
+      <color r="ccColorA">3355443</color>
+    </prop>
+    <prop id="cbg_bar01_PROP11" index="4" attached="Y">
+      <file>common.bar_stool.swf</file>
+      <x>335.9154762</x>
+      <y>276.3690625</y>
+      <xscale>0.4835952</xscale>
+      <yscale>0.4835952</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="cbg_bar01_PROP12" index="5" attached="Y">
+      <file>common.bar_stool.swf</file>
+      <x>429.4529762</x>
+      <y>277.005372</y>
+      <xscale>0.4835952</xscale>
+      <yscale>0.4835952</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="cbg_bar01_PROP13" index="6" attached="Y">
+      <file>common.bar_stool.swf</file>
+      <x>526.1720238</x>
+      <y>275.732753</y>
+      <xscale>0.4835952</xscale>
+      <yscale>0.4835952</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+    </prop>
+    <effectAsset id="EFFECT1" themecode="common" index="10">
+      <effect x="0" y="0" w="404.5762712" h="260.4" rotate="0" id="cut" type="ZOOM" isCut="true" isPan="false"/>
+      <x>192.4237288</x>
+      <y>104.3258182</y>
+      <width>404.5762712</width>
+      <height>260.4</height>
+      <speech>0</speech>
+    </effectAsset>
+  </scene>
+  <scene id="SCENE6" adelay="60" lock="N" index="6" color="16777215" guid="862FDD8D-CA43-7A57-DFCE-7B4FCC32FE52">
+    <durationSetting countMinimum="1" countTransition="1" countAction="1" countBubble="1" countSpeech="1"/>
+    <bg id="cbg_bar01_BG25" index="0">
+      <file>common.ncc_floor.swf</file>
+      <color r="colorA">3342336</color>
+      <color r="colorB">16777215</color>
+    </bg>
+    <char id="AVATOR108" index="7" raceCode="0">
+      <action face="1" motionface="1">pizza.noise.idle.swf</action>
+      <x>125.6</x>
+      <y>255.9</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <rotation>0</rotation>
+    </char>
+    <char id="AVATOR109" index="8" raceCode="1">
+      <action face="1" motionface="1">ugc.138cdd8.stand2.xml</action>
+      <x>407.7</x>
+      <y>245.25</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <rotation>0</rotation>
+    </char>
+    <char id="AVATOR104" index="9" raceCode="0">
+      <action face="1" motionface="1">pizza.pizza.idle.swf</action>
+      <x>126.6303753</x>
+      <y>290.725</y>
+      <xscale>1.6308316</xscale>
+      <yscale>1.6308316</yscale>
+      <rotation>0</rotation>
+    </char>
+    <prop id="cbg_bar01_PROP3" index="1" attached="Y">
+      <file>common.msp_counter01.msp_counter01_counter01_front.swf</file>
+      <x>341.9604167</x>
+      <y>243.9809077</y>
+      <xscale>0.6363095</xscale>
+      <yscale>0.6363095</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+      <color r="ccColorB">6684672</color>
+      <color r="ccColorA">3355443</color>
+    </prop>
+    <prop id="cbg_bar01_PROP4" index="2" attached="Y">
+      <file>common.msp_counter01.msp_counter01_counter01_front.swf</file>
+      <x>438.0431548</x>
+      <y>244.6172173</y>
+      <xscale>0.6363095</xscale>
+      <yscale>0.6363095</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+      <color r="ccColorB">6684672</color>
+      <color r="ccColorA">3355443</color>
+    </prop>
+    <prop id="cbg_bar01_PROP5" index="3" attached="Y">
+      <file>common.msp_counter01.msp_counter01_counter01_front.swf</file>
+      <x>533.4895833</x>
+      <y>245.2535268</y>
+      <xscale>0.6363095</xscale>
+      <yscale>0.6363095</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+      <color r="ccColorB">6684672</color>
+      <color r="ccColorA">3355443</color>
+    </prop>
+    <prop id="cbg_bar01_PROP11" index="4" attached="Y">
+      <file>common.bar_stool.swf</file>
+      <x>335.9154762</x>
+      <y>276.3690625</y>
+      <xscale>0.4835952</xscale>
+      <yscale>0.4835952</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="cbg_bar01_PROP12" index="5" attached="Y">
+      <file>common.bar_stool.swf</file>
+      <x>429.4529762</x>
+      <y>277.005372</y>
+      <xscale>0.4835952</xscale>
+      <yscale>0.4835952</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="cbg_bar01_PROP13" index="6" attached="Y">
+      <file>common.bar_stool.swf</file>
+      <x>526.1720238</x>
+      <y>275.732753</y>
+      <xscale>0.4835952</xscale>
+      <yscale>0.4835952</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+    </prop>
+    <effectAsset id="EFFECT1" themecode="common" index="10">
+      <effect x="0" y="0" w="318.8" h="205.1912727" rotate="0" id="cut" type="ZOOM" isCut="true" isPan="false"/>
+      <x>47</x>
+      <y>172.8087273</y>
+      <width>318.8</width>
+      <height>205.1912727</height>
+      <speech>0</speech>
+    </effectAsset>
+  </scene>
+  <scene id="SCENE7" adelay="24" lock="Y" index="7" color="16777215" guid="84297664-1F6D-9088-96EC-F346E5747DE2">
+    <bg id="cbg_bar01_BG25" index="0">
+      <file>common.ncc_floor.swf</file>
+      <color r="colorA">3342336</color>
+      <color r="colorB">16777215</color>
+    </bg>
+    <char id="AVATOR108" index="7" raceCode="0">
+      <action face="1" motionface="1">pizza.noise.idle.swf</action>
+      <x>125.6</x>
+      <y>255.9</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <rotation>0</rotation>
+    </char>
+    <char id="AVATOR109" index="8" raceCode="1">
+      <action face="1" motionface="1">ugc.138cdd8.stand2.xml</action>
+      <x>407.7</x>
+      <y>245.25</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <rotation>0</rotation>
+    </char>
+    <char id="AVATOR104" index="9" raceCode="0">
+      <action face="1" motionface="1">pizza.pizza.idle.swf</action>
+      <x>126.6303753</x>
+      <y>290.725</y>
+      <xscale>1.6308316</xscale>
+      <yscale>1.6308316</yscale>
+      <rotation>0</rotation>
+    </char>
+    <prop id="cbg_bar01_PROP3" index="1" attached="Y">
+      <file>common.msp_counter01.msp_counter01_counter01_front.swf</file>
+      <x>341.9604167</x>
+      <y>243.9809077</y>
+      <xscale>0.6363095</xscale>
+      <yscale>0.6363095</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+      <color r="ccColorB">6684672</color>
+      <color r="ccColorA">3355443</color>
+    </prop>
+    <prop id="cbg_bar01_PROP4" index="2" attached="Y">
+      <file>common.msp_counter01.msp_counter01_counter01_front.swf</file>
+      <x>438.0431548</x>
+      <y>244.6172173</y>
+      <xscale>0.6363095</xscale>
+      <yscale>0.6363095</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+      <color r="ccColorB">6684672</color>
+      <color r="ccColorA">3355443</color>
+    </prop>
+    <prop id="cbg_bar01_PROP5" index="3" attached="Y">
+      <file>common.msp_counter01.msp_counter01_counter01_front.swf</file>
+      <x>533.4895833</x>
+      <y>245.2535268</y>
+      <xscale>0.6363095</xscale>
+      <yscale>0.6363095</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+      <color r="ccColorB">6684672</color>
+      <color r="ccColorA">3355443</color>
+    </prop>
+    <prop id="cbg_bar01_PROP11" index="4" attached="Y">
+      <file>common.bar_stool.swf</file>
+      <x>335.9154762</x>
+      <y>276.3690625</y>
+      <xscale>0.4835952</xscale>
+      <yscale>0.4835952</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="cbg_bar01_PROP12" index="5" attached="Y">
+      <file>common.bar_stool.swf</file>
+      <x>429.4529762</x>
+      <y>277.005372</y>
+      <xscale>0.4835952</xscale>
+      <yscale>0.4835952</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="cbg_bar01_PROP13" index="6" attached="Y">
+      <file>common.bar_stool.swf</file>
+      <x>526.1720238</x>
+      <y>275.732753</y>
+      <xscale>0.4835952</xscale>
+      <yscale>0.4835952</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+    </prop>
+    <effectAsset id="EFFECT1" themecode="common" index="10">
+      <effect x="0" y="0" w="550" h="354" rotate="0" id="cut" type="ZOOM" isCut="true" isPan="false"/>
+      <x>47</x>
+      <y>24</y>
+      <width>550</width>
+      <height>354</height>
+      <speech>0</speech>
+    </effectAsset>
+  </scene>
+  <scene id="SCENE8" adelay="48" lock="Y" index="8" color="16777215" guid="5114B6CD-5431-75A5-F96F-3416D4D518ED">
+    <bg id="cbg_bar01_BG25" index="0">
+      <file>common.ncc_floor.swf</file>
+      <color r="colorA">3342336</color>
+      <color r="colorB">16777215</color>
+    </bg>
+    <char id="AVATOR108" index="7" raceCode="0">
+      <action face="1" motionface="1">pizza.noise.idle.swf</action>
+      <x>125.6</x>
+      <y>255.9</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <rotation>0</rotation>
+    </char>
+    <char id="AVATOR109" index="8" raceCode="1">
+      <action face="-1,-1" motionface="-1">ugc.138cdd8.walk.xml</action>
+      <x>407.7,684.85</x>
+      <y>245.25,245.25</y>
+      <xscale>1,1</xscale>
+      <yscale>1,1</yscale>
+      <rotation>0,0</rotation>
+      <assetMotion ver="2"/>
+    </char>
+    <char id="AVATOR104" index="9" raceCode="0">
+      <action face="-1,-1" motionface="1">pizza.pizza.walk.swf</action>
+      <x>126.6303753,-52.2196247</x>
+      <y>290.725,290.725</y>
+      <xscale>1.6308316,1.6308316</xscale>
+      <yscale>1.6308316,1.6308316</yscale>
+      <rotation>0,0</rotation>
+      <assetMotion ver="2"/>
+    </char>
+    <prop id="cbg_bar01_PROP3" index="1" attached="Y">
+      <file>common.msp_counter01.msp_counter01_counter01_front.swf</file>
+      <x>341.9604167</x>
+      <y>243.9809077</y>
+      <xscale>0.6363095</xscale>
+      <yscale>0.6363095</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+      <color r="ccColorB">6684672</color>
+      <color r="ccColorA">3355443</color>
+    </prop>
+    <prop id="cbg_bar01_PROP4" index="2" attached="Y">
+      <file>common.msp_counter01.msp_counter01_counter01_front.swf</file>
+      <x>438.0431548</x>
+      <y>244.6172173</y>
+      <xscale>0.6363095</xscale>
+      <yscale>0.6363095</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+      <color r="ccColorB">6684672</color>
+      <color r="ccColorA">3355443</color>
+    </prop>
+    <prop id="cbg_bar01_PROP5" index="3" attached="Y">
+      <file>common.msp_counter01.msp_counter01_counter01_front.swf</file>
+      <x>533.4895833</x>
+      <y>245.2535268</y>
+      <xscale>0.6363095</xscale>
+      <yscale>0.6363095</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+      <color r="ccColorB">6684672</color>
+      <color r="ccColorA">3355443</color>
+    </prop>
+    <prop id="cbg_bar01_PROP11" index="4" attached="Y">
+      <file>common.bar_stool.swf</file>
+      <x>335.9154762</x>
+      <y>276.3690625</y>
+      <xscale>0.4835952</xscale>
+      <yscale>0.4835952</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="cbg_bar01_PROP12" index="5" attached="Y">
+      <file>common.bar_stool.swf</file>
+      <x>429.4529762</x>
+      <y>277.005372</y>
+      <xscale>0.4835952</xscale>
+      <yscale>0.4835952</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+    </prop>
+    <prop id="cbg_bar01_PROP13" index="6" attached="Y">
+      <file>common.bar_stool.swf</file>
+      <x>526.1720238</x>
+      <y>275.732753</y>
+      <xscale>0.4835952</xscale>
+      <yscale>0.4835952</yscale>
+      <face>1</face>
+      <rotation>0</rotation>
+    </prop>
+    <effectAsset id="EFFECT1" themecode="common" index="11">
+      <effect x="0" y="0" w="550" h="354" rotate="0" id="cut" type="ZOOM" isCut="false" isPan="true"/>
+      <x>47,47</x>
+      <y>24,24</y>
+      <width>550,304.7</width>
+      <height>354,196.116</height>
+      <speech>0</speech>
+    </effectAsset>
+    <effectAsset id="EFFECT15" index="10">
+      <effect id="fade_out.swf" type="ANIME"/>
+      <x>47</x>
+      <y>24</y>
+      <xscale>1</xscale>
+      <yscale>1</yscale>
+      <file>common.fade_out.swf</file>
+    </effectAsset>
+    <aTranList>
+      <aTran id="5" target="AVATOR104" type="MotionPath" atype="Character" direction="2" section="6" timing="3" duration="24" delay="0">null</aTran>
+      <aTran id="6" target="AVATOR109" type="MotionPath" atype="Character" direction="2" section="6" timing="3" duration="24" delay="0">null</aTran>
+    </aTranList>
+  </scene>
+  <sound id="SOUND0" index="0" track="0" vol="1" tts="0">
+    <sfile>ugc.72a148e.mp3</sfile>
+    <start>1</start>
+    <stop>426</stop>
+    <trimEnd>426</trimEnd>
+    <fadein duration="48" vol="0"/>
+    <fadeout duration="48" vol="0"/>
+  </sound>
+</film>

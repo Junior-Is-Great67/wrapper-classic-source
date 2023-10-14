@@ -1,0 +1,47 @@
+<header>
+	<a href="/">
+		<h1 style="margin:0"><img id="logo" src="/pages/img/logo.svg" alt="Wrapper: Offline"/></h1>
+	</a>
+	<nav id="headbuttons">
+		<a href="/logOut" class="button_big" id="usrbro">USERNAME</a>
+    <form action="/logIn" method="get" id="login">
+      <input type="text" name="usrname" placeholder="Enter Username here" />
+      <input type="text" name="pass" placeholder="Enter Password here" />
+      <input type="submit" value="submit"/>
+    </form>
+		<a class="button_small" onclick="document.getElementById('file').click()">UPLOAD A CHAR</a>
+		<a href="/create?filter=cc" class="button_small">CREATE A CHARACTER</a>
+		<a href="/create" class="button_big">MAKE A VIDEO</a>
+		<a href="/create?filter=old" class="button_big">MAKE A OLD VIDEO</a>
+	</nav>
+</header>
+<script>
+//Cookie Script
+document.getElementById('usrbro').style.display='none';
+const username = getCookie("usrname");
+const password = getCookie("pass");
+if (password != "" && username != "")
+{
+document.getElementById('login').style.display='none';
+document.getElementById("usrbro").innerHTML = username;
+document.getElementById('usrbro').style.display='block';
+}
+
+function getCookie(cname) {
+  let name = cname + "=";
+  let ca = document.cookie.split(';');
+  for(let i = 0; i < ca.length; i++) {
+    let c = ca[i];
+    while (c.charAt(0) == ' ') {
+      c = c.substring(1);
+    }
+    if (c.indexOf(name) == 0) {
+      return c.substring(name.length, c.length);
+    }
+  }
+  return "";
+}
+</script>
+<form enctype='multipart/form-data' action='/api/char/upload' method='post'>
+	<input id='file' type="file" onchange="this.form.submit()" name='import' />
+</form>

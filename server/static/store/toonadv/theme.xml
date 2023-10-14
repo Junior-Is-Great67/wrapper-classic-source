@@ -1,0 +1,1831 @@
+<?xml version="1.0" encoding="utf-8"?>
+<theme id="toonadv" name="Toon Adventure" cc_theme_id="cctoonadventure" >
+	<char id="blossom" name="Blossom" thumb="standing.swf" facing="left" default="standing.swf" motion="walk.swf" enable="Y" is_premium="N" aid="10245" money="200" sharing="100">
+		<category name="Emotion">
+			<action id="excited.swf" name="Excited" loop="Y" totalframe="38" enable="Y" aid="10246"/>
+			<action id="cry.swf" name="Cry" loop="Y" totalframe="23" enable="Y" aid="10247"/>
+			<action id="sad.swf" name="Sad" loop="Y" totalframe="31" enable="Y" aid="10248"/>
+			<action id="angry.swf" name="Angry" loop="Y" totalframe="27" enable="Y" aid="10249"/>
+			<action id="shocked.swf" name="Shocked" loop="Y" totalframe="34" enable="Y" aid="10250"/>
+			<action id="thinking.swf" name="Thinking" loop="Y" totalframe="60" enable="Y" aid="10251"/>
+			<action id="laugh.swf" name="Laugh" loop="Y" totalframe="21" enable="Y" aid="10252"/>
+		</category>
+		<category name="Fight">
+			<action id="fight.swf" name="Punch" loop="Y" totalframe="28" enable="Y" aid="10253"/>
+			<action id="get_hit.swf" name="Get hit" loop="Y" totalframe="40" enable="Y" aid="10254"/>
+			<action id="combo_punch.swf" name="Combo punch" loop="Y" totalframe="100" enable="Y" aid="10255"/>
+			<action id="kick.swf" name="Kick" loop="Y" totalframe="100" enable="Y" aid="10256"/>
+		</category>
+		<category name="Standing">
+			<action id="standing.swf" name="Frontview" loop="Y" totalframe="1" enable="Y" aid="10257"/>
+			<action id="backview.swf" name="Backview" loop="Y" totalframe="70" enable="Y" aid="10258"/>
+		</category>
+		<category name="Super Powers">
+			<action id="laser_eye.swf" name="Heat vision" loop="Y" totalframe="28" enable="Y" aid="10259">
+				<prop id="msp_laser.msp_laser_laser_med.swf" aid="10201"/>
+			</action>
+			<action id="ice_breathe.swf" name="Ice-Breathe" loop="Y" totalframe="28" enable="Y" aid="10260">
+				<prop id="msp_ice.msp_ice_ice_med.swf" aid="10197"/>
+			</action>
+			<action id="sonic_scream.swf" name="Sonic Scream" loop="Y" totalframe="28" enable="Y" aid="10261">
+				<prop id="msp_sonic.msp_sonic_sonic_med.swf" aid="10206"/>
+			</action>
+		</category>
+		<action id="sitting.swf" name="Sitting" loop="Y" totalframe="1" enable="Y" aid="10262"/>
+		<action id="talk.swf" name="Talk" loop="Y" totalframe="100" enable="Y" aid="10263"/>
+		<action id="point_at.swf" name="Point at" loop="Y" totalframe="26" enable="Y" aid="10264"/>
+		<action id="hover.swf" name="Hover" loop="Y" totalframe="28" enable="Y" aid="10265"/>
+		<action id="crossed_arms.swf" name="Crossed arms" loop="Y" totalframe="1" enable="Y" aid="10266"/>
+		<action id="take_off.swf" name="Take off" loop="Y" totalframe="52" enable="Y" aid="10267"/>
+		<action id="fighting_stance.swf" name="Stare at camera" loop="Y" totalframe="1" enable="Y" aid="10268"/>
+		<motion id="walk.swf" name="Walk" loop="Y" totalframe="20" enable="Y" aid="10269"/>
+		<motion id="run.swf" name="Run" loop="Y" totalframe="16" enable="Y" aid="10270"/>
+		<motion id="fly.swf" name="Fly" loop="Y" totalframe="1" enable="Y" aid="10271"/>
+		<facial id="head_talk_happy.swf" name="Talk happy" enable="Y" aid="10272"/>
+		<facial id="head_talk_angry.swf" name="Talk angry" enable="Y" aid="10273"/>
+		<facial id="head_talk_sad.swf" name="Talk sad" enable="Y" aid="10274"/>
+		<facial id="head_talk.swf" name="Talk" enable="Y" aid="10275"/>
+		<facial id="head_confused.swf" name="Confused" enable="Y" aid="10276"/>
+		<facial id="head_shocked.swf" name="Shocked" enable="Y" aid="10277"/>
+		<facial id="head_sad.swf" name="Sad" enable="Y" aid="10278"/>
+		<facial id="head_angry.swf" name="Angry" enable="Y" aid="10279"/>
+		<facial id="head_happy.swf" name="Happy" enable="Y" aid="10280"/>
+		<facial id="head_neutral.swf" name="Neutral" enable="Y" aid="10281"/>
+		<facial id="head_cry.swf" name="Cry" enable="Y" aid="10282"/>
+		<facial id="head_surprised.swf" name="Surprised" enable="Y" aid="10283"/>
+	</char>
+	<char id="bubble" name="Bubbles" thumb="standing.swf" facing="left" default="standing.swf" motion="walk.swf" enable="Y" is_premium="N" aid="10284" money="200" sharing="100">
+		<category name="Emotion">
+			<action id="excited.swf" name="Excited" loop="Y" totalframe="40" enable="Y" aid="10285"/>
+			<action id="cry.swf" name="Cry" loop="Y" totalframe="34" enable="Y" aid="10286"/>
+			<action id="sad.swf" name="Sad" loop="Y" totalframe="60" enable="Y" aid="10287"/>
+			<action id="angry.swf" name="Angry" loop="Y" totalframe="29" enable="Y" aid="10288"/>
+			<action id="shocked.swf" name="Shocked" loop="Y" totalframe="1" enable="Y" aid="10289"/>
+			<action id="thinking.swf" name="Thinking" loop="Y" totalframe="28" enable="Y" aid="10290"/>
+			<action id="laugh.swf" name="Laugh" loop="Y" totalframe="28" enable="Y" aid="10291"/>
+		</category>
+		<category name="Fight">
+			<action id="fight.swf" name="Punch" loop="Y" totalframe="28" enable="Y" aid="10292"/>
+			<action id="get_hit.swf" name="Get hit" loop="Y" totalframe="28" enable="Y" aid="10293"/>
+			<action id="combo_punch.swf" name="Combo punch" loop="Y" totalframe="40" enable="Y" aid="10294"/>
+			<action id="kick.swf" name="Kick" loop="Y" totalframe="21" enable="Y" aid="10295"/>
+		</category>
+		<category name="Standing">
+			<action id="standing.swf" name="Frontview" loop="Y" totalframe="1" enable="Y" aid="10296"/>
+			<action id="backview.swf" name="Backview" loop="Y" totalframe="70" enable="Y" aid="10297"/>
+		</category>
+		<category name="Super powers">
+			<action id="laser_eye.swf" name="Heat vision" loop="Y" totalframe="1" enable="Y" aid="10298">
+				<prop id="msp_laser.msp_laser_laser_med.swf" aid="10201"/>
+			</action>
+			<action id="sonic_scream.swf" name="Sonic Scream" loop="Y" totalframe="80" enable="Y" aid="10299">
+				<prop id="msp_sonic.msp_sonic_sonic_med.swf" aid="10206"/>
+			</action>
+		</category>
+		<action id="sitting.swf" name="Sitting" loop="Y" totalframe="20" enable="Y" aid="10300"/>
+		<action id="talk.swf" name="Talk" loop="Y" totalframe="16" enable="Y" aid="10301"/>
+		<action id="point_at.swf" name="Point at" loop="Y" totalframe="1" enable="Y" aid="10302"/>
+		<action id="hover.swf" name="Hovering" loop="Y" totalframe="1" enable="Y" aid="10303"/>
+		<action id="hug.swf" name="Hug soft toy" loop="Y" totalframe="100" enable="Y" aid="10304">
+			<prop id="octi.swf" aid="10203"/>
+		</action>
+		<action id="hug_shake.swf" name="Hug and shake toy" loop="Y" totalframe="8" enable="Y" aid="10305">
+			<prop id="octi.swf" aid="10203"/>
+		</action>
+		<action id="crossed_arms.swf" name="Crossed arms" loop="Y" totalframe="70" enable="Y" aid="10306"/>
+		<action id="shy.swf" name="Shy" loop="Y" totalframe="23" enable="Y" aid="10307"/>
+		<action id="take_off.swf" name="Take off" loop="Y" totalframe="31" enable="Y" aid="10308"/>
+		<action id="fighting_stance.swf" name="Stare at camera" loop="Y" totalframe="1" enable="Y" aid="10309"/>
+		<motion id="walk.swf" name="Walk" loop="Y" totalframe="52" enable="Y" aid="10310"/>
+		<motion id="run.swf" name="Run" loop="Y" totalframe="100" enable="Y" aid="10311"/>
+		<motion id="fly.swf" name="Fly" loop="Y" totalframe="100" enable="Y" aid="10312"/>
+		<facial id="head_talk_happy.swf" name="Talk happy" enable="Y" aid="10313"/>
+		<facial id="head_talk_angry.swf" name="Talk angry" enable="Y" aid="10314"/>
+		<facial id="head_talk_sad.swf" name="Talk sad" enable="Y" aid="10315"/>
+		<facial id="head_talk.swf" name="Talk" enable="Y" aid="10316"/>
+		<facial id="head_confused.swf" name="Confused" enable="Y" aid="10317"/>
+		<facial id="head_shocked.swf" name="Shocked" enable="Y" aid="10318"/>
+		<facial id="head_sad.swf" name="Sad" enable="Y" aid="10319"/>
+		<facial id="head_angry.swf" name="Angry" enable="Y" aid="10320"/>
+		<facial id="head_happy.swf" name="Happy" enable="Y" aid="10321"/>
+		<facial id="head_neutral.swf" name="Neutral" enable="Y" aid="10322"/>
+		<facial id="head_cry.swf" name="Cry" enable="Y" aid="10323"/>
+		<facial id="head_surprised.swf" name="Surprised" enable="Y" aid="10324"/>
+	</char>
+	<char id="buttercup" name="Buttercup" thumb="standing.swf" facing="left" default="standing.swf" motion="walk.swf" enable="Y" is_premium="N" aid="10325" money="200" sharing="100">
+		<category name="Emotion">
+			<action id="sad.swf" name="Sad" loop="Y" totalframe="31" enable="Y" aid="10326"/>
+			<action id="shocked.swf" name="Shocked" loop="Y" totalframe="34" enable="Y" aid="10327"/>
+			<action id="excited.swf" name="Excited" loop="Y" totalframe="20" enable="Y" aid="10328"/>
+			<action id="cry.swf" name="Cry" loop="Y" totalframe="23" enable="Y" aid="10329"/>
+			<action id="angry.swf" name="Angry" loop="Y" totalframe="40" enable="Y" aid="10330"/>
+			<action id="thinking.swf" name="Thinking" loop="Y" totalframe="60" enable="Y" aid="10331"/>
+			<action id="laugh.swf" name="Laugh" loop="Y" totalframe="21" enable="Y" aid="10332"/>
+		</category>
+		<category name="Fight">
+			<action id="fight.swf" name="Punch" loop="Y" totalframe="28" enable="Y" aid="10333"/>
+			<action id="get_hit.swf" name="Get hit" loop="Y" totalframe="40" enable="Y" aid="10334"/>
+			<action id="kick.swf" name="Kick" loop="Y" totalframe="100" enable="Y" aid="10335"/>
+			<action id="combo_punch.swf" name="Combo punch" loop="Y" totalframe="100" enable="Y" aid="10336"/>
+		</category>
+		<category name="Standing">
+			<action id="standing.swf" name="Frontview" loop="Y" totalframe="1" enable="Y" aid="10337"/>
+			<action id="backview.swf" name="Backview" loop="Y" totalframe="70" enable="Y" aid="10338"/>
+		</category>
+		<category name="Super powers">
+			<action id="sonic_scream.swf" name="Sonic scream" loop="Y" totalframe="28" enable="Y" aid="10339">
+				<prop id="msp_sonic.msp_sonic_sonic_med.swf" aid="10206"/>
+			</action>
+			<action id="laser_eye.swf" name="Heat vision" loop="Y" totalframe="28" enable="Y" aid="10340">
+				<prop id="msp_laser.msp_laser_laser_med.swf" aid="10201"/>
+			</action>
+			<action id="taunt.swf" name="Tongue roll" loop="Y" totalframe="70" enable="Y" aid="10341"/>
+		</category>
+		<action id="talk.swf" name="Talk" loop="Y" totalframe="100" enable="Y" aid="10342"/>
+		<action id="point_at.swf" name="Point at" loop="Y" totalframe="29" enable="Y" aid="10343"/>
+		<action id="crossed_arms.swf" name="Crossed arms" loop="Y" totalframe="1" enable="Y" aid="10344"/>
+		<action id="take_off.swf" name="Take off" loop="Y" totalframe="52" enable="Y" aid="10345"/>
+		<action id="fighting_stance.swf" name="Stare at camera" loop="Y" totalframe="1" enable="Y" aid="10346"/>
+		<action id="sitting.swf" name="Sitting" loop="Y" totalframe="1" enable="Y" aid="10347"/>
+		<action id="hover.swf" name="Hovering" loop="Y" totalframe="28" enable="Y" aid="10348"/>
+		<action id="yes.swf" name="Victory" loop="Y" totalframe="49" enable="Y" aid="10349"/>
+		<motion id="walk.swf" name="Walk" loop="Y" totalframe="20" enable="Y" aid="10350"/>
+		<motion id="run.swf" name="Run" loop="Y" totalframe="16" enable="Y" aid="10351"/>
+		<motion id="fly.swf" name="Fly" loop="Y" totalframe="1" enable="Y" aid="10352"/>
+		<facial id="head_talk_happy.swf" name="Talk happy" enable="Y" aid="10353"/>
+		<facial id="head_talk_angry.swf" name="Talk angry" enable="Y" aid="10354"/>
+		<facial id="head_talk_sad.swf" name="Talk sad" enable="Y" aid="10355"/>
+		<facial id="head_talk.swf" name="Talk" enable="Y" aid="10356"/>
+		<facial id="head_confused.swf" name="Confused" enable="Y" aid="10357"/>
+		<facial id="head_shocked.swf" name="Shocked" enable="Y" aid="10358"/>
+		<facial id="head_sad.swf" name="Sad" enable="Y" aid="10359"/>
+		<facial id="head_angry.swf" name="Angry" enable="Y" aid="10360"/>
+		<facial id="head_happy.swf" name="Happy" enable="Y" aid="10361"/>
+		<facial id="head_neutral.swf" name="Neutral" enable="Y" aid="10362"/>
+		<facial id="head_cry.swf" name="Cry" enable="Y" aid="10363"/>
+		<facial id="head_surprised.swf" name="Surprised" enable="Y" aid="10364"/>
+		<facial id="head_taunt.swf" name="Taunt" enable="Y" aid="10365"/>
+		<facial id="head_talk_scheming.swf" name="Talk scheming" enable="Y" aid="10366"/>
+	</char>
+	<char id="mojojojo" name="Mojo jojo" thumb="standing.swf" facing="left" default="standing.swf" motion="walk.swf" enable="Y" is_premium="N" aid="10367" money="200" sharing="100">
+		<category name="Emotion">
+			<action id="happy.swf" name="Happy" loop="Y" totalframe="59" enable="Y" aid="10368"/>
+			<action id="cry.swf" name="Cry" loop="Y" totalframe="100" enable="Y" aid="10369"/>
+			<action id="sad.swf" name="Sad" loop="Y" totalframe="135" enable="Y" aid="10370"/>
+			<action id="angry.swf" name="Angry" loop="Y" totalframe="5" enable="Y" aid="10371"/>
+			<action id="shocked.swf" name="Shocked" loop="Y" totalframe="70" enable="Y" aid="10372"/>
+			<action id="thinking.swf" name="Thinking" loop="Y" totalframe="123" enable="Y" aid="10373"/>
+			<action id="laugh.swf" name="Laugh" loop="Y" totalframe="7" enable="Y" aid="10374"/>
+		</category>
+		<category name="Fight">
+			<action id="get_hit_punch.swf" name="Get hit" loop="Y" totalframe="93" enable="Y" aid="10375"/>
+			<action id="get_hit_laser.swf" name="Zapped" loop="Y" totalframe="35" enable="Y" aid="10376"/>
+		</category>
+		<category name="Standing">
+			<action id="standing.swf" name="Frontview" loop="Y" totalframe="1" enable="Y" aid="10377"/>
+			<action id="backview.swf" name="Backview" loop="Y" totalframe="1" enable="Y" aid="10378"/>
+		</category>
+		<action id="sitting.swf" name="Sitting" loop="Y" totalframe="1" enable="Y" aid="10379"/>
+		<action id="talk.swf" name="Talk" loop="Y" totalframe="131" enable="Y" aid="10380"/>
+		<action id="point_at.swf" name="Point at" loop="Y" totalframe="27" enable="Y" aid="10381"/>
+		<action id="hold_gun.swf" name="Hold gun" loop="Y" totalframe="16" enable="Y" aid="10382">
+			<prop id="gun.swf" aid="10194"/>
+		</action>
+		<action id="roar.swf" name="roar" loop="Y" totalframe="24" enable="Y" aid="10383"/>
+		<action id="crossed_arms.swf" name="crossed arms" loop="Y" totalframe="1" enable="Y" aid="10384"/>
+		<action id="posing.swf" name="posing" loop="Y" totalframe="29" enable="Y" aid="10385"/>
+		<action id="talk_complain.swf" name="Talk fervently" loop="Y" totalframe="84" enable="Y" aid="10386"/>
+		<motion id="walk.swf" name="Walk" loop="Y" totalframe="16" enable="Y" aid="10387"/>
+		<motion id="run.swf" name="Run" loop="Y" totalframe="16" enable="Y" aid="10388"/>
+		<facial id="head_talk_scheming.swf" name="Talk scheming" enable="Y" aid="10389"/>
+		<facial id="head_talk_angry.swf" name="Talk angry" enable="Y" aid="10390"/>
+		<facial id="head_talk_sad.swf" name="Talk sad" enable="Y" aid="10391"/>
+		<facial id="head_talk.swf" name="Talk" enable="Y" aid="10392"/>
+		<facial id="head_evil_grin.swf" name="Evil grin" enable="Y" aid="10393"/>
+		<facial id="head_shocked.swf" name="Shocked" enable="Y" aid="10394"/>
+		<facial id="head_sad.swf" name="Sad" enable="Y" aid="10395"/>
+		<facial id="head_angry.swf" name="Angry" enable="Y" aid="10396"/>
+		<facial id="head_happy.swf" name="Happy" enable="Y" aid="10397"/>
+		<facial id="head_neutral.swf" name="Neutral" enable="Y" aid="10398"/>
+	</char>
+	<char id="ben10_char" name="Ben Tennyson" thumb="standing.swf" facing="left" default="standing.swf" motion="walk.swf" enable="Y" is_premium="N" aid="7726" money="0" sharing="0">
+		<category name="Emotion">
+			<action id="happy.swf" name="Excited" loop="Y" totalframe="15" enable="Y" aid="7731"/>
+			<action id="thinking.swf" name="Thinking" loop="Y" totalframe="63" enable="Y" aid="7732"/>
+			<action id="surprised.swf" name="Surprised" loop="Y" totalframe="35" enable="Y" aid="7733"/>
+			<action id="sad.swf" name="Sad" loop="Y" totalframe="75" enable="Y" aid="7758"/>
+			<action id="angry.swf" name="Angry" loop="Y" totalframe="57" enable="Y" aid="7759"/>
+		</category>
+		<category name="Fight">
+			<action id="fight_punch.swf" name="Punch" loop="Y" totalframe="68" enable="Y" aid="7735"/>
+			<action id="fight_kick.swf" name="Kick" loop="Y" totalframe="100" enable="Y" aid="7760"/>
+			<action id="get_hit.swf" name="Get hit" loop="Y" totalframe="55" enable="Y" aid="7761"/>
+		</category>
+		<category name="Omnitrix">
+			<action id="hit_omn.swf" name="Hit" loop="Y" totalframe="60" enable="Y" aid="7762"/>
+			<action id="turn_omn.swf" name="Turn" loop="Y" totalframe="54" enable="Y" aid="7763"/>
+			<action id="transform.swf" name="Back to Ben" loop="Y" totalframe="48" enable="Y" aid="8092"/>
+		</category>
+		<category name="Phone">
+			<action id="ans_phone.swf" name="Pick up" loop="Y" totalframe="100" enable="Y" aid="7764"/>
+			<action id="close_phone.swf" name="Hang up" loop="Y" totalframe="40" enable="Y" aid="7765"/>
+			<action id="listen_phone.swf" name="On the phone" loop="Y" totalframe="50" enable="Y" aid="8090"/>
+		</category>
+		<category name="Standing">
+			<action id="standing.swf" name="Standing" loop="Y" totalframe="41" enable="Y" aid="7727"/>
+			<action id="stand_back.swf" name="Back view" loop="Y" totalframe="50" enable="Y" aid="7738"/>
+		</category>
+		<motion id="walk.swf" name="Walk" loop="Y" totalframe="24" enable="Y" aid="7728"/>
+		<action id="disabled_walk.swf" name="Walk" loop="N" totalframe="50" enable="N" aid="7729"/>
+		<action id="sitting.swf" name="Sitting" loop="Y" totalframe="43" enable="Y" aid="7730"/>
+		<action id="talk.swf" name="Talk" loop="Y" totalframe="100" enable="Y" aid="7734"/>
+		<action id="crouch_duck.swf" name="Duck" loop="Y" totalframe="65" enable="Y" aid="7736"/>
+		<action id="point_at.swf" name="Point at" loop="Y" totalframe="61" enable="Y" aid="7737"/>
+		<action id="fly_board.swf" name="Fly in hoverboard" loop="N" totalframe="50" enable="N" aid="7739"/>
+		<facial id="head_happy.swf" name="Happy" enable="Y" aid="7740"/>
+		<facial id="head_sad.swf" name="Sad" enable="Y" aid="7741"/>
+		<facial id="head_angry.swf" name="Angry" enable="Y" aid="7742"/>
+		<facial id="head_talk.swf" name="Talk" enable="Y" aid="7743"/>
+		<facial id="head_talk_happy.swf" name="Talk happy" enable="Y" aid="7744"/>
+		<facial id="head_talk_angry.swf" name="Talk angry" enable="Y" aid="7745"/>
+		<facial id="head_confused.swf" name="Confused" enable="Y" aid="7746"/>
+		<facial id="head_scheming.swf" name="Scheming" enable="Y" aid="7747"/>
+		<motion id="fly_board.swf" name="Fly in hoverboard" loop="Y" totalframe="50" enable="Y" aid="7766"/>
+		<facial id="head_disgusted.swf" name="Disgusted" enable="Y" aid="7767"/>
+		<facial id="head_neutral.swf" name="Neutral" enable="Y" aid="7768"/>
+		<motion id="running.swf" name="Run" loop="Y" totalframe="16" enable="Y" aid="7893"/>
+	</char>
+	<char id="gwen_char" name="Gwen Tennyson" thumb="standing.swf" facing="left" default="standing.swf" motion="walk.swf" enable="Y" is_premium="N" aid="7769" money="0" sharing="0">
+		<category name="Emotion">
+			<action id="happy.swf" name="Happy" loop="Y" totalframe="100" enable="Y" aid="7772"/>
+			<action id="sad.swf" name="Sad" loop="Y" totalframe="100" enable="Y" aid="7773"/>
+			<action id="angry.swf" name="Angry" loop="Y" totalframe="36" enable="Y" aid="7774"/>
+			<action id="thinking.swf" name="Thinking" loop="Y" totalframe="100" enable="Y" aid="7775"/>
+			<action id="surprised.swf" name="Surprised" loop="Y" totalframe="100" enable="Y" aid="7776"/>
+		</category>
+		<category name="Energy">
+			<action id="beam.swf" name="Fire beam" loop="Y" totalframe="70" enable="Y" aid="7777">
+				<prop id="msp_ben10_beam.beam_energy01.swf" aid="7860"/>
+			</action>
+			<action id="bolts.swf" name="Fire bolts" loop="Y" totalframe="108" enable="Y" aid="7778"/>
+			<action id="create_shield.swf" name="Big shield" loop="Y" totalframe="100" enable="Y" aid="7779">
+				<prop id="msp_ben10_create.create_energy01.swf" aid="7856"/>
+			</action>
+			<action id="shields2hand.swf" name="Small shields" loop="Y" totalframe="50" enable="Y" aid="7780"/>
+		</category>
+		<category name="Fight">
+			<action id="fight_kick.swf" name="Kick" loop="Y" totalframe="50" enable="Y" aid="7781"/>
+			<action id="fight_punch.swf" name="Punch" loop="Y" totalframe="72" enable="Y" aid="7782"/>
+			<action id="get_hit.swf" name="Get hit" loop="Y" totalframe="63" enable="Y" aid="7783"/>
+		</category>
+		<category name="Phone">
+			<action id="ans_phone.swf" name="Pick up" loop="Y" totalframe="100" enable="Y" aid="7784"/>
+			<action id="close_phone.swf" name="Hang up" loop="Y" totalframe="100" enable="Y" aid="7785"/>
+			<action id="listen_phone.swf" name="On the phone" loop="Y" totalframe="50" enable="Y" aid="8091"/>
+		</category>
+		<category name="Sitting">
+			<action id="sitting.swf" name="Still" loop="Y" totalframe="57" enable="Y" aid="7786"/>
+			<action id="work.swf" name="Working on laptop" loop="Y" totalframe="99" enable="Y" aid="7787"/>
+		</category>
+		<category name="Standing">
+			<action id="standing.swf" name="Front view" loop="Y" totalframe="49" enable="Y" aid="7770"/>
+			<action id="stand_back.swf" name="Back view" loop="Y" totalframe="100" enable="Y" aid="7788"/>
+		</category>
+		<motion id="walk.swf" name="Walk" loop="Y" totalframe="20" enable="Y" aid="7771"/>
+		<action id="point.swf" name="Point at" loop="Y" totalframe="34" enable="Y" aid="7789"/>
+		<action id="lunge.swf" name="Duck" loop="Y" totalframe="100" enable="Y" aid="7790"/>
+		<action id="talk.swf" name="Talk" loop="Y" totalframe="100" enable="Y" aid="7791"/>
+		<motion id="hover.swf" name="Hover" loop="Y" totalframe="35" enable="Y" aid="7792"/>
+		<facial id="head_happy.swf" name="Happy" enable="Y" aid="7793"/>
+		<facial id="head_sad.swf" name="Sad" enable="Y" aid="7794"/>
+		<facial id="head_angry.swf" name="Angry" enable="Y" aid="7795"/>
+		<facial id="head_talk.swf" name="Talk" enable="Y" aid="7796"/>
+		<facial id="head_talk_happy.swf" name="Talk happy" enable="Y" aid="7797"/>
+		<facial id="head_talk_angry.swf" name="Talk angry" enable="Y" aid="7798"/>
+		<facial id="head_worried.swf" name="Worried" enable="Y" aid="7799"/>
+		<facial id="head_confused.swf" name="Confused" enable="Y" aid="7800"/>
+		<facial id="head_disgusted.swf" name="Disgusted" enable="Y" aid="7801"/>
+		<facial id="head_neutral.swf" name="Neutral" enable="Y" aid="7802"/>
+	</char>
+	<char id="kevin_char" name="Kevin Levin" thumb="standing.swf" facing="left" default="standing.swf" motion="walk.swf" enable="Y" is_premium="N" aid="7926" money="0" sharing="0">
+		<category name="Concrete">
+			<action id="absorb_concrete.swf" name="Absorb" loop="Y" totalframe="100" enable="Y" aid="7929"/>
+			<action id="punch_transformed.swf" name="Punch" loop="Y" totalframe="48" enable="Y" aid="7930"/>
+			<action id="get_hit_transformed.swf" name="Get hit" loop="Y" totalframe="74" enable="Y" aid="7931"/>
+		</category>
+		<category name="Emotion">
+			<action id="laugh.swf" name="Laugh" loop="Y" totalframe="4" enable="Y" aid="7932"/>
+			<action id="sad.swf" name="Sad" loop="Y" totalframe="100" enable="Y" aid="7933"/>
+			<action id="angry.swf" name="Angry" loop="Y" totalframe="51" enable="Y" aid="7934"/>
+			<action id="thinking.swf" name="Thinking" loop="Y" totalframe="100" enable="Y" aid="7935"/>
+			<action id="surprised.swf" name="Surprised" loop="Y" totalframe="40" enable="Y" aid="7936"/>
+		</category>
+		<category name="Standing">
+			<action id="standing.swf" name="Front view" loop="Y" totalframe="41" enable="Y" aid="7927"/>
+			<action id="stand_back.swf" name="Back view" loop="Y" totalframe="1" enable="Y" aid="7937"/>
+		</category>
+		<category name="Steel">
+			<action id="absorb_steel.swf" name="Absorb" loop="Y" totalframe="63" enable="Y" aid="7938"/>
+			<action id="punch.swf" name="Punch" loop="Y" totalframe="48" enable="Y" aid="7939"/>
+			<action id="uppercut.swf" name="Uppercut" loop="Y" totalframe="58" enable="Y" aid="7940"/>
+		</category>
+		<motion id="walk.swf" name="Walk" loop="Y" totalframe="24" enable="Y" aid="7928"/>
+		<action id="get_hit.swf" name="Get hit" loop="Y" totalframe="74" enable="Y" aid="7941"/>
+		<action id="sitting.swf" name="Sitting" loop="Y" totalframe="39" enable="Y" aid="7942"/>
+		<action id="talk.swf" name="Talk" loop="Y" totalframe="100" enable="Y" aid="7943"/>
+		<action id="throw.swf" name="Throw" loop="Y" totalframe="62" enable="Y" aid="7944"/>
+		<action id="jump.swf" name="Jump" loop="Y" totalframe="56" enable="Y" aid="7945"/>
+		<action id="driving.swf" name="Drive" loop="Y" totalframe="80" enable="Y" aid="7946"/>
+		<motion id="running.swf" name="Run" loop="Y" totalframe="12" enable="Y" aid="7947"/>
+		<facial id="head_happy.swf" name="Happy" enable="Y" aid="7948"/>
+		<facial id="head_sad.swf" name="Sad" enable="Y" aid="7949"/>
+		<facial id="head_angry.swf" name="Angry" enable="Y" aid="7950"/>
+		<facial id="head_talk.swf" name="Talk" enable="Y" aid="7951"/>
+		<facial id="head_talk_happy.swf" name="Talk happy" enable="Y" aid="7952"/>
+		<facial id="head_talk_angry.swf" name="Talk angry" enable="Y" aid="7953"/>
+		<facial id="head_smirking.swf" name="Smirking" enable="Y" aid="7954"/>
+		<facial id="head_determined.swf" name="Determined" enable="Y" aid="7955"/>
+		<facial id="head_sulking.swf" name="Sulking" enable="Y" aid="7956"/>
+		<facial id="head_scheming.swf" name="Scheming" enable="Y" aid="7957"/>
+		<facial id="head_laugh.swf" name="Laugh" enable="Y" aid="7958"/>
+		<facial id="head_neutral.swf" name="Neutral" enable="Y" aid="7959"/>
+	</char>
+	<char id="humungosaur_char" name="Humungosaur" thumb="standing.swf" facing="left" default="standing.swf" motion="walking.swf" enable="Y" is_premium="N" aid="7803" money="0" sharing="0">
+		<category name="Emotion">
+			<action id="happy.swf" name="Happy" loop="Y" totalframe="32" enable="Y" aid="7806"/>
+			<action id="sad.swf" name="Sad" loop="Y" totalframe="31" enable="Y" aid="7807"/>
+			<action id="angry.swf" name="Angry" loop="Y" totalframe="36" enable="Y" aid="7808"/>
+			<action id="embarrassed.swf" name="Embarrassed" loop="Y" totalframe="46" enable="Y" aid="7809"/>
+			<action id="surprised.swf" name="Surprised" loop="Y" totalframe="26" enable="Y" aid="7810"/>
+		</category>
+		<category name="Fight">
+			<action id="tail_sweep.swf" name="Tail sweep" loop="Y" totalframe="45" enable="Y" aid="7811"/>
+			<action id="double_punch.swf" name="Double punch" loop="Y" totalframe="36" enable="Y" aid="7812"/>
+			<action id="stomp.swf" name="Stomp" loop="Y" totalframe="43" enable="Y" aid="7813"/>
+			<action id="get_hit.swf" name="Get hit" loop="Y" totalframe="35" enable="Y" aid="7814"/>
+			<action id="shoulder_charge.swf" name="Shoulder charge" loop="Y" totalframe="32" enable="Y" aid="7815"/>
+		</category>
+		<category name="Standing">
+			<action id="standing.swf" name="Front view" loop="Y" totalframe="31" enable="Y" aid="7804"/>
+			<action id="stand_back.swf" name="Back view" loop="Y" totalframe="100" enable="Y" aid="7816"/>
+		</category>
+		<category name="Transform">
+			<action id="transform_back.swf" name="Back to Ben" loop="N" totalframe="60" enable="Y" aid="7823"/>
+			<action id="transform.swf" name="Into Humungosaur" loop="Y" totalframe="48" enable="Y" aid="8096"/>
+		</category>
+		<motion id="walking.swf" name="Walk" loop="Y" totalframe="30" enable="Y" aid="7805"/>
+		<action id="sitting.swf" name="Sitting" loop="Y" totalframe="35" enable="Y" aid="7817"/>
+		<action id="talking.swf" name="Talk" loop="Y" totalframe="100" enable="Y" aid="7818"/>
+		<action id="roar.swf" name="Roar" loop="Y" totalframe="35" enable="Y" aid="7819"/>
+		<action id="jump.swf" name="Jump" loop="Y" totalframe="87" enable="Y" aid="7820"/>
+		<action id="throw_rock.swf" name="Throw rock" loop="Y" totalframe="45" enable="Y" aid="7821"/>
+		<action id="kneel.swf" name="Kneel down" loop="Y" totalframe="54" enable="Y" aid="7822"/>
+		<motion id="run.swf" name="Run" loop="Y" totalframe="20" enable="Y" aid="7824"/>
+		<facial id="head_happy.swf" name="Happy" enable="Y" aid="7825"/>
+		<facial id="head_sad.swf" name="Sad" enable="Y" aid="7826"/>
+		<facial id="head_angry.swf" name="Angry" enable="Y" aid="7827"/>
+		<facial id="head_talk.swf" name="Talk" enable="Y" aid="7828"/>
+		<facial id="head_talk_happy.swf" name="Talk happy" enable="Y" aid="7829"/>
+		<facial id="head_talk_angry.swf" name="Talk angry" enable="Y" aid="7830"/>
+		<facial id="head_roar.swf" name="Roar" enable="Y" aid="7831"/>
+		<facial id="head_embarrassed.swf" name="Embarrassed" enable="Y" aid="7832"/>
+		<facial id="head_wink.swf" name="Wink" enable="Y" aid="7833"/>
+		<facial id="head_neutral.swf" name="Neutral" enable="Y" aid="7834"/>
+	</char>
+	<char id="jetray_char" name="Jetray" thumb="standing.swf" facing="left" default="standing.swf" motion="fly.swf" enable="Y" is_premium="N" aid="7993" money="0" sharing="0">
+		<category name="Emotion">
+			<action id="happy.swf" name="Happy" loop="Y" totalframe="95" enable="Y" aid="7996"/>
+			<action id="sad.swf" name="Sad" loop="Y" totalframe="100" enable="Y" aid="7997"/>
+			<action id="angry.swf" name="Angry" loop="Y" totalframe="98" enable="Y" aid="7998"/>
+			<action id="thinking.swf" name="Thinking" loop="Y" totalframe="100" enable="Y" aid="7999"/>
+			<action id="surprised.swf" name="Surprised" loop="Y" totalframe="100" enable="Y" aid="8000"/>
+		</category>
+		<category name="Fight">
+			<action id="sidekick.swf" name="Kick" loop="Y" totalframe="72" enable="Y" aid="8001"/>
+			<action id="get_hit.swf" name="Get hit" loop="Y" totalframe="94" enable="Y" aid="8002"/>
+			<action id="block.swf" name="Block" loop="Y" totalframe="50" enable="Y" aid="8003"/>
+		</category>
+		<category name="Fire jet rays">
+			<action id="fire_eye_down.swf" name="From eyes - down" loop="Y" totalframe="61" enable="N" aid="8004"/>
+			<action id="fire_tail.swf" name="From tail" loop="Y" totalframe="67" enable="N" aid="8005"/>
+			<action id="fire_eye_straight.swf" name="From eyes - straight" loop="Y" totalframe="61" enable="N" aid="8006"/>
+			<action id="fire_eye_down02.swf" name="From eyes - down" loop="Y" totalframe="67" enable="Y" aid="8899">
+				<prop id="msp_jetray_eye_beam.msp_jetray_eye_beam_eye_beam_med.swf" aid="8893"/>
+			</action>
+			<action id="fire_eye_straight02.swf" name="From eyes - straight" loop="Y" totalframe="67" enable="Y" aid="8900">
+				<prop id="msp_jetray_eye_beam.msp_jetray_eye_beam_eye_beam_med.swf" aid="8893"/>
+			</action>
+			<action id="fire_eye_up02.swf" name="From eyes - up" loop="Y" totalframe="67" enable="Y" aid="8901">
+				<prop id="msp_jetray_eye_beam.msp_jetray_eye_beam_eye_beam_med.swf" aid="8893"/>
+			</action>
+			<action id="fire_tail_down02.swf" name="From tail - down" loop="Y" totalframe="67" enable="Y" aid="8902">
+				<prop id="msp_jetray_tail_beam.msp_jetray_tail_beam_tail_beam_med.swf" aid="8897"/>
+			</action>
+			<action id="fire_tail_straight02.swf" name="From tail - straight" loop="Y" totalframe="67" enable="Y" aid="8903">
+				<prop id="msp_jetray_tail_beam.msp_jetray_tail_beam_tail_beam_med.swf" aid="8897"/>
+			</action>
+			<action id="fire_tail_up02.swf" name="From tail - up" loop="Y" totalframe="67" enable="Y" aid="8904">
+				<prop id="msp_jetray_tail_beam.msp_jetray_tail_beam_tail_beam_med.swf" aid="8897"/>
+			</action>
+		</category>
+		<category name="Fly">
+			<action id="swoop.swf" name="Land" loop="Y" totalframe="49" enable="Y" aid="8007"/>
+			<action id="take_off.swf" name="Take off" loop="Y" totalframe="58" enable="Y" aid="8008"/>
+			<action id="hover.swf" name="Hover" loop="Y" totalframe="100" enable="Y" aid="8009"/>
+			<action id="dodge_flying.swf" name="Dodge" loop="Y" totalframe="100" enable="Y" aid="8010"/>
+		</category>
+		<category name="Standing">
+			<action id="standing.swf" name="Front view" loop="Y" totalframe="35" enable="Y" aid="7994"/>
+			<action id="stand_back.swf" name="Back view" loop="Y" totalframe="35" enable="Y" aid="8011"/>
+		</category>
+		<category name="Transform">
+			<action id="transform_back.swf" name="Back to Ben" loop="Y" totalframe="60" enable="Y" aid="8014"/>
+			<action id="transform.swf" name="Into Jetray" loop="Y" totalframe="48" enable="Y" aid="8095"/>
+		</category>
+		<motion id="fly.swf" name="Fly" loop="Y" totalframe="41" enable="Y" aid="7995"/>
+		<action id="sitting.swf" name="Sitting" loop="Y" totalframe="35" enable="Y" aid="8012"/>
+		<action id="talk.swf" name="Talk" loop="Y" totalframe="100" enable="Y" aid="8013"/>
+		<facial id="head_happy.swf" name="Happy" enable="Y" aid="8015"/>
+		<facial id="head_sad.swf" name="Sad" enable="Y" aid="8016"/>
+		<facial id="head_angry.swf" name="Angry" enable="Y" aid="8017"/>
+		<facial id="head_talk.swf" name="Talk" enable="Y" aid="8018"/>
+		<facial id="head_talk_happy.swf" name="Talk happy" enable="Y" aid="8019"/>
+		<facial id="head_talk_angry.swf" name="Talk angry" enable="Y" aid="8020"/>
+		<facial id="head_confused.swf" name="Confused" enable="Y" aid="8021"/>
+		<facial id="head_laugh.swf" name="Laugh" enable="Y" aid="8022"/>
+		<facial id="head_shocked.swf" name="Shocked" enable="Y" aid="8023"/>
+		<facial id="head_surprised.swf" name="Surprised" enable="Y" aid="8024"/>
+		<facial id="head_neutral.swf" name="Neutral" enable="Y" aid="8025"/>
+	</char>
+	<char id="swampfire_char" name="Swampfire" thumb="standing.swf" facing="left" default="standing.swf" motion="walk.swf" enable="Y" is_premium="N" aid="8026" money="0" sharing="0">
+		<category name="Emotion">
+			<action id="happy.swf" name="Happy" loop="Y" totalframe="100" enable="Y" aid="8029"/>
+			<action id="sad.swf" name="Sad" loop="Y" totalframe="44" enable="Y" aid="8030"/>
+			<action id="angry.swf" name="Angry" loop="Y" totalframe="55" enable="Y" aid="8031"/>
+			<action id="thinking.swf" name="Thinking" loop="Y" totalframe="90" enable="Y" aid="8032"/>
+			<action id="surprised.swf" name="Surprised" loop="Y" totalframe="30" enable="Y" aid="8033"/>
+		</category>
+		<category name="Fight">
+			<action id="punch_right_left_combo.swf" name="Punch" loop="Y" totalframe="65" enable="Y" aid="8034"/>
+			<action id="uppercut.swf" name="Uppercut" loop="Y" totalframe="70" enable="Y" aid="8035"/>
+			<action id="shoulder_charge.swf" name="Shoulder charge" loop="Y" totalframe="60" enable="Y" aid="8036"/>
+			<action id="get_hit.swf" name="Get hit" loop="Y" totalframe="100" enable="Y" aid="8037"/>
+			<action id="block.swf" name="Block" loop="Y" totalframe="58" enable="Y" aid="8038"/>
+		</category>
+		<category name="Fire power">
+			<action id="fire_blast.swf" name="Fireblast" loop="Y" totalframe="40" enable="Y" aid="8039">
+				<prop id="msp_fire.msp_fire_fire_short.swf" aid="8087"/>
+			</action>
+			<action id="throw_fireballs.swf" name="Throw fireballs" loop="Y" totalframe="48" enable="Y" aid="8040"/>
+			<action id="flame_up_both_hands.swf" name="Flames" loop="Y" totalframe="40" enable="Y" aid="8041"/>
+		</category>
+		<category name="Standing">
+			<action id="standing.swf" name="Front view" loop="Y" totalframe="45" enable="Y" aid="8027"/>
+			<action id="stand_back.swf" name="Back view" loop="Y" totalframe="45" enable="Y" aid="8042"/>
+		</category>
+		<category name="Transform">
+			<action id="transform_back.swf" name="Back to Ben" loop="Y" totalframe="60" enable="Y" aid="8046"/>
+			<action id="transform.swf" name="Into Swampfire" loop="Y" totalframe="48" enable="Y" aid="8094"/>
+		</category>
+		<motion id="walk.swf" name="Walk" loop="Y" totalframe="24" enable="Y" aid="8028"/>
+		<action id="sitting.swf" name="Sitting" loop="Y" totalframe="47" enable="Y" aid="8043"/>
+		<action id="talk.swf" name="Talk" loop="Y" totalframe="95" enable="Y" aid="8044"/>
+		<action id="throw.swf" name="Throw" loop="Y" totalframe="40" enable="Y" aid="8045"/>
+		<motion id="running.swf" name="Run" loop="Y" totalframe="16" enable="Y" aid="8047"/>
+		<facial id="head_happy.swf" name="Happy" enable="Y" aid="8048"/>
+		<facial id="head_sad.swf" name="Sad" enable="Y" aid="8049"/>
+		<facial id="head_angry.swf" name="Angry" enable="Y" aid="8050"/>
+		<facial id="head_talk.swf" name="Talk" enable="Y" aid="8051"/>
+		<facial id="head_talk_happy.swf" name="Talk happy" enable="Y" aid="8052"/>
+		<facial id="head_talk_angry.swf" name="Talk angry" enable="Y" aid="8053"/>
+		<facial id="head_surprised.swf" name="Surprised" enable="Y" aid="8054"/>
+		<facial id="head_confused.swf" name="Confused" enable="Y" aid="8055"/>
+		<facial id="head_laugh.swf" name="Laugh" enable="Y" aid="8056"/>
+		<facial id="head_shocked.swf" name="Shocked" enable="Y" aid="8057"/>
+		<facial id="head_neutral.swf" name="Neutral" enable="Y" aid="8058"/>
+	</char>
+	<char id="echo_char" name="Echo Echo" thumb="standing.swf" facing="left" default="standing.swf" motion="walk.swf" enable="Y" is_premium="N" aid="7894" money="0" sharing="0">
+		<category name="Emotion">
+			<action id="happy.swf" name="Happy" loop="Y" totalframe="8" enable="Y" aid="7897"/>
+			<action id="sad.swf" name="Sad" loop="Y" totalframe="27" enable="Y" aid="7898"/>
+			<action id="angry.swf" name="Angry" loop="Y" totalframe="17" enable="Y" aid="7899"/>
+			<action id="thinking.swf" name="Thinking" loop="Y" totalframe="80" enable="Y" aid="7900"/>
+			<action id="surprised.swf" name="Surprised" loop="Y" totalframe="45" enable="Y" aid="7901"/>
+		</category>
+		<category name="Fight">
+			<action id="high_punch.swf" name="High Punch" loop="Y" totalframe="45" enable="Y" aid="7902"/>
+			<action id="jump_kick.swf" name="Jump kick" loop="Y" totalframe="50" enable="Y" aid="7903"/>
+			<action id="punch_left_right.swf" name="Punch" loop="Y" totalframe="38" enable="Y" aid="7904"/>
+			<action id="get_hit.swf" name="Get hit" loop="Y" totalframe="95" enable="Y" aid="7905"/>
+		</category>
+		<category name="Soundblast">
+			<action id="sound_blast.swf" name="Front view" loop="Y" totalframe="80" enable="Y" aid="7906"/>
+			<action id="soundblast_back.swf" name="Back view" loop="Y" totalframe="70" enable="Y" aid="7907"/>
+		</category>
+		<category name="Standing">
+			<action id="standing.swf" name="Front view" loop="Y" totalframe="74" enable="Y" aid="7895"/>
+			<action id="stand_back.swf" name="Back view" loop="Y" totalframe="1" enable="Y" aid="7908"/>
+		</category>
+		<category name="Transform">
+			<action id="transform_back.swf" name="Back to Ben" loop="Y" totalframe="60" enable="Y" aid="7914"/>
+			<action id="transform.swf" name="Into Echo Echo" loop="Y" totalframe="48" enable="Y" aid="8093"/>
+		</category>
+		<motion id="walk.swf" name="Walk" loop="Y" totalframe="24" enable="Y" aid="7896"/>
+		<action id="sitting.swf" name="Sitting" loop="Y" totalframe="49" enable="Y" aid="7909"/>
+		<action id="talk.swf" name="Talk" loop="Y" totalframe="65" enable="Y" aid="7910"/>
+		<action id="jump.swf" name="Jump" loop="Y" totalframe="50" enable="Y" aid="7911"/>
+		<action id="backflip.swf" name="Backflip" loop="Y" totalframe="51" enable="Y" aid="7912"/>
+		<action id="grab_onto.swf" name="Grab" loop="Y" totalframe="34" enable="Y" aid="7913"/>
+		<motion id="run.swf" name="Run" loop="Y" totalframe="16" enable="Y" aid="7915"/>
+		<facial id="head_happy.swf" name="Happy" enable="Y" aid="7916"/>
+		<facial id="head_sad.swf" name="Sad" enable="Y" aid="7917"/>
+		<facial id="head_angry.swf" name="Angry" enable="Y" aid="7918"/>
+		<facial id="head_talk.swf" name="Talk" enable="Y" aid="7919"/>
+		<facial id="head_talk_happy.swf" name="Talk happy" enable="Y" aid="7920"/>
+		<facial id="head_talk_angry.swf" name="Talk angry" enable="Y" aid="7921"/>
+		<facial id="head_sleeping.swf" name="Sleeping" enable="Y" aid="7922"/>
+		<facial id="head_laugh.swf" name="Laugh" enable="Y" aid="7923"/>
+		<facial id="head_confused.swf" name="Confused" enable="Y" aid="7924"/>
+		<facial id="head_neutral.swf" name="Neutral" enable="Y" aid="7925"/>
+	</char>
+	<char id="bigchill" name="Big Chill" thumb="standing.swf" facing="left" default="standing.swf" motion="walk.swf" enable="Y" is_premium="N" aid="9872" money="0" sharing="0">
+		<category name="Emotion">
+			<action id="happy.swf" name="Happy" loop="Y" totalframe="56" enable="Y" aid="9873"/>
+			<action id="sad.swf" name="Sad" loop="Y" totalframe="100" enable="Y" aid="9874"/>
+			<action id="angry.swf" name="Angry" loop="Y" totalframe="72" enable="Y" aid="9875"/>
+			<action id="thinking.swf" name="Thinking" loop="Y" totalframe="100" enable="Y" aid="9876"/>
+			<action id="shock.swf" name="Shocked" loop="Y" totalframe="75" enable="Y" aid="9877"/>
+		</category>
+		<category name="Fight">
+			<action id="block.swf" name="Block" loop="Y" totalframe="50" enable="Y" aid="9878"/>
+			<action id="get_hit.swf" name="Get hit" loop="Y" totalframe="54" enable="Y" aid="9879"/>
+			<action id="fly_split.swf" name="Breathe freezing vapor" loop="Y" totalframe="66" enable="Y" aid="9880">
+				<prop id="msp_ch.msp_ch_split_med.swf" aid="9853"/>
+			</action>
+		</category>
+		<category name="Invisibility">
+			<action id="become_invisible.swf" name="Appear" loop="Y" totalframe="46" enable="Y" aid="9881"/>
+			<action id="become_visible.swf" name="Disappear" loop="Y" totalframe="46" enable="Y" aid="9882"/>
+		</category>
+		<category name="Standing">
+			<action id="standing.swf" name="Front view" loop="Y" totalframe="60" enable="Y" aid="9883"/>
+			<action id="stand_back.swf" name="Back view" loop="Y" totalframe="1" enable="Y" aid="9884"/>
+		</category>
+		<category name="Transform">
+			<action id="transform_back.swf" name="Back to Ben" loop="Y" totalframe="60" enable="Y" aid="9885"/>
+			<action id="transform.swf" name="Into Big Chill" loop="Y" totalframe="48" enable="Y" aid="9886"/>
+		</category>
+		<action id="floating.swf" name="Hover" loop="Y" totalframe="59" enable="Y" aid="9887"/>
+		<action id="landing.swf" name="Land" loop="Y" totalframe="50" enable="Y" aid="9888"/>
+		<action id="open_wing.swf" name="Open wings" loop="Y" totalframe="45" enable="Y" aid="9889"/>
+		<action id="sitting.swf" name="Sitting" loop="Y" totalframe="45" enable="Y" aid="9890"/>
+		<action id="talk.swf" name="Talk" loop="Y" totalframe="80" enable="Y" aid="9891"/>
+		<action id="fly.swf" name="Fly" loop="Y" totalframe="44" enable="Y" aid="9892"/>
+		<action id="fly_side.swf" name="Fly (side view)" loop="Y" totalframe="45" enable="Y" aid="9893"/>
+		<motion id="running.swf" name="Run" loop="Y" totalframe="24" enable="Y" aid="9894"/>
+		<motion id="walk.swf" name="Walk" loop="Y" totalframe="24" enable="Y" aid="9895"/>
+		<motion id="walk_invisible.swf" name="walk through wall" loop="Y" totalframe="64" enable="Y" aid="9896"/>
+		<motion id="fly_invisible.swf" name="Fly through wall" loop="Y" totalframe="70" enable="Y" aid="9897"/>
+		<facial id="head_happy.swf" name="Happy" enable="Y" aid="9898"/>
+		<facial id="head_sad.swf" name="Sad" enable="Y" aid="9899"/>
+		<facial id="head_angry.swf" name="Angry" enable="Y" aid="9900"/>
+		<facial id="head_talk.swf" name="Talk" enable="Y" aid="9901"/>
+		<facial id="head_talk_happy.swf" name="Talk happy" enable="Y" aid="9902"/>
+		<facial id="head_talk_angry.swf" name="Talk angry" enable="Y" aid="9903"/>
+		<facial id="head_surprised.swf" name="Surprised" enable="Y" aid="9904"/>
+		<facial id="head_confused.swf" name="Confused" enable="Y" aid="9905"/>
+		<facial id="head_laugh.swf" name="Laugh" enable="Y" aid="9906"/>
+		<facial id="head_shocked.swf" name="Shocked" enable="Y" aid="9907"/>
+		<facial id="head_neutral.swf" name="Neutral" enable="Y" aid="9908"/>
+		<facial id="head_talk_sad.swf" name="Talk sad" enable="Y" aid="9909"/>
+		<facial id="head_in_pain.swf" name="In pain" enable="Y" aid="9910"/>
+		<facial id="head_shake_head.swf" name="Shake head" enable="Y" aid="9911"/>
+		<facial id="head_scared.swf" name="Scared" enable="Y" aid="9912"/>
+	</char>
+	<char id="dhalien_char" name="DNAlien" thumb="standing.swf" facing="left" default="standing.swf" motion="walk.swf" enable="Y" is_premium="N" aid="7967" money="0" sharing="0">
+		<category name="Emotion">
+			<action id="happy.swf" name="Happy" loop="Y" totalframe="40" enable="Y" aid="7970"/>
+			<action id="sad.swf" name="Sad" loop="Y" totalframe="60" enable="Y" aid="7971"/>
+			<action id="angry.swf" name="Angry" loop="Y" totalframe="40" enable="Y" aid="7972"/>
+			<action id="thinking.swf" name="Thinking" loop="Y" totalframe="100" enable="Y" aid="7973"/>
+			<action id="surprised.swf" name="Surprised" loop="Y" totalframe="100" enable="Y" aid="7974"/>
+		</category>
+		<category name="Fight">
+			<action id="get_hit.swf" name="Get hit and fall" loop="Y" totalframe="70" enable="Y" aid="7975"/>
+			<action id="punch.swf" name="Punch" loop="Y" totalframe="48" enable="Y" aid="7976"/>
+			<action id="get_hit_dizzy.swf" name="Get hit" loop="Y" totalframe="80" enable="Y" aid="7978"/>
+			<action id="block.swf" name="Block" loop="Y" totalframe="60" enable="Y" aid="7979"/>
+		</category>
+		<category name="Shoot Goop">
+			<action id="shoot_spit.swf" name="Down" loop="Y" totalframe="100" enable="N" aid="7977">
+				<prop id="msp_goop.msp_goop_slime_med.swf" aid="8229"/>
+			</action>
+			<action id="shoot_spit_02.swf" name="Straight" loop="Y" totalframe="100" enable="N" aid="8231">
+				<prop id="msp_goop.msp_goop_slime_med.swf" aid="8229"/>
+			</action>
+			<action id="shoot_spit_03.swf" name="Up" loop="Y" totalframe="100" enable="N" aid="8232">
+				<prop id="msp_goop.msp_goop_slime_med.swf" aid="8229"/>
+			</action>
+			<action id="shoot_spit_04.swf" name="Down" loop="Y" totalframe="100" enable="N" aid="8234">
+				<prop id="msp_goop.msp_goop_slime_med.swf" aid="8229"/>
+			</action>
+			<action id="shoot_spit_05.swf" name="Straight" loop="Y" totalframe="100" enable="Y" aid="8443">
+				<prop id="msp_goop.msp_goop_slime_med.swf" aid="8229"/>
+			</action>
+			<action id="shoot_spit_06.swf" name="Up" loop="Y" totalframe="100" enable="Y" aid="8444">
+				<prop id="msp_goop.msp_goop_slime_med.swf" aid="8229"/>
+			</action>
+			<action id="shoot_spit_07.swf" name="Down" loop="Y" totalframe="100" enable="Y" aid="8445">
+				<prop id="msp_goop.msp_goop_slime_med.swf" aid="8229"/>
+			</action>
+		</category>
+		<category name="Standing">
+			<action id="standing.swf" name="Front view" loop="Y" totalframe="49" enable="Y" aid="7968"/>
+			<action id="stand_back.swf" name="Back view" loop="Y" totalframe="49" enable="Y" aid="7980"/>
+		</category>
+		<category name="Tentacles">
+			<action id="tenticles.swf" name="Face" loop="Y" totalframe="100" enable="Y" aid="7981"/>
+			<action id="belly_tenticles.swf" name="Belly" loop="Y" totalframe="54" enable="Y" aid="7982"/>
+		</category>
+		<motion id="walk.swf" name="Walk" loop="Y" totalframe="24" enable="Y" aid="7969"/>
+		<action id="sitting.swf" name="Sitting" loop="Y" totalframe="39" enable="Y" aid="7983"/>
+		<action id="talk.swf" name="Talk" loop="Y" totalframe="100" enable="Y" aid="7984"/>
+		<action id="grab.swf" name="Grab" loop="Y" totalframe="38" enable="Y" aid="7985"/>
+		<action id="throw.swf" name="Throw" loop="Y" totalframe="50" enable="Y" aid="7986"/>
+		<action id="jump.swf" name="Jump" loop="Y" totalframe="100" enable="Y" aid="7987"/>
+		<motion id="run.swf" name="Run" loop="Y" totalframe="16" enable="Y" aid="7988"/>
+		<facial id="head_angry.swf" name="Angry" enable="Y" aid="7989"/>
+		<facial id="head_tenticles.swf" name="Face tentacles wriggling" enable="Y" aid="7990"/>
+		<facial id="head_spit.swf" name="Spit" enable="N" aid="7991"/>
+		<facial id="head_neutral.swf" name="Neutral" enable="Y" aid="7992"/>
+	</char>
+	<char id="brainstorm" name="Brainstorm" thumb="standing.swf" facing="left" default="standing.swf" motion="walk.swf" enable="Y" is_premium="N" aid="9913" money="0" sharing="0">
+		<category name="Electric power">
+			<action id="electric_attack01.swf" name="Sparks" loop="Y" totalframe="65" enable="Y" aid="9914"/>
+			<action id="electric_attack02.swf" name="Electroshock" loop="Y" totalframe="90" enable="Y" aid="9915">
+				<prop id="msp_ea02.msp_ea02_ea02_med.swf" aid="9821"/>
+			</action>
+			<action id="electric_attack03.swf" name="Beam" loop="Y" totalframe="100" enable="Y" aid="9916">
+				<prop id="msp_ea03.msp_ea03_ea03_med.swf" aid="9825"/>
+			</action>
+			<action id="electric_attack04.swf" name="Arc" loop="Y" totalframe="114" enable="Y" aid="9917">
+				<prop id="msp_ea04.msp_ea04_ea04_med.swf" aid="9829"/>
+			</action>
+			<action id="project_forcefield.swf" name="Forcefield" loop="Y" totalframe="55" enable="Y" aid="9918"/>
+		</category>
+		<category name="Emotion">
+			<action id="happy.swf" name="Happy" loop="Y" totalframe="95" enable="Y" aid="9919"/>
+			<action id="sad.swf" name="Sad" loop="Y" totalframe="97" enable="Y" aid="9920"/>
+			<action id="angry.swf" name="Angry" loop="Y" totalframe="80" enable="Y" aid="9921"/>
+			<action id="thinking.swf" name="Thinking" loop="Y" totalframe="100" enable="Y" aid="9922"/>
+			<action id="shock.swf" name="Shocked" loop="Y" totalframe="96" enable="Y" aid="9923"/>
+		</category>
+		<category name="Fight">
+			<action id="get_hit.swf" name="Get hit" loop="Y" totalframe="80" enable="Y" aid="9924"/>
+			<action id="block.swf" name="Block" loop="Y" totalframe="40" enable="Y" aid="9925"/>
+		</category>
+		<category name="Standing">
+			<action id="standing.swf" name="Front view" loop="Y" totalframe="40" enable="Y" aid="9926"/>
+			<action id="stand_back.swf" name="Back view" loop="Y" totalframe="1" enable="Y" aid="9927"/>
+		</category>
+		<category name="Transform">
+			<action id="transform_back.swf" name="Back to Ben" loop="Y" totalframe="60" enable="Y" aid="9928"/>
+			<action id="transform.swf" name="Into Brainstorm" loop="Y" totalframe="48" enable="Y" aid="9929"/>
+		</category>
+		<action id="jump.swf" name="Jump" loop="Y" totalframe="55" enable="Y" aid="9930"/>
+		<action id="talk.swf" name="Talk" loop="Y" totalframe="100" enable="Y" aid="9931"/>
+		<action id="snapping_claws.swf" name="Snap claws" loop="Y" totalframe="80" enable="Y" aid="9932"/>
+		<motion id="walk.swf" name="Walk" loop="Y" totalframe="10" enable="Y" aid="9933"/>
+		<motion id="running.swf" name="Run" loop="Y" totalframe="5" enable="Y" aid="9934"/>
+		<facial id="head_sad.swf" name="Sad" enable="Y" aid="9935"/>
+		<facial id="head_angry.swf" name="Angry" enable="Y" aid="9936"/>
+		<facial id="head_talk.swf" name="Talk" enable="Y" aid="9937"/>
+		<facial id="head_talk_happy.swf" name="Talk happy" enable="Y" aid="9938"/>
+		<facial id="head_talk_angry.swf" name="Talk angry" enable="Y" aid="9939"/>
+		<facial id="head_surprised.swf" name="Surprised" enable="Y" aid="9940"/>
+		<facial id="head_confused.swf" name="Confused" enable="Y" aid="9941"/>
+		<facial id="head_laugh.swf" name="Laugh" enable="Y" aid="9942"/>
+		<facial id="head_shocked.swf" name="Shocked" enable="Y" aid="9943"/>
+		<facial id="head_neutral.swf" name="Neutral" enable="Y" aid="9944"/>
+		<facial id="head_talk_sad.swf" name="Talk sad" enable="Y" aid="9945"/>
+		<facial id="head_in_pain.swf" name="In pain" enable="Y" aid="9946"/>
+		<facial id="head_shake_head.swf" name="Shake head" enable="Y" aid="9947"/>
+		<facial id="head_scared.swf" name="Scared" enable="Y" aid="9948"/>
+		<facial id="head_happy.swf" name="Happy" enable="Y" aid="9949"/>
+	</char>
+	<char id="babyalien_char" name="Xenocyte" thumb="standing.swf" facing="left" default="standing.swf" motion="walk.swf" enable="Y" is_premium="N" aid="7960" money="0" sharing="0">
+		<action id="standing.swf" name="Standing" loop="Y" totalframe="54" enable="Y" aid="7961"/>
+		<motion id="walk.swf" name="Walk" loop="Y" totalframe="24" enable="Y" aid="7962"/>
+		<action id="jump.swf" name="Jump" loop="Y" totalframe="47" enable="Y" aid="7963"/>
+		<action id="mouth_open.swf" name="Threaten" loop="Y" totalframe="66" enable="Y" aid="7964"/>
+		<action id="egg_hatch.swf" name="Egg hatching" loop="Y" totalframe="30" enable="Y" aid="7965"/>
+		<action id="egg_still.swf" name="Egg" loop="Y" totalframe="21" enable="Y" aid="7966"/>
+	</char>
+	<char id="forever_knight" name="Forever knight" thumb="standing.swf" facing="left" default="standing.swf" motion="walk.swf" enable="Y" is_premium="N" aid="9950" money="0" sharing="0">
+		<category name="Emotion">
+			<action id="happy.swf" name="Happy" loop="Y" totalframe="71" enable="Y" aid="9951"/>
+			<action id="sad.swf" name="Sad" loop="Y" totalframe="80" enable="Y" aid="9952"/>
+			<action id="angry.swf" name="Angry" loop="Y" totalframe="40" enable="Y" aid="9953"/>
+			<action id="thinking.swf" name="Thinking" loop="Y" totalframe="100" enable="Y" aid="9954"/>
+			<action id="shock.swf" name="Shocked" loop="Y" totalframe="65" enable="Y" aid="9955"/>
+		</category>
+		<category name="Fight">
+			<action id="get_hit.swf" name="Fall down" loop="Y" totalframe="82" enable="Y" aid="9956"/>
+			<action id="punch.swf" name="Punch" loop="Y" totalframe="50" enable="Y" aid="9957"/>
+			<action id="block.swf" name="Block" loop="Y" totalframe="37" enable="Y" aid="9958"/>
+			<action id="fight_sword01.swf" name="Sword swing" loop="Y" totalframe="50" enable="Y" aid="9959">
+				<prop id="sword.swf" aid="9850"/>
+			</action>
+			<action id="fight_sword02.swf" name="Sword stab" loop="Y" totalframe="60" enable="Y" aid="9960">
+				<prop id="sword.swf" aid="9850"/>
+			</action>
+			<action id="shooting.swf" name="Shoot" loop="Y" totalframe="43" enable="Y" aid="9961">
+				<prop id="msp_gun02.msp_gun02_gun_still.swf" aid="9834"/>
+			</action>
+			<action id="kick.swf" name="Kick" loop="Y" totalframe="52" enable="Y" aid="9962"/>
+		</category>
+		<category name="Standing">
+			<action id="standing.swf" name="Front view" loop="Y" totalframe="50" enable="Y" aid="9963"/>
+			<action id="stand_back.swf" name="Back view" loop="Y" totalframe="1" enable="Y" aid="9964"/>
+			<action id="hold_sword.swf" name="Holding sword" loop="Y" totalframe="50" enable="Y" aid="9965">
+				<prop id="sword.swf" aid="9850"/>
+			</action>
+		</category>
+		<action id="sitting.swf" name="Sitting" loop="Y" totalframe="1" enable="Y" aid="9966"/>
+		<action id="talk.swf" name="Talk" loop="Y" totalframe="100" enable="Y" aid="9967"/>
+		<action id="kneeling.swf" name="Kneel down" loop="Y" totalframe="25" enable="Y" aid="9968"/>
+		<motion id="walk.swf" name="Walk" loop="Y" totalframe="24" enable="Y" aid="9969"/>
+		<motion id="running.swf" name="Run" loop="Y" totalframe="20" enable="Y" aid="9970"/>
+		<motion id="walk_with_sword.swf" name="Walk with sword" loop="Y" totalframe="24" enable="Y" aid="9971"/>
+		<motion id="walk_with_gun.swf" name="Walk with gun" loop="Y" totalframe="24" enable="Y" aid="9972"/>
+	</char>
+	<char id="highbreed" name="Highbreed" thumb="standing.swf" facing="left" default="standing.swf" motion="walk.swf" enable="Y" is_premium="N" aid="9973" money="0" sharing="0">
+		<category name="Emotion">
+			<action id="happy.swf" name="Happy" loop="Y" totalframe="41" enable="Y" aid="9974"/>
+			<action id="sad.swf" name="Sad" loop="Y" totalframe="100" enable="Y" aid="9975"/>
+			<action id="angry.swf" name="Angry" loop="Y" totalframe="100" enable="Y" aid="9976"/>
+			<action id="thinking.swf" name="Thinking" loop="Y" totalframe="100" enable="Y" aid="9977"/>
+			<action id="shock.swf" name="Shocked" loop="Y" totalframe="79" enable="Y" aid="9978"/>
+			<action id="talk.swf" name="Talk" loop="Y" totalframe="100" enable="Y" aid="9979"/>
+		</category>
+		<category name="Fight">
+			<action id="get_hit.swf" name="Fall down" loop="Y" totalframe="80" enable="Y" aid="9980"/>
+			<action id="punch.swf" name="Punch" loop="Y" totalframe="65" enable="Y" aid="9981"/>
+			<action id="block.swf" name="Block" loop="Y" totalframe="37" enable="Y" aid="9982"/>
+			<action id="throw.swf" name="Throw" loop="Y" totalframe="40" enable="Y" aid="9983"/>
+			<action id="punch_down.swf" name="Punch down" loop="Y" totalframe="60" enable="Y" aid="9984"/>
+			<action id="kneel_down.swf" name="Beaten" loop="Y" totalframe="40" enable="Y" aid="9985"/>
+			<action id="kick.swf" name="Kick" loop="Y" totalframe="50" enable="Y" aid="9986"/>
+			<action id="dodge.swf" name="Dodge" loop="Y" totalframe="65" enable="Y" aid="9987"/>
+		</category>
+		<category name="Standing">
+			<action id="standing.swf" name="Front view" loop="Y" totalframe="100" enable="Y" aid="9988"/>
+			<action id="stand_back.swf" name="Back view" loop="Y" totalframe="100" enable="Y" aid="9989"/>
+		</category>
+		<action id="sitting.swf" name="Sitting" loop="Y" totalframe="100" enable="Y" aid="9990"/>
+		<action id="shoot.swf" name="Shoot spikes" loop="Y" totalframe="50" enable="Y" aid="9991">
+			<prop id="msp_hb.msp_hb_hb_shoot_med.swf" aid="9837"/>
+		</action>
+		<action id="jump.swf" name="Jump" loop="Y" totalframe="45" enable="Y" aid="9992"/>
+		<action id="point_at.swf" name="Point at" loop="Y" totalframe="40" enable="Y" aid="9993"/>
+		<motion id="walk.swf" name="Walk" loop="Y" totalframe="24" enable="Y" aid="9994"/>
+		<motion id="running.swf" name="Run" loop="Y" totalframe="20" enable="Y" aid="9995"/>
+	</char>
+	<char id="spidermonkey" name="Spidermonkey" thumb="standing.swf" facing="left" default="standing.swf" motion="walk.swf" enable="Y" is_premium="N" aid="9996" money="0" sharing="0">
+		<category name="Climb">
+			<action id="climb_a.swf" name="Side view" loop="Y" totalframe="18" enable="Y" aid="9997"/>
+			<action id="climb_b.swf" name="Back view" loop="Y" totalframe="18" enable="Y" aid="9998"/>
+		</category>
+		<category name="Emotion">
+			<action id="happy.swf" name="Happy" loop="Y" totalframe="50" enable="Y" aid="9999"/>
+			<action id="sad.swf" name="Sad" loop="Y" totalframe="30" enable="Y" aid="10000"/>
+			<action id="angry.swf" name="Angry" loop="Y" totalframe="34" enable="Y" aid="10001"/>
+			<action id="thinking.swf" name="Thinking" loop="Y" totalframe="100" enable="Y" aid="10002"/>
+			<action id="shock.swf" name="Shocked" loop="Y" totalframe="55" enable="Y" aid="10003"/>
+			<action id="talk.swf" name="Talk" loop="Y" totalframe="100" enable="Y" aid="10004"/>
+			<action id="excited.swf" name="Excited" loop="Y" totalframe="50" enable="Y" aid="10005"/>
+		</category>
+		<category name="Fight">
+			<action id="get_hit.swf" name="Get hit" loop="Y" totalframe="80" enable="Y" aid="10006"/>
+			<action id="block.swf" name="Block" loop="Y" totalframe="40" enable="Y" aid="10007"/>
+			<action id="shoot.swf" name="Shoot web" loop="Y" totalframe="50" enable="Y" aid="10008">
+				<prop id="msp_sm.msp_sm_shoot_med.swf" aid="9845"/>
+			</action>
+			<action id="punch.swf" name="Punch" loop="Y" totalframe="80" enable="Y" aid="10009"/>
+		</category>
+		<category name="Standing">
+			<action id="standing.swf" name="Front view" loop="Y" totalframe="50" enable="Y" aid="10010"/>
+			<action id="stand_back.swf" name="Back view" loop="Y" totalframe="2" enable="Y" aid="10011"/>
+		</category>
+		<category name="Transform">
+			<action id="transform_back.swf" name="Back to Ben" loop="Y" totalframe="60" enable="Y" aid="10012"/>
+			<action id="transform.swf" name="Into Spidemonkey" loop="Y" totalframe="48" enable="Y" aid="10013"/>
+		</category>
+		<action id="sitting.swf" name="Sitting" loop="Y" totalframe="100" enable="Y" aid="10014"/>
+		<action id="cling_wall.swf" name="Cling to a wall" loop="Y" totalframe="50" enable="Y" aid="10015"/>
+		<action id="jump.swf" name="Jump" loop="Y" totalframe="45" enable="Y" aid="10016"/>
+		<motion id="walk.swf" name="Walk" loop="Y" totalframe="18" enable="Y" aid="10017"/>
+		<motion id="running.swf" name="Run" loop="Y" totalframe="12" enable="Y" aid="10018"/>
+		<facial id="head_happy.swf" name="Happy" enable="Y" aid="10019"/>
+		<facial id="head_sad.swf" name="Sad" enable="Y" aid="10020"/>
+		<facial id="head_angry.swf" name="Angry" enable="Y" aid="10021"/>
+		<facial id="head_talk.swf" name="Talk" enable="Y" aid="10022"/>
+		<facial id="head_talk_happy.swf" name="Talk happy" enable="Y" aid="10023"/>
+		<facial id="head_talk_angry.swf" name="Talk angry" enable="Y" aid="10024"/>
+		<facial id="head_surprised.swf" name="Surprised" enable="Y" aid="10025"/>
+		<facial id="head_confused.swf" name="Confused" enable="Y" aid="10026"/>
+		<facial id="head_laugh.swf" name="Laugh" enable="Y" aid="10027"/>
+		<facial id="head_shocked.swf" name="Shocked" enable="Y" aid="10028"/>
+		<facial id="head_neutral.swf" name="Neutral" enable="Y" aid="10029"/>
+		<facial id="head_talk_sad.swf" name="Talk sad" enable="Y" aid="10030"/>
+		<facial id="head_in_pain.swf" name="In pain" enable="Y" aid="10031"/>
+		<facial id="head_shake_head.swf" name="Shake head" enable="Y" aid="10032"/>
+		<facial id="head_scared.swf" name="Scared" enable="Y" aid="10033"/>
+	</char>
+	<char id="dad" name="Dad" thumb="standing.swf" facing="left" default="standing.swf" motion="walking.swf" enable="Y" is_premium="N" aid="2904" money="0" sharing="0">
+    <category name="emotion">
+      <action id="excited.swf" name="excited" loop="Y" totalframe="16" enable="Y" aid="2907"/>
+      <action id="furious.swf" name="furious" loop="Y" totalframe="46" enable="Y" aid="2908"/>
+      <action id="sad.swf" name="sad" loop="Y" totalframe="100" enable="Y" aid="2909"/>
+      <action id="shocked.swf" name="shocked" loop="Y" totalframe="50" enable="Y" aid="2910"/>
+      <action id="confused.swf" name="confused" loop="Y" totalframe="94" enable="Y" aid="2911"/>
+    </category>
+    <action id="standing.swf" name="standing" loop="Y" totalframe="100" enable="Y" aid="2905"/>
+    <motion id="walking.swf" name="walking" loop="Y" totalframe="16" enable="Y" aid="2906"/>
+    <action id="sitting.swf" name="sitting" loop="Y" totalframe="100" enable="Y" aid="2912"/>
+    <action id="dancing.swf" name="dancing" loop="Y" totalframe="52" enable="Y" aid="2913"/>
+    <action id="hit.swf" name="hit" loop="Y" totalframe="39" enable="Y" aid="2914"/>
+    <motion id="running.swf" name="Running" loop="Y" totalframe="12" enable="Y" aid="2915"/>
+    <facial id="head_happy.swf" name="happy" enable="Y" aid="2916"/>
+    <facial id="head_angry.swf" name="angry" enable="Y" aid="2917"/>
+    <facial id="head_talk.swf" name="talking" enable="Y" aid="2918"/>
+    <facial id="head_bored.swf" name="bored" enable="Y" aid="2919"/>
+    <facial id="head_desperate.swf" name="desperate" enable="Y" aid="2920"/>
+    <facial id="head_sad.swf" name="sad" enable="Y" aid="2921"/>
+    <facial id="head_scheming.swf" name="scheming" enable="Y" aid="2922"/>
+    <facial id="head_sleep.swf" name="sleep" enable="Y" aid="2923"/>
+    <facial id="head_neutral.swf" name="neutral" enable="Y" aid="8502"/>
+  </char>
+  <char id="misty" name="Misty" thumb="standing.swf" facing="left" default="standing.swf" motion="walking.swf" enable="Y" is_premium="N" aid="2924" money="0" sharing="0">
+    <category name="emotion">
+      <action id="excited.swf" name="excited" loop="Y" totalframe="63" enable="Y" aid="2927"/>
+      <action id="furious.swf" name="furious" loop="Y" totalframe="100" enable="Y" aid="2928"/>
+      <action id="sad.swf" name="sad" loop="Y" totalframe="100" enable="Y" aid="2929"/>
+      <action id="shocked.swf" name="shocked" loop="Y" totalframe="100" enable="Y" aid="2930"/>
+      <action id="confused.swf" name="confused" loop="Y" totalframe="102" enable="Y" aid="2931"/>
+    </category>
+    <category name="yoga pose">
+      <action id="yoga_relax.swf" name="relax" loop="Y" totalframe="1" enable="Y" aid="2932"/>
+      <action id="yoga_shocked.swf" name="shocked" loop="Y" totalframe="85" enable="Y" aid="2933"/>
+    </category>
+    <action id="standing.swf" name="standing" loop="Y" totalframe="100" enable="Y" aid="2925"/>
+    <motion id="walking.swf" name="walking" loop="Y" totalframe="24" enable="Y" aid="2926"/>
+    <action id="sewing.swf" name="sewing" loop="Y" totalframe="64" enable="Y" aid="2934"/>
+    <action id="sitting.swf" name="sitting" loop="Y" totalframe="100" enable="Y" aid="2935"/>
+    <action id="dancing.swf" name="dancing" loop="Y" totalframe="97" enable="Y" aid="2936"/>
+    <action id="hit.swf" name="hit" loop="Y" totalframe="100" enable="Y" aid="2937"/>
+    <facial id="head_raise.swf" name="raise head" enable="Y" aid="2938"/>
+    <facial id="head_angry.swf" name="angry" enable="Y" aid="2939"/>
+    <facial id="head_close_eye.swf" name="close eye" enable="Y" aid="2940"/>
+    <facial id="head_talk_turn.swf" name="talk turn head" enable="Y" aid="2941"/>
+    <facial id="head_talk_angry.swf" name="talk angry" enable="Y" aid="2942"/>
+    <facial id="head_talk_single_eye.swf" name="talk single eye" enable="Y" aid="2943"/>
+    <facial id="head_talk_close_eye.swf" name="talk close eye" enable="Y" aid="2944"/>
+    <action id="magic7.swf" name="use magic wand" loop="Y" totalframe="100" enable="Y" aid="5010"/>
+    <facial id="head_neutral.swf" name="neutral" enable="Y" aid="8503"/>
+  </char>
+  <char id="rashy" name="Rashy" thumb="standing.swf" facing="left" default="standing.swf" motion="walking.swf" enable="Y" is_premium="N" aid="2945" money="0" sharing="0">
+    <category name="emotion">
+      <action id="angry.swf" name="angry" loop="Y" totalframe="60" enable="Y" aid="2948"/>
+      <action id="furious.swf" name="furious" loop="Y" totalframe="50" enable="Y" aid="2949"/>
+      <action id="excited.swf" name="excited" loop="Y" totalframe="8" enable="Y" aid="2950"/>
+      <action id="sad.swf" name="sad" loop="Y" totalframe="99" enable="Y" aid="2951"/>
+      <action id="shocked.swf" name="shocked" loop="Y" totalframe="100" enable="Y" aid="2952"/>
+      <action id="confused.swf" name="confused" loop="Y" totalframe="100" enable="Y" aid="2953"/>
+      <action id="shy.swf" name="shy" loop="Y" totalframe="26" enable="Y" aid="2954"/>
+    </category>
+    <action id="standing.swf" name="standing" loop="Y" totalframe="76" enable="Y" aid="2946"/>
+    <motion id="walking.swf" name="walking" loop="Y" totalframe="12" enable="Y" aid="2947"/>
+    <action id="jump_in.swf" name="jump in" loop="Y" totalframe="24" enable="Y" aid="2955"/>
+    <action id="jump.swf" name="jump" loop="Y" totalframe="77" enable="Y" aid="2956"/>
+    <action id="punch.swf" name="punch" loop="Y" totalframe="100" enable="Y" aid="2957"/>
+    <action id="giggling.swf" name="giggling" loop="Y" totalframe="6" enable="Y" aid="2958"/>
+    <action id="sitting.swf" name="sitting" loop="Y" totalframe="1" enable="Y" aid="2959"/>
+    <action id="hit.swf" name="hit" loop="Y" totalframe="100" enable="Y" aid="2960"/>
+    <action id="talk_excitedly.swf" name="talk excitedly" loop="Y" totalframe="8" enable="Y" aid="2961"/>
+    <action id="take_off_hat.swf" name="take off hat" loop="Y" totalframe="160" enable="Y" aid="2962"/>
+    <action id="dancing.swf" name="dancing" loop="Y" totalframe="48" enable="Y" aid="2963"/>
+    <action id="playdrum.swf" name="play drum" loop="Y" totalframe="22" enable="Y" aid="2964"/>
+    <action id="hit2.swf" name="super hit" loop="Y" totalframe="50" enable="Y" aid="2965"/>
+    <motion id="running.swf" name="running" loop="Y" totalframe="18" enable="Y" aid="2966"/>
+    <facial id="head_talk_happy.swf" name="talk happy" enable="Y" aid="2967"/>
+    <facial id="head_happy.swf" name="happy" enable="Y" aid="2968"/>
+    <facial id="head_angry.swf" name="angry" enable="Y" aid="2969"/>
+    <facial id="head_talk.swf" name="talk" enable="Y" aid="2970"/>
+    <facial id="head_bored.swf" name="bored" enable="Y" aid="2971"/>
+    <facial id="head_desperate.swf" name="desperate" enable="Y" aid="2972"/>
+    <facial id="head_sad.swf" name="sad" enable="Y" aid="2973"/>
+    <facial id="head_scheming.swf" name="scheming" enable="Y" aid="2974"/>
+    <facial id="head_talk_sorry.swf" name="talk sorry" enable="Y" aid="2975"/>
+    <facial id="head_neutral.swf" name="neutral" enable="Y" aid="8504"/>
+  </char>
+  <char id="super_rica" name="Super Rica" thumb="standing.swf" facing="left" default="standing.swf" motion="walking.swf" enable="Y" is_premium="N" aid="2976" money="0" sharing="0">
+    <category name="emotion">
+      <action id="excited.swf" name="excited" loop="Y" totalframe="108" enable="Y" aid="2979"/>
+      <action id="furious.swf" name="furious" loop="Y" totalframe="55" enable="Y" aid="2980"/>
+      <action id="sad.swf" name="sad" loop="Y" totalframe="61" enable="Y" aid="2981"/>
+      <action id="shocked.swf" name="shocked" loop="Y" totalframe="100" enable="Y" aid="2982"/>
+      <action id="confused.swf" name="confused" loop="Y" totalframe="100" enable="Y" aid="2983"/>
+    </category>
+    <category name="lying down">
+      <action id="getting_stitched_up.swf" name="getting stitched up" loop="Y" totalframe="64" enable="Y" aid="2984"/>
+      <action id="punched.swf" name="punched" loop="Y" totalframe="100" enable="Y" aid="2985"/>
+    </category>
+    <action id="standing.swf" name="standing" loop="Y" totalframe="1" enable="Y" aid="2977"/>
+    <motion id="walking.swf" name="walking" loop="Y" totalframe="18" enable="Y" aid="2978"/>
+    <action id="rubbing_belly.swf" name="rubbing belly" loop="Y" totalframe="20" enable="Y" aid="2986"/>
+    <action id="sitting.swf" name="sitting" loop="Y" totalframe="1" enable="Y" aid="2987"/>
+    <action id="dancing.swf" name="dancing" loop="Y" totalframe="82" enable="Y" aid="2988"/>
+    <action id="hit.swf" name="hit" loop="Y" totalframe="50" enable="Y" aid="2989"/>
+    <facial id="head_glare.swf" name="glare" enable="Y" aid="2990"/>
+    <facial id="head_happy.swf" name="happy" enable="Y" aid="2991"/>
+    <facial id="head_angry.swf" name="angry" enable="Y" aid="2992"/>
+    <facial id="head_talk.swf" name="talk" enable="Y" aid="2993"/>
+    <facial id="head_bored.swf" name="bored" enable="Y" aid="2994"/>
+    <facial id="head_desperate.swf" name="desperate" enable="Y" aid="2995"/>
+    <facial id="head_sad.swf" name="sad" enable="Y" aid="2996"/>
+    <facial id="head_scheming.swf" name="scheming" enable="Y" aid="2997"/>
+    <facial id="head_neutral.swf" name="neutral" enable="Y" aid="8505"/>
+  </char>
+  <char id="horbart" name="Hobart" thumb="standing.swf" facing="left" default="standing.swf" motion="walking.swf" enable="Y" is_premium="N" aid="5978" money="0" sharing="0">
+    <category name="emotion">
+      <action id="excited.swf" name="excited" loop="Y" totalframe="69" enable="Y" aid="5981"/>
+      <action id="furious.swf" name="angry" loop="Y" totalframe="42" enable="Y" aid="5982"/>
+      <action id="sad.swf" name="sad" loop="Y" totalframe="45" enable="Y" aid="5983"/>
+      <action id="shocked.swf" name="surprised" loop="Y" totalframe="45" enable="Y" aid="5984"/>
+      <action id="thinking.swf" name="thinking" loop="Y" totalframe="100" enable="Y" aid="5985"/>
+    </category>
+    <action id="standing.swf" name="standing" loop="Y" totalframe="47" enable="Y" aid="5979"/>
+    <motion id="walking.swf" name="walk" loop="Y" totalframe="18" enable="Y" aid="5980"/>
+    <action id="biting.swf" name="bite" loop="Y" totalframe="90" enable="Y" aid="5986"/>
+    <action id="jumping.swf" name="jump" loop="Y" totalframe="21" enable="Y" aid="5987"/>
+    <action id="sitting.swf" name="sitting" loop="Y" totalframe="46" enable="Y" aid="5988"/>
+    <action id="sleeping.swf" name="sleep" loop="Y" totalframe="50" enable="Y" aid="5989"/>
+    <motion id="running.swf" name="run" loop="Y" totalframe="9" enable="Y" aid="5990"/>
+    <facial id="head_angry.swf" name="angry" enable="Y" aid="5991"/>
+    <facial id="head_barking.swf" name="bark" enable="Y" aid="5992"/>
+    <facial id="head_confused.swf" name="confused" enable="Y" aid="5993"/>
+    <facial id="head_embarrassed.swf" name="embarrassed" enable="Y" aid="5994"/>
+    <facial id="head_excited.swf" name="excited" enable="Y" aid="5995"/>
+    <facial id="head_happy.swf" name="happy" enable="Y" aid="5996"/>
+    <facial id="head_laugh.swf" name="laugh" enable="Y" aid="5997"/>
+    <facial id="head_sad.swf" name="sad" enable="Y" aid="5998"/>
+    <facial id="head_shocked.swf" name="shocked" enable="Y" aid="5999"/>
+    <facial id="head_sick.swf" name="sick" enable="Y" aid="6000"/>
+    <facial id="head_sleep.swf" name="sleep" enable="Y" aid="6001"/>
+    <facial id="head_snub.swf" name="snub" enable="Y" aid="6002"/>
+    <facial id="head_neutral.swf" name="neutral" enable="Y" aid="8506"/>
+  </char>
+  <char id="chowder_char" name="Chowder" thumb="standing.swf" facing="left" default="standing.swf" motion="walk.swf" enable="Y" is_premium="N" aid="8710" money="0" sharing="0">
+		<category name="Eat stuff">
+			<action id="eat.swf" name="Eat" loop="Y" totalframe="74" enable="Y" aid="8718">
+				<prop id="apple02.swf" aid="8886"/>
+			</action>
+			<action id="put_mouth.swf" name="Put into mouth" loop="Y" totalframe="27" enable="Y" aid="8719">
+				<prop id="apple02.swf" aid="8886"/>
+			</action>
+			<action id="chew.swf" name="Chew" loop="Y" totalframe="24" enable="Y" aid="8720"/>
+			<action id="swallow.swf" name="Swallow" loop="Y" totalframe="27" enable="Y" aid="8721"/>
+		</category>
+		<category name="Emotion">
+			<action id="excited.swf" name="Excited" loop="Y" totalframe="6" enable="Y" aid="8713"/>
+			<action id="sad.swf" name="Sad" loop="Y" totalframe="32" enable="Y" aid="8714"/>
+			<action id="angry.swf" name="Angry" loop="Y" totalframe="75" enable="Y" aid="8715"/>
+			<action id="surprised.swf" name="Surprised" loop="Y" totalframe="32" enable="Y" aid="8716"/>
+			<action id="cry.swf" name="Cry" loop="Y" totalframe="63" enable="Y" aid="8717"/>
+			<action id="thinking.swf" name="Thinking" loop="Y" totalframe="90" enable="Y" aid="8728"/>
+		</category>
+		<category name="Standing">
+			<action id="standing.swf" name="Frontview" loop="Y" totalframe="40" enable="Y" aid="8711"/>
+			<action id="backview.swf" name="Backview" loop="Y" totalframe="50" enable="Y" aid="8712"/>
+		</category>
+		<action id="sitting.swf" name="Sitting" loop="Y" totalframe="49" enable="Y" aid="8722"/>
+		<action id="talk.swf" name="Talk" loop="Y" totalframe="100" enable="Y" aid="8723"/>
+		<action id="lick.swf" name="Lick" loop="Y" totalframe="14" enable="Y" aid="8724"/>
+		<action id="regurgitate.swf" name="Spit up" loop="Y" totalframe="54" enable="Y" aid="8725">
+			<prop id="apple02.swf" aid="8886"/>
+		</action>
+		<action id="burp.swf" name="Burp" loop="Y" totalframe="57" enable="Y" aid="8726"/>
+		<action id="carry_still.swf" name="Hold tray" loop="Y" totalframe="40" enable="Y" aid="8727">
+			<prop id="apple02.swf" aid="8886"/>
+		</action>
+		<action id="smell.swf" name="Smell" loop="Y" totalframe="115" enable="Y" aid="8729"/>
+		<action id="hit_fruit.swf" name="Hit no fruit" loop="Y" totalframe="34" enable="Y" aid="8730"/>
+		<action id="point_at.swf" name="Point at" loop="Y" totalframe="34" enable="Y" aid="8731"/>
+		<motion id="walk.swf" name="Walk" loop="Y" totalframe="24" enable="Y" aid="8732"/>
+		<motion id="run.swf" name="Run" loop="Y" totalframe="16" enable="Y" aid="8733"/>
+		<motion id="carry_walk.swf" name="Carry tray" loop="Y" totalframe="24" enable="Y" aid="8734"/>
+		<facial id="head_talk_happy.swf" name="Talk happy" enable="Y" aid="8735"/>
+		<facial id="head_talk_angry.swf" name="Talk angry" enable="Y" aid="8736"/>
+		<facial id="head_talk_sad.swf" name="Talk sad" enable="Y" aid="8737"/>
+		<facial id="head_confused.swf" name="Confused" enable="Y" aid="8738"/>
+		<facial id="head_in_love.swf" name="In love" enable="Y" aid="8739"/>
+		<facial id="head_hung_smile.swf" name="Huge smile" enable="Y" aid="8740"/>
+		<facial id="head_scared.swf" name="Scared" enable="Y" aid="8741"/>
+		<facial id="head_lick.swf" name="Lick lips" enable="Y" aid="8742"/>
+		<facial id="head_frustrated.swf" name="Frustrated" enable="Y" aid="8743"/>
+		<facial id="head_desperate.swf" name="Desperate" enable="Y" aid="8744"/>
+		<facial id="head_talk.swf" name="Talk" enable="Y" aid="8745"/>
+		<facial id="head_sad.swf" name="Sad" enable="Y" aid="8746"/>
+		<facial id="head_angry.swf" name="Angry" enable="Y" aid="8747"/>
+		<facial id="head_happy.swf" name="Happy" enable="Y" aid="8748"/>
+		<facial id="head_neutral.swf" name="Neutral" enable="Y" aid="8749"/>
+	</char>
+	<char id="mung_daal_char" name="Mung Daal" thumb="standing.swf" facing="left" default="standing.swf" motion="walk.swf" enable="Y" is_premium="N" aid="8750" money="0" sharing="0">
+		<category name="Emotion">
+			<action id="sad.swf" name="Sad" loop="Y" totalframe="100" enable="Y" aid="8756"/>
+			<action id="angry.swf" name="Angry" loop="Y" totalframe="100" enable="Y" aid="8757"/>
+			<action id="surprised.swf" name="Surprised" loop="Y" totalframe="81" enable="Y" aid="8758"/>
+			<action id="happy.swf" name="Happy" loop="Y" totalframe="100" enable="Y" aid="8759"/>
+			<action id="thinking.swf" name="Thinking" loop="Y" totalframe="100" enable="Y" aid="8760"/>
+			<action id="desperate.swf" name="Desperate" loop="Y" totalframe="100" enable="Y" aid="8761"/>
+			<action id="crazy.swf" name="Go crazy" loop="Y" totalframe="100" enable="Y" aid="8853"/>
+		</category>
+		<category name="Hold tray">
+			<action id="hold_tray.swf" name="Still" loop="Y" totalframe="55" enable="Y" aid="8754">
+				<prop id="apple02.swf" aid="8886"/>
+			</action>
+			<action id="tipping_food.swf" name="Tip food" loop="Y" totalframe="47" enable="Y" aid="8755">
+				<prop id="apple02.swf" aid="8886"/>
+			</action>
+		</category>
+		<category name="Standing">
+			<action id="standing.swf" name="Frontview" loop="Y" totalframe="55" enable="Y" aid="8751"/>
+			<action id="backview.swf" name="Backview" loop="Y" totalframe="60" enable="Y" aid="8752"/>
+			<action id="lean_against.swf" name="lean against" loop="Y" totalframe="1" enable="Y" aid="8753"/>
+		</category>
+		<action id="sitting.swf" name="Sitting" loop="Y" totalframe="80" enable="Y" aid="8762"/>
+		<action id="talk.swf" name="Talk" loop="Y" totalframe="100" enable="Y" aid="8763"/>
+		<action id="point_at.swf" name="Point at" loop="Y" totalframe="67" enable="Y" aid="8764"/>
+		<action id="taste.swf" name="Taste" loop="Y" totalframe="57" enable="Y" aid="8765">
+			<prop id="apple02.swf" aid="8886"/>
+		</action>
+		<action id="hit_fruit.swf" name="Hit no fruit" loop="Y" totalframe="61" enable="Y" aid="8766"/>
+		<action id="chop.swf" name="Chop" loop="Y" totalframe="60" enable="Y" aid="8767"/>
+		<action id="stirring.swf" name="Stir" loop="Y" totalframe="25" enable="Y" aid="8768"/>
+		<motion id="walk.swf" name="Walk" loop="Y" totalframe="24" enable="Y" aid="8769"/>
+		<motion id="run.swf" name="Run" loop="Y" totalframe="14" enable="Y" aid="8770"/>
+		<motion id="carry_walk.swf" name="Carry tray" loop="Y" totalframe="24" enable="Y" aid="8771"/>
+		<facial id="head_talk_happy.swf" name="Talk happy" enable="Y" aid="8772"/>
+		<facial id="head_talk_angry.swf" name="Talk angry" enable="Y" aid="8773"/>
+		<facial id="head_talk_sad.swf" name="Talk sad" enable="Y" aid="8774"/>
+		<facial id="head_confused.swf" name="Confused" enable="Y" aid="8775"/>
+		<facial id="head_in_love.swf" name="In love" enable="Y" aid="8776"/>
+		<facial id="head_sweat.swf" name="Sweating" enable="Y" aid="8777"/>
+		<facial id="head_scared.swf" name="Scared" enable="Y" aid="8778"/>
+		<facial id="head_scheming.swf" name="Scheming" enable="Y" aid="8779"/>
+		<facial id="head_sick.swf" name="Sick" enable="Y" aid="8780"/>
+		<facial id="head_laugh.swf" name="Big laugh" enable="Y" aid="8781"/>
+		<facial id="head_happy.swf" name="Happy" enable="Y" aid="8782"/>
+		<facial id="head_sad.swf" name="Sad" enable="Y" aid="8783"/>
+		<facial id="head_angry.swf" name="Angry" enable="Y" aid="8784"/>
+		<facial id="head_talk.swf" name="Talk" enable="Y" aid="8785"/>
+		<facial id="head_neutral.swf" name="Neutral" enable="Y" aid="8786"/>
+	</char>
+	<char id="panini_char" name="Panini" thumb="standing.swf" facing="left" default="standing.swf" motion="walk.swf" enable="Y" is_premium="N" aid="8787" money="0" sharing="0">
+		<category name="Emotion">
+			<action id="sad.swf" name="Sad" loop="Y" totalframe="80" enable="Y" aid="8790"/>
+			<action id="angry.swf" name="Angry" loop="Y" totalframe="100" enable="Y" aid="8791"/>
+			<action id="surprised.swf" name="Surprised" loop="Y" totalframe="77" enable="Y" aid="8792"/>
+			<action id="happy.swf" name="Happy" loop="Y" totalframe="90" enable="Y" aid="8793"/>
+			<action id="thinking.swf" name="Thinking" loop="Y" totalframe="126" enable="Y" aid="8794"/>
+			<action id="cry.swf" name="Cry" loop="Y" totalframe="21" enable="Y" aid="8795"/>
+			<action id="scared.swf" name="Scared" loop="Y" totalframe="84" enable="Y" aid="8796"/>
+			<action id="shy.swf" name="Shy" loop="Y" totalframe="99" enable="Y" aid="8797"/>
+			<action id="desperate.swf" name="Desperate" loop="Y" totalframe="149" enable="Y" aid="8798"/>
+		</category>
+		<category name="Standing">
+			<action id="standing.swf" name="Frontview" loop="Y" totalframe="60" enable="Y" aid="8788"/>
+			<action id="backview.swf" name="Backview" loop="Y" totalframe="60" enable="Y" aid="8789"/>
+		</category>
+		<action id="sitting.swf" name="Sitting" loop="Y" totalframe="80" enable="Y" aid="8799"/>
+		<action id="talk.swf" name="Talk" loop="Y" totalframe="100" enable="Y" aid="8800"/>
+		<action id="point_at.swf" name="Point at" loop="Y" totalframe="55" enable="Y" aid="8801"/>
+		<action id="hug_kiss.swf" name="Hug and kiss" loop="Y" totalframe="100" enable="Y" aid="8802"/>
+		<action id="wave_hand.swf" name="Wave hand" loop="Y" totalframe="39" enable="Y" aid="8803"/>
+		<action id="flirt.swf" name="Flirt" loop="Y" totalframe="90" enable="Y" aid="8804"/>
+		<action id="throw_thing.swf" name="Throw things" loop="Y" totalframe="79" enable="Y" aid="8805">
+			<prop id="nail.swf" aid="8637"/>
+		</action>
+		<action id="carry_still.swf" name="Hold tray" loop="Y" totalframe="67" enable="Y" aid="8806">
+			<prop id="apple02.swf" aid="8886"/>
+		</action>
+		<motion id="walk.swf" name="Walk" loop="Y" totalframe="16" enable="Y" aid="8807"/>
+		<motion id="run.swf" name="Run" loop="Y" totalframe="12" enable="Y" aid="8808"/>
+		<motion id="carry_walk.swf" name="Carry tray" loop="Y" totalframe="16" enable="Y" aid="8809"/>
+		<facial id="head_talk_happy.swf" name="Talk happy" enable="Y" aid="8810"/>
+		<facial id="head_talk_angry.swf" name="Talk angry" enable="Y" aid="8811"/>
+		<facial id="head_talk_sad.swf" name="Talk sad" enable="Y" aid="8812"/>
+		<facial id="head_confused.swf" name="Confused" enable="Y" aid="8813"/>
+		<facial id="head_in_love.swf" name="In love" enable="Y" aid="8814"/>
+		<facial id="head_kiss.swf" name="Kiss" enable="Y" aid="8815"/>
+		<facial id="head_dreamy.swf" name="Dreamy" enable="Y" aid="8816"/>
+		<facial id="head_crazy.swf" name="Go crazy" enable="N" aid="8817"/>
+		<facial id="head_talk_sexy.swf" name="Talk flirty" enable="Y" aid="8818"/>
+		<facial id="head_laugh.swf" name="Laugh" enable="Y" aid="8819"/>
+		<facial id="head_happy.swf" name="Happy" enable="Y" aid="8820"/>
+		<facial id="head_sad.swf" name="Sad" enable="Y" aid="8821"/>
+		<facial id="head_angry.swf" name="Angry" enable="Y" aid="8822"/>
+		<facial id="head_talk.swf" name="Talk" enable="Y" aid="8823"/>
+		<facial id="head_cute.swf" name="Cute" enable="Y" aid="8824"/>
+	</char>
+	<char id="shnitzel_char" name="Shnitzel" thumb="standing.swf" facing="left" default="standing.swf" motion="walk.swf" enable="Y" is_premium="N" aid="8672" money="0" sharing="0">
+		<category name="Emotion">
+			<action id="sad.swf" name="Sad" loop="Y" totalframe="100" enable="Y" aid="8675"/>
+			<action id="angry.swf" name="Angry" loop="Y" totalframe="50" enable="Y" aid="8676"/>
+			<action id="surprised.swf" name="Surprised" loop="Y" totalframe="100" enable="Y" aid="8677"/>
+			<action id="happy.swf" name="Happy" loop="Y" totalframe="80" enable="Y" aid="8678"/>
+			<action id="confused.swf" name="Confused" loop="Y" totalframe="120" enable="Y" aid="8679"/>
+		</category>
+		<category name="Hold stuff">
+			<action id="throw.swf" name="Throw" loop="Y" totalframe="38" enable="Y" aid="8680">
+				<prop id="rock02.swf" aid="8889"/>
+			</action>
+			<action id="collapse.swf" name="Collapse" loop="Y" totalframe="170" enable="Y" aid="8681">
+				<prop id="rock02.swf" aid="8889"/>
+			</action>
+			<action id="lift.swf" name="Lift" loop="Y" totalframe="60" enable="Y" aid="8682">
+				<prop id="rock02.swf" aid="8889"/>
+			</action>
+			<action id="hold.swf" name="Still" loop="Y" totalframe="60" enable="Y" aid="8683">
+				<prop id="rock02.swf" aid="8889"/>
+			</action>
+		</category>
+		<category name="Standing">
+			<action id="standing.swf" name="Frontview" loop="Y" totalframe="49" enable="Y" aid="8673"/>
+			<action id="backview.swf" name="Backview" loop="Y" totalframe="49" enable="Y" aid="8674"/>
+		</category>
+		<action id="sitting.swf" name="Sitting" loop="Y" totalframe="80" enable="Y" aid="8684"/>
+		<action id="talk.swf" name="Talk" loop="Y" totalframe="100" enable="Y" aid="8685"/>
+		<action id="point_at.swf" name="Point at" loop="Y" totalframe="60" enable="Y" aid="8686"/>
+		<action id="hit_fruit.swf" name="Hit no fruit" loop="Y" totalframe="29" enable="Y" aid="8687"/>
+		<action id="eat.swf" name="Eat" loop="Y" totalframe="130" enable="Y" aid="8688">
+			<prop id="apple02.swf" aid="8886"/>
+		</action>
+		<action id="mop.swf" name="Mop the floor" loop="Y" totalframe="21" enable="Y" aid="8689"/>
+		<action id="jump.swf" name="Jump" loop="Y" totalframe="22" enable="Y" aid="8690"/>
+		<motion id="walk.swf" name="Walk" loop="Y" totalframe="20" enable="Y" aid="8691"/>
+		<motion id="carry_staff.swf" name="Carry stuff" loop="Y" totalframe="20" enable="Y" aid="8692"/>
+		<motion id="run.swf" name="Run" loop="Y" totalframe="12" enable="Y" aid="8693"/>
+		<motion id="carry_walk.swf" name="Push stuff" loop="Y" totalframe="20" enable="Y" aid="8694"/>
+		<facial id="head_talk_happy.swf" name="Talk happy" enable="Y" aid="8695"/>
+		<facial id="head_talk_angry.swf" name="Talk angry" enable="Y" aid="8696"/>
+		<facial id="head_talk_sad.swf" name="Talk sad" enable="Y" aid="8697"/>
+		<facial id="head_confused.swf" name="Confused" enable="Y" aid="8698"/>
+		<facial id="head_in_love.swf" name="In love" enable="Y" aid="8699"/>
+		<facial id="head_desperate.swf" name="Desperate" enable="Y" aid="8700"/>
+		<facial id="head_sweating.swf" name="Sweating" enable="Y" aid="8701"/>
+		<facial id="head_broken_teeth.swf" name="Broken teeth" enable="Y" aid="8702"/>
+		<facial id="head_laugh.swf" name="Laugh" enable="Y" aid="8703"/>
+		<facial id="head_happy.swf" name="Happy" enable="Y" aid="8704"/>
+		<facial id="head_sad.swf" name="Sad" enable="Y" aid="8705"/>
+		<facial id="head_angry.swf" name="Angry" enable="Y" aid="8706"/>
+		<facial id="head_talk.swf" name="Talk" enable="Y" aid="8707"/>
+		<facial id="head_neutral.swf" name="Neutral" enable="Y" aid="8708"/>
+		<facial id="head_shock.swf" name="Shock" enable="Y" aid="8709"/>
+	</char>
+	<char id="kimchi_char" name="Kimchi" thumb="kimchi_float.swf" facing="left" default="kimchi_float.swf" motion="kimchi_move.swf" enable="Y" is_premium="N" aid="8825" money="0" sharing="0">
+		<action id="kimchi_float.swf" name="Stand" loop="Y" totalframe="34" enable="Y" aid="8826"/>
+		<motion id="kimchi_move.swf" name="Walk" loop="Y" totalframe="34" enable="Y" aid="8827"/>
+	</char>
+	<char id="endive" name="Endive" thumb="standing.swf" facing="left" default="standing.swf" motion="walk.swf" enable="Y" is_premium="N" aid="10078" money="0" sharing="0">
+		<category name="Emotion">
+			<action id="happy.swf" name="Happy" loop="Y" totalframe="80" enable="Y" aid="10079"/>
+			<action id="sad.swf" name="Sad" loop="Y" totalframe="100" enable="Y" aid="10080"/>
+			<action id="angry.swf" name="Angry" loop="Y" totalframe="35" enable="Y" aid="10081"/>
+			<action id="surprised.swf" name="Surprised" loop="Y" totalframe="70" enable="Y" aid="10082"/>
+			<action id="thinking.swf" name="Thinking" loop="Y" totalframe="76" enable="Y" aid="10083"/>
+			<action id="cry.swf" name="Cry" loop="Y" totalframe="31" enable="Y" aid="10084"/>
+			<action id="laugh.swf" name="Laugh" loop="Y" totalframe="5" enable="Y" aid="10085"/>
+			<action id="scared.swf" name="Scared" loop="Y" totalframe="12" enable="Y" aid="10086"/>
+			<action id="shocked.swf" name="Shocked" loop="Y" totalframe="80" enable="Y" aid="10087"/>
+		</category>
+		<category name="Standing">
+			<action id="standing.swf" name="Frontview" loop="Y" totalframe="45" enable="Y" aid="10088"/>
+			<action id="backview.swf" name="Backview" loop="Y" totalframe="55" enable="Y" aid="10089"/>
+		</category>
+		<action id="sitting.swf" name="Sitting" loop="Y" totalframe="50" enable="Y" aid="10090"/>
+		<action id="eat.swf" name="Eat" loop="Y" totalframe="67" enable="Y" aid="10091">
+			<prop id="apple.swf" aid="8634"/>
+		</action>
+		<action id="shout.swf" name="Shout" loop="Y" totalframe="80" enable="Y" aid="10092"/>
+		<action id="talk.swf" name="Talk" loop="Y" totalframe="100" enable="Y" aid="10093"/>
+		<action id="point_at.swf" name="Point at" loop="Y" totalframe="40" enable="Y" aid="10094"/>
+		<action id="flirt.swf" name="Flirt" loop="Y" totalframe="65" enable="Y" aid="10095"/>
+		<action id="stroking.swf" name="Stroke" loop="Y" totalframe="100" enable="Y" aid="10096"/>
+		<motion id="walk.swf" name="Walk" loop="Y" totalframe="11" enable="Y" aid="10097"/>
+		<motion id="run.swf" name="Run" loop="Y" totalframe="12" enable="Y" aid="10098"/>
+		<facial id="head_talk_happy.swf" name="Talk happy" enable="Y" aid="10099"/>
+		<facial id="head_talk_angry.swf" name="Talk angry" enable="Y" aid="10100"/>
+		<facial id="head_talk_sad.swf" name="Talk sad" enable="Y" aid="10101"/>
+		<facial id="head_confused.swf" name="Confused" enable="Y" aid="10102"/>
+		<facial id="head_stalking.swf" name="Stalking" enable="Y" aid="10103"/>
+		<facial id="head_shocked.swf" name="Shocked" enable="Y" aid="10104"/>
+		<facial id="head_flirt.swf" name="Flirt" enable="Y" aid="10105"/>
+		<facial id="head_surprised.swf" name="Surprised" enable="Y" aid="10106"/>
+		<facial id="head_talk_flirt.swf" name="Talk flirt" enable="Y" aid="10107"/>
+		<facial id="head_laugh.swf" name="Laugh" enable="Y" aid="10108"/>
+		<facial id="head_happy.swf" name="Happy" enable="Y" aid="10109"/>
+		<facial id="head_sad.swf" name="Sad" enable="Y" aid="10110"/>
+		<facial id="head_angry.swf" name="Angry" enable="Y" aid="10111"/>
+		<facial id="head_talk.swf" name="Talk" enable="Y" aid="10112"/>
+		<facial id="head_neutral.swf" name="Neutral" enable="Y" aid="10113"/>
+	</char>
+	<char id="gazpacho" name="Gazpacho" thumb="standing.swf" facing="left" default="standing.swf" motion="walk.swf" enable="Y" is_premium="N" aid="10114" money="0" sharing="0">
+		<category name="Emotion">
+			<action id="happy.swf" name="Happy" loop="Y" totalframe="41" enable="Y" aid="10115"/>
+			<action id="cry.swf" name="Cry" loop="Y" totalframe="25" enable="Y" aid="10116"/>
+			<action id="sad.swf" name="Sad" loop="Y" totalframe="45" enable="Y" aid="10117"/>
+			<action id="angry.swf" name="Angry" loop="Y" totalframe="53" enable="Y" aid="10118"/>
+			<action id="surprised.swf" name="Surprised" loop="Y" totalframe="40" enable="Y" aid="10119"/>
+			<action id="thinking.swf" name="Thinking" loop="Y" totalframe="100" enable="Y" aid="10120"/>
+			<action id="desperate.swf" name="Desperate" loop="Y" totalframe="8" enable="Y" aid="10121"/>
+			<action id="scared.swf" name="Scared" loop="Y" totalframe="6" enable="Y" aid="10122"/>
+		</category>
+		<category name="Standing">
+			<action id="standing.swf" name="Frontview" loop="Y" totalframe="16" enable="Y" aid="10123"/>
+			<action id="backview.swf" name="Backview" loop="Y" totalframe="39" enable="Y" aid="10124"/>
+		</category>
+		<action id="sitting.swf" name="Sitting" loop="Y" totalframe="39" enable="Y" aid="10125"/>
+		<action id="talk.swf" name="Talk" loop="Y" totalframe="100" enable="Y" aid="10126"/>
+		<action id="point_at.swf" name="Point at" loop="Y" totalframe="35" enable="Y" aid="10127"/>
+		<action id="taste.swf" name="Eat" loop="Y" totalframe="100" enable="Y" aid="10128">
+			<prop id="apple.swf" aid="8634"/>
+		</action>
+		<action id="pick_up.swf" name="Get an idea" loop="Y" totalframe="36" enable="Y" aid="10129">
+			<prop id="apple.swf" aid="8634"/>
+		</action>
+		<motion id="walk.swf" name="Walk" loop="Y" totalframe="36" enable="Y" aid="10130"/>
+		<motion id="run.swf" name="Run" loop="Y" totalframe="16" enable="Y" aid="10131"/>
+		<facial id="head_talk_angry.swf" name="Talk angry" enable="Y" aid="10132"/>
+		<facial id="head_confused.swf" name="Confused" enable="Y" aid="10133"/>
+		<facial id="head_sweating.swf" name="Sweating" enable="Y" aid="10134"/>
+		<facial id="head_surprised.swf" name="Suprised" enable="Y" aid="10135"/>
+		<facial id="head_laugh.swf" name="Laugh" enable="Y" aid="10136"/>
+		<facial id="head_shocked.swf" name="Shocked" enable="Y" aid="10137"/>
+		<facial id="head_cry.swf" name="Cry" enable="Y" aid="10138"/>
+		<facial id="head_smile.swf" name="Smile" enable="Y" aid="10139"/>
+		<facial id="head_happy.swf" name="Happy" enable="Y" aid="10140"/>
+		<facial id="head_sad.swf" name="Sad" enable="Y" aid="10141"/>
+		<facial id="head_angry.swf" name="Angry" enable="Y" aid="10142"/>
+		<facial id="head_talk.swf" name="Talk" enable="Y" aid="10143"/>
+		<facial id="head_neutral.swf" name="Neutral" enable="Y" aid="10144"/>
+		<facial id="head_talk_happy.swf" name="Talk happy" enable="Y" aid="10145"/>
+		<facial id="head_talk_sad.swf" name="Talk sad" enable="Y" aid="10146"/>
+	</char>
+	<char id="truffles" name="Truffles" thumb="standing.swf" facing="left" default="standing.swf" motion="fly.swf" enable="Y" is_premium="N" aid="10147" money="0" sharing="0">
+		<category name="Emotion">
+			<action id="excited.swf" name="Excited" loop="Y" totalframe="40" enable="Y" aid="10148"/>
+			<action id="sad.swf" name="Sad" loop="Y" totalframe="40" enable="Y" aid="10149"/>
+			<action id="angry.swf" name="Angry" loop="Y" totalframe="40" enable="Y" aid="10150"/>
+			<action id="surprised.swf" name="Surprised" loop="Y" totalframe="40" enable="Y" aid="10151"/>
+			<action id="thinking.swf" name="Thinking" loop="Y" totalframe="40" enable="Y" aid="10152"/>
+			<action id="cry.swf" name="Cry" loop="Y" totalframe="40" enable="Y" aid="10153"/>
+			<action id="in_love.swf" name="In love" loop="Y" totalframe="40" enable="Y" aid="10154"/>
+			<action id="shout.swf" name="Furious" loop="Y" totalframe="40" enable="Y" aid="10155"/>
+			<action id="meditating.swf" name="Meditating" loop="Y" totalframe="40" enable="Y" aid="10156"/>
+		</category>
+		<category name="Standing">
+			<action id="standing.swf" name="Frontview" loop="Y" totalframe="40" enable="Y" aid="10157"/>
+			<action id="backview.swf" name="Backview" loop="Y" totalframe="40" enable="Y" aid="10158"/>
+			<action id="cross_arm.swf" name="Crossed arms" loop="Y" totalframe="40" enable="Y" aid="10159"/>
+		</category>
+		<action id="sitting.swf" name="Sitting" loop="Y" totalframe="50" enable="Y" aid="10160"/>
+		<action id="talk.swf" name="Talk" loop="Y" totalframe="40" enable="Y" aid="10161"/>
+		<action id="point_at.swf" name="Point at" loop="Y" totalframe="40" enable="Y" aid="10162"/>
+		<action id="reading.swf" name="Reading" loop="Y" totalframe="40" enable="Y" aid="10163">
+			<prop id="book.swf" aid="10047"/>
+		</action>
+		<action id="listening.swf" name="What did you say?" loop="Y" totalframe="40" enable="Y" aid="10164"/>
+		<action id="clapping.swf" name="Clap hands" loop="Y" totalframe="40" enable="Y" aid="10165"/>
+		<action id="hit.swf" name="Hit with prop" loop="Y" totalframe="40" enable="Y" aid="10166">
+			<prop id="pan.swf" aid="10055"/>
+		</action>
+		<action id="writing.swf" name="Writing" loop="Y" totalframe="40" enable="Y" aid="10167"/>
+		<motion id="fly.swf" name="Fly" loop="Y" totalframe="40" enable="Y" aid="10168"/>
+		<facial id="head_in_love.swf" name="In love" enable="Y" aid="10169"/>
+		<facial id="head_talk_happy.swf" name="Talk happy" enable="Y" aid="10170"/>
+		<facial id="head_talk_angry.swf" name="Talk angry" enable="Y" aid="10171"/>
+		<facial id="head_talk_sad.swf" name="Talk sad" enable="Y" aid="10172"/>
+		<facial id="head_confused.swf" name="Confused" enable="Y" aid="10173"/>
+		<facial id="head_shocked.swf" name="Shocked" enable="Y" aid="10174"/>
+		<facial id="head_talk.swf" name="Talk" enable="Y" aid="10175"/>
+		<facial id="head_sad.swf" name="Sad" enable="Y" aid="10176"/>
+		<facial id="head_angry.swf" name="Angry" enable="Y" aid="10177"/>
+		<facial id="head_happy.swf" name="Happy" enable="Y" aid="10178"/>
+		<facial id="head_neutral.swf" name="Neutral" enable="Y" aid="10179"/>
+		<facial id="head_laugh.swf" name="Laugh" enable="Y" aid="10180"/>
+		<facial id="head_cry.swf" name="Cry" enable="Y" aid="10181"/>
+		<facial id="head_closed.swf" name="Closed eye" enable="Y" aid="10182"/>
+		<facial id="head_surprised.swf" name="Suprised" enable="Y" aid="10183"/>
+	</char>
+	<background id="indo_bg.swf" name="Taj Mahal" enable="N" default="N" is_premium="N" aid="10399" money="0" sharing="0"/>
+	<background id="street_day_bg.swf" name="" enable="N" default="N" is_premium="N" aid="10442" money="0" sharing="0"/>
+	<background id="lliving_rm_bg.swf" name="" enable="N" default="N" is_premium="N" aid="10441" money="0" sharing="0"/>
+	<background id="beach_bg.swf" name="" enable="N" default="N" is_premium="N" aid="10440" money="0" sharing="0"/>
+	<background id="thailand_bg.swf" name="" enable="N" default="N" is_premium="N" aid="10439" money="0" sharing="0"/>
+	<background id="taiwan_bg.swf" name="" enable="N" default="N" is_premium="N" aid="10409" money="0" sharing="0"/>
+	<background id="kid_bg.swf" name="" enable="N" default="N" is_premium="N" aid="10408" money="0" sharing="0"/>
+	<background id="sydney_bg.swf" name="" enable="N" default="N" is_premium="N" aid="10407" money="0" sharing="0"/>
+	<background id="malaysia_bg.swf" name="" enable="N" default="N" is_premium="N" aid="10406" money="0" sharing="0"/>
+	<background id="space_bg.swf" name="" enable="N" default="N" is_premium="N" aid="10404" money="0" sharing="0"/>
+	<background id="mojojojo_lair_bg.swf" name="" enable="N" default="N" is_premium="N" aid="10403" money="0" sharing="0"/>
+	<background id="flapjacks_bg.swf" name="" enable="N" default="N" is_premium="N" aid="10402" money="0" sharing="0"/>
+	<background id="townsville_hall_bg.swf" name="Townsville hall" enable="N" default="N" is_premium="N" aid="10401" money="0" sharing="0"/>
+	<background id="police_station_bg.swf" name="Police station" enable="N" default="N" is_premium="N" aid="10400" money="0" sharing="0"/>
+	<background id="street_night_bg.swf" name="" enable="N" default="N" is_premium="N" aid="10443" money="0" sharing="0"/>
+	<compositebg id="cbg_st_night" name="" enable="Y" default="N" thumb="street_night.jpg" display_order="0" is_premium="N" money="0" sharing="0" aid="10453">
+	<bg id="BG8" index="0">
+		<file>toonadv.street_night_bg.swf</file>
+	</bg>
+	<prop id="PROP7" index="5">
+		<file>toonadv.street_night_bin.swf</file>
+		<x>105</x>
+		<y>291.7</y>
+		<xscale>1</xscale>
+		<yscale>1</yscale>
+		<face>1</face>
+		<rotation>0</rotation>
+	</prop>
+	<prop id="PROP8" index="6">
+		<file>toonadv.street_night_tape.swf</file>
+		<x>347.4</x>
+		<y>341.5</y>
+		<xscale>1</xscale>
+		<yscale>1</yscale>
+		<face>1</face>
+		<rotation>0</rotation>
+	</prop>
+</compositebg>
+	<compositebg id="cbg_st_day" name="" enable="Y" default="N" thumb="street_day.jpg" display_order="0" is_premium="N" money="0" sharing="0" aid="10452">
+	<bg id="BG8" index="0">
+		<file>toonadv.street_day_bg.swf</file>
+	</bg>
+	<prop id="PROP6" index="5">
+		<file>toonadv.street_day_sign02.swf</file>
+		<x>507.2</x>
+		<y>305.3</y>
+		<xscale>1</xscale>
+		<yscale>1</yscale>
+		<face>1</face>
+		<rotation>0</rotation>
+	</prop>
+	<prop id="PROP7" index="6">
+		<file>toonadv.street_day_sign01.swf</file>
+		<x>96</x>
+		<y>287</y>
+		<xscale>1</xscale>
+		<yscale>1</yscale>
+		<face>1</face>
+		<rotation>0</rotation>
+	</prop>
+</compositebg>
+	<compositebg id="cbg_living_rm" name="" enable="Y" default="N" thumb="living_room.jpg" display_order="0" is_premium="N" money="0" sharing="0" aid="10451">
+	<bg id="BG8" index="0">
+		<file>toonadv.lliving_rm_bg.swf</file>
+	</bg>
+	<prop id="PROP8" index="5">
+		<file>toonadv.living_rm_sofa.swf</file>
+		<x>261</x>
+		<y>228</y>
+		<xscale>1</xscale>
+		<yscale>1</yscale>
+		<face>1</face>
+		<rotation>0</rotation>
+	</prop>
+	<prop id="PROP9" index="6">
+		<file>toonadv.living_rm_tv.swf</file>
+		<x>446</x>
+		<y>235</y>
+		<xscale>1</xscale>
+		<yscale>1</yscale>
+		<face>1</face>
+		<rotation>0</rotation>
+	</prop>
+	<prop id="PROP10" index="7">
+		<file>toonadv.living_rm_chair.swf</file>
+		<x>205</x>
+		<y>273</y>
+		<xscale>1</xscale>
+		<yscale>1</yscale>
+		<face>1</face>
+		<rotation>0</rotation>
+	</prop>
+</compositebg>
+	<compositebg id="cbg_beach" name="" enable="Y" default="N" thumb="beach.jpg" display_order="0" is_premium="N" money="0" sharing="0" aid="10450">
+	<bg id="BG8" index="0">
+		<file>toonadv.beach_bg.swf</file>
+	</bg>
+	<prop id="PROP6" index="5">
+		<file>toonadv.beach_prop01.swf</file>
+		<x>113.1</x>
+		<y>143.9</y>
+		<xscale>1</xscale>
+		<yscale>1</yscale>
+		<face>1</face>
+		<rotation>0</rotation>
+	</prop>
+	<prop id="PROP7" index="6">
+		<file>toonadv.beach_prop02.swf</file>
+		<x>235.2</x>
+		<y>167.8</y>
+		<xscale>1</xscale>
+		<yscale>1</yscale>
+		<face>1</face>
+		<rotation>0</rotation>
+	</prop>
+</compositebg>
+	<compositebg id="cbg_thai" name="" enable="Y" default="N" thumb="thailand.jpg" display_order="0" is_premium="N" money="0" sharing="0" aid="10449">
+	<bg id="BG8" index="0">
+		<file>toonadv.thailand_bg.swf</file>
+	</bg>
+	<prop id="PROP6" index="5">
+		<file>toonadv.thailand_boat01.swf</file>
+		<x>163</x>
+		<y>233</y>
+		<xscale>1</xscale>
+		<yscale>1</yscale>
+		<face>1</face>
+		<rotation>0</rotation>
+	</prop>
+	<prop id="PROP7" index="6">
+		<file>toonadv.thailand_boat02.swf</file>
+		<x>86</x>
+		<y>270</y>
+		<xscale>1</xscale>
+		<yscale>1</yscale>
+		<face>1</face>
+		<rotation>0</rotation>
+	</prop>
+	<prop id="PROP8" index="7">
+		<file>toonadv.thailand_bridge.swf</file>
+		<x>306</x>
+		<y>418</y>
+		<xscale>1</xscale>
+		<yscale>1</yscale>
+		<face>1</face>
+		<rotation>0</rotation>
+	</prop>
+</compositebg>
+	<compositebg id="cbg_sydney" name="" enable="Y" default="N" thumb="sydney.jpg" display_order="0" is_premium="N" money="0" sharing="0" aid="10448">
+	<bg id="BG8" index="0">
+		<file>toonadv.sydney_bg.swf</file>
+	</bg>
+	<prop id="PROP6" index="5">
+		<file>toonadv.sydney_fence.swf</file>
+		<x>306.7</x>
+		<y>251.6</y>
+		<xscale>1</xscale>
+		<yscale>1</yscale>
+		<face>1</face>
+		<rotation>0</rotation>
+	</prop>
+</compositebg>
+	<compositebg id="cbg_taiwan" name="" enable="Y" default="N" thumb="taiwan.jpg" display_order="0" is_premium="N" money="0" sharing="0" aid="10447">
+	<bg id="BG8" index="0">
+		<file>toonadv.taiwan_bg.swf</file>
+	</bg>
+	<prop id="PROP8" index="2">
+		<file>toonadv.taiwan_tree.swf</file>
+		<x>136.8</x>
+		<y>286.3</y>
+		<xscale>1</xscale>
+		<yscale>1</yscale>
+		<face>1</face>
+		<rotation>0</rotation>
+	</prop>
+	<prop id="PROP9" index="4">
+		<file>toonadv.taiwan_platform.swf</file>
+		<x>401.6</x>
+		<y>311.8</y>
+		<xscale>1</xscale>
+		<yscale>1</yscale>
+		<face>1</face>
+		<rotation>0</rotation>
+	</prop>
+	<prop id="PROP10" index="5">
+		<file>toonadv.taiwan_bamboo.swf</file>
+		<x>581.8</x>
+		<y>262.3</y>
+		<xscale>1</xscale>
+		<yscale>1</yscale>
+		<face>1</face>
+		<rotation>0</rotation>
+	</prop>
+</compositebg>
+	<compositebg id="cbg_malaysia" name="" enable="Y" default="N" thumb="malaysia.jpg" display_order="0" is_premium="N" money="0" sharing="0" aid="10446">
+	<bg id="BG18" index="0">
+		<file>toonadv.malaysia_bg.swf</file>
+	</bg>
+	<prop id="PROP12" index="2">
+		<file>toonadv.malaysia_bushes.swf</file>
+		<x>98.8</x>
+		<y>293.1</y>
+		<xscale>1</xscale>
+		<yscale>1</yscale>
+		<face>1</face>
+		<rotation>0</rotation>
+	</prop>
+	<prop id="PROP13" index="3">
+		<file>toonadv.malaysia_bushes.swf</file>
+		<x>383.7</x>
+		<y>293.8</y>
+		<xscale>0.99</xscale>
+		<yscale>1.12</yscale>
+		<face>1</face>
+		<rotation>0</rotation>
+	</prop>
+</compositebg>
+	<compositebg id="cbg_space" name="" enable="Y" default="N" thumb="space.jpg" display_order="0" is_premium="N" money="0" sharing="0" aid="10445">
+	<bg id="cbg_space_BG8" index="0">
+		<file>toonadv.space_bg.swf</file>
+	</bg>
+	<prop id="PROP192" index="2">
+		<file>toonadv.space_earth.swf</file>
+		<x>136.2</x>
+		<y>149.2</y>
+		<xscale>1</xscale>
+		<yscale>1</yscale>
+		<face>1</face>
+		<rotation>0</rotation>
+	</prop>
+	<prop id="PROP193" index="3">
+		<file>toonadv.space_ball02.swf</file>
+		<x>536.2</x>
+		<y>212.2</y>
+		<xscale>1</xscale>
+		<yscale>1</yscale>
+		<face>1</face>
+		<rotation>0</rotation>
+	</prop>
+	<prop id="PROP194" index="4">
+		<file>toonadv.satellite.swf</file>
+		<x>369.2</x>
+		<y>204.2</y>
+		<xscale>1</xscale>
+		<yscale>1</yscale>
+		<face>-1</face>
+		<rotation>0</rotation>
+	</prop>
+	<prop id="PROP195" index="5">
+		<file>toonadv.space_ball01.swf</file>
+		<x>146.2</x>
+		<y>536.2</y>
+		<xscale>2.58</xscale>
+		<yscale>2.58</yscale>
+		<face>1</face>
+		<rotation>24.9</rotation>
+	</prop>
+</compositebg>
+	<compositebg id="cbg_mojojojo" name="" enable="Y" default="N" thumb="mojojojo_lair.jpg" display_order="0" is_premium="N" money="0" sharing="0" aid="10444">
+	<bg id="BG8" index="0">
+		<file>toonadv.mojojojo_lair_bg.swf</file>
+	</bg>
+	<prop id="PROP7" index="2">
+		<file>toonadv.mojojojo_mach01.swf</file>
+		<x>429.4</x>
+		<y>204.5</y>
+		<xscale>1</xscale>
+		<yscale>1</yscale>
+		<face>1</face>
+		<rotation>0</rotation>
+	</prop>
+	<prop id="PROP9" index="3">
+		<file>toonadv.mojojojo_table.swf</file>
+		<x>161</x>
+		<y>272</y>
+		<xscale>1</xscale>
+		<yscale>1</yscale>
+		<face>1</face>
+		<rotation>0</rotation>
+	</prop>
+	<prop id="PROP8" index="4">
+		<file>toonadv.mojojojo_chair.swf</file>
+		<x>429</x>
+		<y>246</y>
+		<xscale>1</xscale>
+		<yscale>1</yscale>
+		<face>1</face>
+		<rotation>0</rotation>
+	</prop>
+	<prop id="PROP6" index="5">
+		<file>toonadv.mojojojo_mach02.swf</file>
+		<x>234</x>
+		<y>202</y>
+		<xscale>1</xscale>
+		<yscale>1</yscale>
+		<face>1</face>
+		<rotation>0</rotation>
+	</prop>
+</compositebg>
+	<compositebg id="cbg_kid" name="" enable="Y" default="N" thumb="kid.jpg" display_order="0" is_premium="N" money="0" sharing="0" aid="10414">
+	<bg id="cbg_kid_BG8" index="0">
+		<file>toonadv.kid_bg.swf</file>
+	</bg>
+	<prop id="cbg_kid_PROP6" index="2">
+		<file>toonadv.kids_jelly.swf</file>
+		<x>314</x>
+		<y>250</y>
+		<xscale>1</xscale>
+		<yscale>1</yscale>
+		<face>1</face>
+		<rotation>0</rotation>
+	</prop>
+</compositebg>
+	<compositebg id="cbg_flapjacks" name="" enable="Y" default="N" thumb="flapjacks.jpg" display_order="0" is_premium="N" money="0" sharing="0" aid="10413">
+	<bg id="cbg_flapjacks_BG8" index="0">
+		<file>toonadv.flapjacks_bg.swf</file>
+	</bg>
+	<prop id="cbg_flapjacks_PROP7" index="2">
+		<file>toonadv.flapjacks_barrel.swf</file>
+		<x>208</x>
+		<y>120</y>
+		<xscale>1</xscale>
+		<yscale>1</yscale>
+		<face>1</face>
+		<rotation>0</rotation>
+	</prop>
+</compositebg>
+	<compositebg id="cbg_tai" name="Taj Mahal" enable="Y" default="N" thumb="indo.jpg" display_order="1" is_premium="N" money="0" sharing="0" aid="10410">
+	<bg id="cbg_tai_BG5" index="0">
+		<file>toonadv.indo_bg.swf</file>
+	</bg>
+	<prop id="cbg_tai_PROP0" index="2">
+		<file>toonadv.indo_tree.swf</file>
+		<x>152.6</x>
+		<y>272.1</y>
+		<xscale>1</xscale>
+		<yscale>1</yscale>
+		<face>1</face>
+		<rotation>0</rotation>
+	</prop>
+	<prop id="cbg_tai_PROP1" index="3">
+		<file>toonadv.indo_tree.swf</file>
+		<x>498.6</x>
+		<y>270.1</y>
+		<xscale>1</xscale>
+		<yscale>1</yscale>
+		<face>-1</face>
+		<rotation>0</rotation>
+	</prop>
+</compositebg>
+	<compositebg id="cbg_police_station" name="Police station" enable="Y" default="N" thumb="police_station.jpg" display_order="2" is_premium="N" money="0" sharing="0" aid="10411">
+	<bg id="cbg_police_station_BG1" index="0">
+		<file>toonadv.police_station_bg.swf</file>
+	</bg>
+	<prop id="cbg_police_station_PROP0" index="2">
+		<file>toonadv.police_car.swf</file>
+		<x>140</x>
+		<y>342</y>
+		<xscale>1</xscale>
+		<yscale>1</yscale>
+		<face>-1</face>
+		<rotation>0</rotation>
+	</prop>
+	<prop id="cbg_police_station_PROP1" index="3">
+		<file>toonadv.police_car.swf</file>
+		<x>239</x>
+		<y>340</y>
+		<xscale>1</xscale>
+		<yscale>1</yscale>
+		<face>-1</face>
+		<rotation>0</rotation>
+	</prop>
+	<prop id="cbg_police_station_PROP2" index="4">
+		<file>toonadv.police_margue.swf</file>
+		<x>478</x>
+		<y>336</y>
+		<xscale>1</xscale>
+		<yscale>1</yscale>
+		<face>1</face>
+		<rotation>0</rotation>
+	</prop>
+</compositebg>
+	<compositebg id="cbg_townsville_hall" name="Townsville hall" enable="Y" default="Y" thumb="townsville_hall.jpg" display_order="3" is_premium="N" money="0" sharing="0" aid="10412">
+	<bg id="cbg_townsville_hall_BG1" index="0">
+		<file>toonadv.townsville_hall_bg.swf</file>
+	</bg>
+	<prop id="cbg_townsville_hall_PROP0" index="2">
+		<file>toonadv.town_hall_trash.swf</file>
+		<x>147</x>
+		<y>324</y>
+		<xscale>1</xscale>
+		<yscale>1</yscale>
+		<face>1</face>
+		<rotation>0</rotation>
+	</prop>
+	<prop id="cbg_townsville_hall_PROP1" index="3">
+		<file>toonadv.town_pickles_cart.swf</file>
+		<x>502</x>
+		<y>276</y>
+		<xscale>1</xscale>
+		<yscale>1</yscale>
+		<face>1</face>
+		<rotation>0</rotation>
+	</prop>
+</compositebg>
+	<prop id="msp_flashlight_ver" name="" holdable="1" placeable="1" wearable="0" facing="left" thumb="msp_flashlight_ver_flashlight_ver_off.swf" enable="Y" is_premium="N" aid="10460" money="0" sharing="0">
+		<state id="msp_flashlight_ver_flashlight_ver_off.swf" name="off" enable="Y" default="Y"/>
+		<state id="msp_flashlight_ver_flashlight_ver_on.swf" name="on" enable="Y"/>
+	</prop>
+	<prop id="taiwan_tree.swf" name="" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="10425" money="0" sharing="0"/>
+	<prop id="taiwan_platform.swf" name="" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="N" is_premium="N" aid="10424" money="0" sharing="0"/>
+	<prop id="taiwan_bamboo.swf" name="" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="N" is_premium="N" aid="10423" money="0" sharing="0"/>
+	<prop id="malaysia_bushes.swf" name="" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="N" is_premium="N" aid="10422" money="0" sharing="0"/>
+	<prop id="space_ball02.swf" name="" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="10421" money="0" sharing="0"/>
+	<prop id="space_ball01.swf" name="" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="10420" money="0" sharing="0"/>
+	<prop id="space_earth.swf" name="" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="10419" money="0" sharing="0"/>
+	<prop id="mojojojo_mach02.swf" name="" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="10418" money="0" sharing="0"/>
+	<prop id="mojojojo_mach01.swf" name="" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="N" is_premium="N" aid="10417" money="0" sharing="0"/>
+	<prop id="mojojojo_chair.swf" name="" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="N" is_premium="N" aid="10416" money="0" sharing="0"/>
+	<prop id="mojojojo_table.swf" name="" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="N" is_premium="N" aid="10415" money="0" sharing="0"/>
+	<prop id="kids_jelly.swf" name="" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="10244" money="0" sharing="0"/>
+	<prop id="flapjacks_barrel.swf" name="" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="10243" money="0" sharing="0"/>
+	<prop id="sydney_fence.swf" name="" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="N" is_premium="N" aid="10426" money="0" sharing="0"/>
+	<prop id="thailand_bridge.swf" name="" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="N" is_premium="N" aid="10427" money="0" sharing="0"/>
+	<prop id="msp_flashlight_hor" name="" holdable="1" placeable="1" wearable="0" facing="left" thumb="msp_flashlight_hor_flashlight_hor_off.swf" enable="Y" is_premium="N" aid="10457" money="0" sharing="0">
+		<state id="msp_flashlight_hor_flashlight_hor_off.swf" name="off" enable="Y" default="Y"/>
+		<state id="msp_flashlight_hor_flashlight_hor_on.swf" name="on" enable="Y"/>
+	</prop>
+	<prop id="msp_cam" name="" holdable="1" placeable="1" wearable="0" facing="left" thumb="msp_cam_cam_off.swf" enable="Y" is_premium="N" aid="10454" money="0" sharing="0">
+		<state id="msp_cam_cam_off.swf" name="off" enable="Y" default="Y"/>
+		<state id="msp_cam_cam_on.swf" name="on" enable="Y"/>
+	</prop>
+	<prop id="street_night_tape.swf" name="" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="N" is_premium="N" aid="10438" money="0" sharing="0"/>
+	<prop id="street_night_bin.swf" name="" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="N" is_premium="N" aid="10437" money="0" sharing="0"/>
+	<prop id="street_day_sign02.swf" name="" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="N" is_premium="N" aid="10436" money="0" sharing="0"/>
+	<prop id="street_day_sign01.swf" name="" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="N" is_premium="N" aid="10435" money="0" sharing="0"/>
+	<prop id="living_rm_tv.swf" name="" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="N" is_premium="N" aid="10434" money="0" sharing="0"/>
+	<prop id="living_rm_sofa.swf" name="" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="N" is_premium="N" aid="10433" money="0" sharing="0"/>
+	<prop id="living_rm_chair.swf" name="" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="N" is_premium="N" aid="10432" money="0" sharing="0"/>
+	<prop id="beach_prop02.swf" name="" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="N" is_premium="N" aid="10431" money="0" sharing="0"/>
+	<prop id="beach_prop01.swf" name="" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="N" is_premium="N" aid="10430" money="0" sharing="0"/>
+	<prop id="thailand_boat02.swf" name="" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="10429" money="0" sharing="0"/>
+	<prop id="thailand_boat01.swf" name="" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="10428" money="0" sharing="0"/>
+	<prop id="durian_explode.swf" name="" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="10242" money="0" sharing="0"/>
+	<prop id="msp_barrel" name="" holdable="0" placeable="1" wearable="0" facing="left" thumb="msp_barrel_barrel_empty.swf" enable="Y" is_premium="N" aid="10239" money="0" sharing="0">
+		<state id="msp_barrel_barrel_empty.swf" name="empty" enable="Y" default="Y"/>
+		<state id="msp_barrel_barrel_full.swf" name="full" enable="Y"/>
+	</prop>
+	<prop id="tuktuk.swf" name="" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="10238" money="0" sharing="0"/>
+	<prop id="town_tree02.swf" name="Tree" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="10216" money="0" sharing="0"/>
+	<prop id="town_tree01.swf" name="Tree" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="10215" money="0" sharing="0"/>
+	<prop id="town_hall_trash.swf" name="Trash" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="10214" money="0" sharing="0"/>
+	<prop id="police_tree03.swf" name="Tree" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="10213" money="0" sharing="0"/>
+	<prop id="police_tree02.swf" name="Tree" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="10212" money="0" sharing="0"/>
+	<prop id="police_tree01.swf" name="Tree" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="10211" money="0" sharing="0"/>
+	<prop id="police_margue.swf" name="Margue van" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="10210" money="0" sharing="0"/>
+	<prop id="police_car.swf" name="Police car" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="10209" money="0" sharing="0"/>
+	<prop id="indo_tree.swf" name="" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="N" is_premium="N" aid="10208" money="0" sharing="0"/>
+	<prop id="msp_sonic" name="" holdable="1" placeable="0" wearable="0" facing="left" thumb="msp_sonic_sonic_med.swf" enable="N" is_premium="N" aid="10204" money="0" sharing="0">
+		<state id="msp_sonic_sonic_long.swf" name="long" enable="Y"/>
+		<state id="msp_sonic_sonic_med.swf" name="medium" enable="Y" default="Y"/>
+		<state id="msp_sonic_sonic_short.swf" name="short" enable="Y"/>
+	</prop>
+	<prop id="octi.swf" name="Octi" holdable="1" placeable="0" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="10203" money="0" sharing="0"/>
+	<prop id="msp_laser" name="" holdable="1" placeable="0" wearable="0" facing="left" thumb="msp_laser_laser_med.swf" enable="N" is_premium="N" aid="10199" money="0" sharing="0">
+		<state id="msp_laser_laser_long.swf" name="long" enable="Y"/>
+		<state id="msp_laser_laser_med.swf" name="medium" enable="Y" default="Y"/>
+		<state id="msp_laser_laser_short.swf" name="short" enable="Y"/>
+	</prop>
+	<prop id="msp_ice" name="" holdable="1" placeable="0" wearable="0" facing="left" thumb="msp_ice_ice_med.swf" enable="N" is_premium="N" aid="10195" money="0" sharing="0">
+		<state id="msp_ice_ice_long.swf" name="long" enable="Y"/>
+		<state id="msp_ice_ice_med.swf" name="medium" enable="Y" default="Y"/>
+		<state id="msp_ice_ice_short.swf" name="short" enable="Y"/>
+	</prop>
+	<prop id="town_pickles_cart.swf" name="Pickles cart" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="10217" money="0" sharing="0"/>
+	<prop id="circket_bat.swf" name="" holdable="1" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="10218" money="0" sharing="0"/>
+	<prop id="jeepney.swf" name="" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="10237" money="0" sharing="0"/>
+	<prop id="elephant_ride.swf" name="" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="10236" money="0" sharing="0"/>
+	<prop id="satellite.swf" name="" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="10235" money="0" sharing="0"/>
+	<prop id="command_module.swf" name="" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="10234" money="0" sharing="0"/>
+	<prop id="msp_tech" name="" holdable="0" placeable="1" wearable="0" facing="left" thumb="msp_tech_tech_manual_closed.swf" enable="Y" is_premium="N" aid="10231" money="0" sharing="0">
+		<state id="msp_tech_tech_manual_closed.swf" name="closed" enable="Y" default="Y"/>
+		<state id="msp_tech_tech_manual_opened.swf" name="open" enable="Y"/>
+	</prop>
+	<prop id="telescope.swf" name="" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="10230" money="0" sharing="0"/>
+	<prop id="remote_controlled.swf" name="" holdable="1" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="10229" money="0" sharing="0"/>
+	<prop id="chemical_x.swf" name="" holdable="1" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="10228" money="0" sharing="0"/>
+	<prop id="secret_plan.swf" name="" holdable="1" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="10227" money="0" sharing="0"/>
+	<prop id="msp_bubble" name="" holdable="1" placeable="1" wearable="0" facing="left" thumb="msp_bubble_bubble_gun_still.swf" enable="Y" is_premium="N" aid="10224" money="0" sharing="0">
+		<state id="msp_bubble_bubble_gun_still.swf" name="still" enable="Y" default="Y"/>
+		<state id="msp_bubble_bubble_gun_shoot.swf" name="shoot" enable="Y"/>
+	</prop>
+	<prop id="saw_gun.swf" name="" holdable="1" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="10223" money="0" sharing="0"/>
+	<prop id="msp_boom" name="" holdable="1" placeable="1" wearable="0" facing="left" thumb="msp_boom_boomerang_still.swf" enable="Y" is_premium="N" aid="10220" money="0" sharing="0">
+		<state id="msp_boom_boomerang_still.swf" name="still" enable="Y" default="Y"/>
+		<state id="msp_boom_boomerang_rotate.swf" name="rotate" enable="Y"/>
+	</prop>
+	<prop id="surfboard.swf" name="" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="10219" money="0" sharing="0"/>
+	<prop id="gun.swf" name="Gun" holdable="1" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="10194" money="0" sharing="0"/>
+</theme>

@@ -1,0 +1,19 @@
+﻿<flash_project name="~shock" version="1">
+	<project_file path="./~shock.fla" filetype="fla" profile="" def_file="true"/>
+	<project_file path="./eyeLeft.as" filetype="as"/>
+	<project_file path="./eyeLeft_Cam.as" filetype="as"/>
+	<project_file path="./eyeRight.as" filetype="as"/>
+	<project_file path="./eyeRight_Cam.as" filetype="as"/>
+	<project_file path="./shock_fla/eyeL_11.as" filetype="as"/>
+	<project_file path="./shock_fla/eyeL_16.as" filetype="as"/>
+	<project_file path="./shock_fla/eyeL_2.as" filetype="as"/>
+	<project_file path="./shock_fla/eyeL_7.as" filetype="as"/>
+	<project_file path="./shock_fla/eyeLeye_17.as" filetype="as"/>
+	<project_file path="./shock_fla/eyeLeye_8.as" filetype="as"/>
+	<project_file path="./shock_fla/eyeR_lib_14.as" filetype="as"/>
+	<project_file path="./shock_fla/eyeR_lib_5.as" filetype="as"/>
+	<project_file path="./shock_fla/eyeReye_12.as" filetype="as"/>
+	<project_file path="./shock_fla/eyeReye_3.as" filetype="as"/>
+	<project_file path="./shock_fla/libL_18.as" filetype="as"/>
+	<project_file path="./shock_fla/libL_9.as" filetype="as"/>
+</flash_project>

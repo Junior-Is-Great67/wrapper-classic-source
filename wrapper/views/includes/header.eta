@@ -1,0 +1,121 @@
+<header style="background-color:grey;">
+	<a href="/">
+		<h1 style="margin:0"><img id="logo" src="/pages/img/logo.png" alt="Wrapper: Classid"/></h1>
+	</a>
+<script type="text/javascript">
+  var _kmq = _kmq || [];
+  function _kms(u){
+    setTimeout(function(){
+      var s = document.createElement('script'); var f = document.getElementsByTagName('script')[0]; s.type = 'text/javascript'; s.async = true;
+      s.src = u; f.parentNode.insertBefore(s, f);
+    }, 1);
+  }
+</script>
+<div id="headertopnavmenu" class="globalnav">
+	<ul id="top_nav" class="header_block">
+		<li class="top_nav_item create">
+			<a id="usrbro" href="/logout">USERNAME</a>
+		</li>
+		<li class="top_nav_item explore" id="hhhhhh">
+			<a id="watchsome" href="/create?qvmmode=true">Create a QVM</a>
+		</li>
+		<li class="top_nav_item help">
+		<a>Upload</a>
+		<ul class="top_nav_submenu">
+				<li class="first"><div class="arrow"></div><a onclick="document.getElementById('fil').click()">Theme</a></li>
+				<br>
+				<li class="first"><div class="arrow"></div><a onclick="document.getElementById('file').click()">Characters</a></li>
+								<br>
+				<li class="first"><div class="arrow"></div><a onclick="document.getElementById('file').click()">Movie</a></li>
+												<br>
+				<li class="first"><div class="arrow"></div><a onclick="document.getElementById('fi').click()">Powerpoint (Beta)</a></li>
+				
+		</ul>
+		</li>
+		<li class="top_nav_item help">
+			<a href="/create?filter=cc">Make A Character</a>
+		</li>
+		<li class="top_nav_item create" id="oldtop">
+			<a id="watchsome" href="/create?qvmmode=true">Create a QVM</a>
+		</li>
+		<li class="top_nav_item plus">
+			<a href="/create">Create</a>
+			<!--<ul class="top_nav_submenu">
+				<li class="first"><div class="arrow"></div><a href="http://localhost:4343/create?qvmmode=true">QVM</a></li>
+			</ul>!-->
+		</li>
+	</ul>
+
+<!--[if lte IE 6]>
+<script type="text/javascript">
+jQuery('#top_nav li').bind('mouseover', function(e) {
+	jQuery(this).addClass('hover');
+});
+jQuery('#top_nav li').bind('mouseout', function(e) {
+	jQuery(this).removeClass('hover');
+});
+jQuery('.money').bind('mouseover', function(e) {
+	jQuery(this).addClass('hover');
+});
+jQuery('.money').bind('mouseout', function(e) {
+	jQuery(this).removeClass('hover');
+});
+</script>
+<![endif]-->        
+</div>
+<link rel="stylesheet" type="text/css" href="./Wrapper Offline_files/banner-styles.css">
+<link rel="stylesheet" type="text/css" href="./Wrapper Offline_files/iconochive.css">
+<link href="./Wrapper Offline_files/global.css" rel="stylesheet" type="text/css">
+<link href="./Wrapper Offline_files/overlay.css" rel="stylesheet" type="text/css">
+<link href="./Wrapper Offline_files/css" rel="stylesheet" type="text/css">
+<link href="./Wrapper Offline_files/buttons.css" rel="stylesheet" type="text/css">
+<link href="./Wrapper Offline_files/index.css" rel="stylesheet" type="text/css">
+</header>
+<div id="campaign_banner_container">
+	<div class="header_shadow"></div>
+	<div class="campaign_banner banner1">
+		<div id="index_signup" class="column">
+    <form action="/logIn" method="get" id="login">
+				<h2><span id="signup_form_message"></span></h2>
+        <div>
+					<input type="text" id="usrname" name="usrname" value="" placeholder="Your Display Name">
+				</div>
+				<div>
+					<input type="password" id="pass" name="pass" value="" placeholder="Your Password">
+				</div>
+				<div>
+      <input type="submit" value="submit"/></div>
+			</form>
+		    </div>
+	</div>
+</div>
+
+<script>
+document.getElementById('campaign_banner_container').style.display='none';
+</script>
+
+<script>
+watchsome.onclick = askVideo;
+function askVideo()
+{
+let movieId = prompt("Put a movie id here");
+location.replace('http://localhost:4343/youtube?v=' + movieId);
+}
+//Cookie Script
+document.getElementById('hhhhhh').style.display='none';
+document.getElementById('usrbro').style.display='none';
+</script>
+<form enctype='multipart/form-data' action='/api/char/upload' method='post'>
+	<input id='file' type="file" onchange="this.form.submit()" name='import' />
+</form>
+
+<form enctype='multipart/form-data' action='/api/theme/add' method='post'>
+	<input id='fil' type="file" onchange="this.form.submit()" name='theme' />
+</form>
+<form enctype='multipart/form-data' action='/api/upload/powerpoint' method='post'>
+	<input id='fi' type="file" onchange="this.form.submit()" name='pp' />
+</form>
+<script>
+document.getElementById('fil').style.display='none';
+document.getElementById('fi').style.display='none';
+</script>
