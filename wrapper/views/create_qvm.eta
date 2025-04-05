@@ -15,7 +15,7 @@
 		<%~ includeFile("./includes/header", { env: it.env }) %>
 
 		<main>
-			<h1>Select a QVM template</h1>
+			<h1>Select a Template</h1>
 
 			<div class="theme" data-has-cc>
 				<a href="#" onclick="redirect('bar')">
@@ -28,12 +28,6 @@
 				<a href="#" onclick="redirect('life')">
 					<img src="/pages/img/themes/custom.jpg" alt="Comedy world">
 					Slices of life
-				</a>
-			</div>
-			<div class="theme">
-				<a href="#" onclick="redirect('michigan')">
-					<img src="/pages/img/themes/dea.jpg" alt="Diamond eric">
-					Michigan 🥰
 				</a>
 			</div>
 		</main>

@@ -5,3 +5,5 @@ node_modules/*
 server/.DS_Store
 .DS_Store
 !_*/_NO_REMÖVE
+wrapper/controllers/phone.js
+wrapper/views/.DS_Store

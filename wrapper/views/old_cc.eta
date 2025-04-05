@@ -176,16 +176,16 @@ var IE_COMPAT = false;
 	<div class="categoryselector">
 		<select id="selector" style="margin: 5px; visibility: hidden;">
 			<option value="*">Show All</option>
-			<option value="adam">Guy Characters</option>
-			<option value="eve">Girl Characters</option>
-			<option value="rocky">Buff Characters</option>
-			<option value="bob">Fat characters</option>
+			<option value="celebrities">Celebrities</option>
+			<option value="specialties">Specialties</option>
+			<option value="credits">W:O Credits</option>
+			<option value="mcw">MCW</option>
 			<option value="ugc">Custom Characters</option>
 		</select>
 	</div>
 	</div>
 	<!-- Templates -->
-	<div class="internal" style="display: block;">
+	<div class="internal" style="display: none;">
 		<div class="OGsuccess" style="width: auto; height: auto;">
 			<p class="message" style="margin-top: 2em; margin-bottom: 2em; text-align: center; font-size: 16px;">Congratulations! Your character is now available in the studio.</p>
 			<div style="text-align: center;">
@@ -193,7 +193,7 @@ var IE_COMPAT = false;
 <div class="buttontitle">Close Window</div>
 </a>
 				&nbsp;
-				<a href="http://web.archive.org/web/20120427062610/https://goanimate.com/buybucks/" class="buttonbase buttonblue btnaddGB" style="margin:10px 0px;float:none;display:inline-block">
+				<a href="https://goanimate.com/buybucks/" class="buttonbase buttonblue btnaddGB" style="margin:10px 0px;float:none;display:inline-block">
 <div class="buttontitle">Yes</div>
 </a>
 			</div>

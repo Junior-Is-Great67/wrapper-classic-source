@@ -15,7 +15,7 @@
 		<%~ includeFile("./includes/header", { env: it.env }) %>
 		<main>
 			<div id="cc">
-			<h1 id="jk">First, Select a character creator</h1>
+			<h1 id="jk">Select a character creator</h1>
 			<div class="theme" data-has-cc>
 				<a href="#" onclick="show(2010,true)" title="the only old cc we could find">
 					<img src="/pages/img/cc/2012.png" alt="2010 lvm">
@@ -50,7 +50,7 @@
 			Want to make your own character? <a href="/make">Press here</a>	
 			</div>
 			<div id="videomakers">
-			<h1 id="jk">First, Select a video maker</h1>	
+			<h1 id="jk">Select a Video Maker</h1>	
 			<div class="theme">
 				<a href="#" onclick="show(2010,false)" title="The Earliest LVM that we have saved">
 					<img src="/pages/img/lvm/2010.png" alt="2010 lvm">
@@ -96,7 +96,7 @@
 			</div>
 
 			<div id="themes">
-			<h1 id="textron">Second, Select a theme</h1>
+			<h1 id="textron">Select a Theme</h1>
 
 			<div class="theme" id="comedy" data-has-cc data-2010 data-has-oldcc data-isold >
 				<a href="#" onclick="redirect('custom', 'family')" title="Comedy World is a theme based off family guy">
