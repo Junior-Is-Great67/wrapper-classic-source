@@ -3,7 +3,7 @@
 
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-<title>The Comedy Creator - Make Comedy Characters with GoAnimate!</title>
+<title>The Comedy Creator - Make Comedy Characters!</title>
 
 <meta property="og:site_name" content="GoAnimate">
 <meta property="fb:app_id" content="177116303202">
@@ -12,14 +12,9 @@
 
 <meta name="google-site-verification" content="K_niiTfCVi72gwvxK00O4NjsVybMutMUnc-ZnN6HUuA">
 
-<link rel="canonical" href="http://web.archive.org/web/20120427062610/http://goanimate.com/character_creator/cc2">
-<link rel="alternate" href="http://web.archive.org/web/20120427062610/http://feeds.feedburner.com/GoAnimate" type="application/rss+xml" title="GoAnimate Blog">
-<link rel="alternate" href="http://web.archive.org/web/20120427062610/http://feeds.feedburner.com/GoAnimate/WhatsNew" type="application/rss+xml" title="GoAnimate - Recently Released Content">
-<link rel="alternate" href="http://web.archive.org/web/20120427062610/http://feeds.feedburner.com/GoAnimate/MostWatched" type="application/rss+xml" title="GoAnimate - Most Watched">
-
 <link href="./cc_older/global.css" rel="stylesheet" type="text/css">
 <link href="./cc_older/overlay.css" rel="stylesheet" type="text/css">
-<link href="http://web.archive.org/web/20120427062610cs_/http://fonts.googleapis.com/css?family=Droid+Sans:bold" rel="stylesheet" type="text/css">
+<link href="http://fonts.googleapis.com/css?family=Droid+Sans:bold" rel="stylesheet" type="text/css">
 <link href="./cc_older/buttons.css" rel="stylesheet" type="text/css">
 <link href="./cc_older/cc.css" rel="stylesheet" type="text/css">
 <link href="./cc_older/ccbrowser.css" rel="stylesheet" type="text/css">
